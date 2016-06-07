@@ -35,11 +35,11 @@
 			text-transform:uppercase;
 		}
 		.content-container {
-			padding: 18px 45px 18px 45px;
+			padding: 18px 36px 18px 36px;
 		}
 		.img {
 			font-family:Helvetica, Arial, sans-serif;
-			font-size:24px; 
+			font-size:12px; 
 		}
 		.header-image {
 			display:block;
@@ -52,46 +52,45 @@
 			text-decoration: none;
 		}
 		.header1 {
-			padding: 36px 0px 0px;
-			padding: 9px 0px 0px;
-			color:#003663;
+			padding: 9px 0px 9px 0px;
+			color:#00529b;
 			font-family:Helvetica, Arial, sans-serif;
-			font-size:24px; 
-			line-height:30px;
-		}
-		.header2 {
-			padding: 0px;
-			color:#003663;
-			font-family:Helvetica, Arial, sans-serif;
-			font-size:14px; 
-			line-height:22px;
+			font-size:42px; 
+			line-height:48px;
 			font-weight:bold;
 		}
-		.lead {
-			padding: 9px 0px 9px 0px;
-			font-family: Helvetica, Arial, sans-serif; 
-			font-size:20px;
-			line-height:28px;
-			color:#005496;	
+		.header2 {
+			padding: 0px 0px 9px 0px;
+			color:#00529b;
+			font-family:Helvetica, Arial, sans-serif;
+			font-size:19px; 
+			line-height:24px;
+			font-weight:bold;
 		}
-		.content {
-			padding: 0px;
+		.pullquote {
+			padding: 27px;
 			font-family: Helvetica, Arial, sans-serif; 
 			font-size:14px;
 			line-height:22px;
-			color:#003663;	
+			color:#FFFFFF;	
+			font-style:italic;
+			text-align: center;
 		}
-		.highlight {
-			padding: 0px;
-			color:#fA4616;
-			font-family:Helvetica, Arial, sans-serif;
-			font-size:14px; 
+		.content {
+			padding: 9px 0px;
+			font-family: Helvetica, Arial, sans-serif; 
+			font-size:14px;
 			line-height:22px;
-			font-weight:bold;
+			color:#404040;	
+			color:#5e5e5e;
+		}
+		.content-image {
+			display:block;
+			max-width:500px;
+			height:auto;
 		}
 		.img a:link, .img a:active, .img a:visited,
 		.content a:link, .content a:active, .content a:visited,
-		.highlight a:link, .highlight a:active, .highlight a:visited,
 		.header2 a:link, .header2 a:active, .header2 a:visited {
 			color:#fa4616;
 		}
@@ -100,34 +99,29 @@
 			text-decoration:none;
 		}
 		.column-content {
-			width:265px;
+			width:247px;
 		}
 		.column-image {
 			display:block;
 			margin-bottom:6px;
-			max-width:260px;
+			max-width:242px;
 			height:auto;
 		}
 		.button {
-			font-size: 20px;
+			font-size: 24px;
 			font-family: Helvetica, Arial, sans-serif; 
 			font-weight: 700;
-			letter-spacing: 0.5px;
+			letter-spacing: 1.5px;
 			text-transform:uppercase;
-			background-color: #fA4616; 
-			border-top: 6px solid #fA4616; 
-			border-bottom: 6px solid #fA4616; 
-			border-right: 18px solid #fA4616; 
-			border-left: 18px solid #fA4616; 
+			background-color: #ffffff;
 			display: inline-block;
-			height:auto;
 		}
 		.button a:link, .button a:visited {
-			color:#ffffff;
+			color:#fa4616;
 			text-decoration: none;
 		}
 		.footer {
-			padding: 18px 18px 9px 18px; 
+			padding: 9px 9px 0px 9px; 
 		}
 		.footer-content {
 			padding: 9px;
@@ -137,6 +131,7 @@
 			line-height:12px;
 			text-transform:uppercase;
 		}
+
 		.footer-content a:link, .footer-content a:visited {
 			color:#ffffff;
 		}
@@ -159,28 +154,23 @@
 		 		width:100% !important;
 			}
 			.preheader {
-				text-align: center;
 				display:none;
 			}
 			.content-container {
-				padding: 18px 32px 18px 32px;
+				padding: 18px 9px;
 			}
-		 	.header1 {
-		 		font-size:18px;
-		 		line-height:22px;
-		 	}
-		 	.header2 {
-		 		font-size:16px;
-		 		line-height:22px;
-		 	}
-		 	.content, .lead {
+		 	.content {
 		 		max-width:600px !important;
 				width:100% !important;
 				font-size:16px;
 				line-height:20px;
 				padding-right:0 !important;
 		 	}
-		 	.highlight {
+		 	.header1 {
+		 		font-size:18px;
+		 		line-height:22px;
+		 	}
+		 	.header2 {
 		 		font-size:16px;
 				line-height:20px;
 		 	}
@@ -188,13 +178,9 @@
 				max-width:480px !important;
 				width:100% !important;
 			}
-			.column-image {
+			.column-image, .content-image {
 				max-width: 440px !important;
 				width:100%;
-			}
-			.logo-footer {
-				max-width:480px !important;
-				width:100% !important;
 			}
 		 	.header-image {
 		 		height:auto !important;
@@ -218,72 +204,58 @@
 						<td class="preheader" bgcolor="#d5d5d5" align="right" style="padding-top: 9px;padding-left: 0;padding-bottom: 0;padding-right: 0;font-family: Helvetica, Arial, sans-serif;font-size: 9px;text-transform: uppercase;">&nbsp;</td>
 					</tr>
 					<tr>
-						<td class="img" bgcolor="#ebebeb" style="padding-top: 0;padding-left: 0;padding-bottom: 0;padding-right: 0;font-family: Helvetica, Arial, sans-serif;font-size: 24px;">
-							<a href="https://www.eng.ufl.edu/about/transformation/herbert-wertheim-laboratory-for-engineering-excellence/" title="Save the date - Oct. 6, 2016" target="_blank" style="color: #fa4616;"><img src="https://www.eng.ufl.edu/eblasts/groundbreaking/images/groundbreaking-std-header.png" align="left" alt="Save the date: October 6 | Historic groundbreaking &amp; stakeholders dinner" width="600" height="415" border="0" class="header-image" style="height: auto;display: block;margin: 0;padding: 0;border: 0;max-width: 600px;vertical-align: bottom;outline: none;text-decoration: none;"></a>
+						<td class="img" bgcolor="#FFFFFF" style="padding-top: 0;padding-left: 0;padding-bottom: 0;padding-right: 0;font-family: Helvetica, Arial, sans-serif;font-size: 12px;">
+							<a href="https://www.eng.ufl.edu/news-events/events/gator-engineering-alumni-reunion/" title="2016 Gator Engineering Alumni Reunion" target="_blank" style="color: #fa4616;"><img src="https://www.eng.ufl.edu/eblasts/reunion2016/images/reunion1-header-img.png" align="left" alt="2016 Gator Engineering Alumni Reunion - Come celebrate with family and friends as we mark our first year as the Herbert Wertheim College of Engineering." width="600" height="431" border="0" class="header-image" style="height: auto;display: block;margin: 0;padding: 0;border: 0;max-width: 600px;vertical-align: bottom;outline: none;text-decoration: none;"></a>
 						</td>
 					</tr>
 					<tr>
-						<td class="content-container" bgcolor="#e1e1e1" style="padding-top: 0;padding-left: 0;padding-bottom: 0;padding-right: 0;padding: 18px 45px 18px 45px;">
+						<td class="content-container" bgcolor="#FFFFFF" style="padding-top: 0;padding-left: 0;padding-bottom: 0;padding-right: 0;padding: 18px 36px 18px 36px;">
 							<table border="0" width="100%" cellpadding="0" cellspacing="0" style="border-collapse:collapse;">
 								<tr>
-									<td class="lead" style="padding-top: 0;padding-left: 0;padding-bottom: 0;padding-right: 0;padding: 9px 0px 9px 0px;font-family: Helvetica, Arial, sans-serif;font-size: 20px;line-height: 28px;color: #005496;">
-										<strong>Let&rsquo;s celebrate!</strong> Witness history as we break ground on UF&rsquo;s newest addition &ndash; the <strong>Herbert Wertheim Laboratory for Engineering Excellence.</strong>
+									<td class="header1" style="padding-top: 0;padding-left: 0;padding-bottom: 0;padding-right: 0;padding: 9px 0px 9px 0px;color: #00529b;font-family: Helvetica, Arial, sans-serif;font-size: 42px;line-height: 48px;font-weight: bold;">
+										OCTOBER 15, 2016
 									</td>
 								</tr>
 								<tr>
-									<td class="header1" style="padding-top: 0;padding-left: 0;padding-bottom: 0;padding-right: 0;padding: 9px 0px 0px;color: #003663;font-family: Helvetica, Arial, sans-serif;font-size: 24px;line-height: 30px;">
-										<strong>OCTOBER 6, 2016</strong>
-									</td>
-								</tr>
-								
-								<tr>
-									<td class="header2" style="padding-top: 0;padding-left: 0;padding-bottom: 0;padding-right: 0;padding: 0px;color: #003663;font-family: Helvetica, Arial, sans-serif;font-size: 14px;line-height: 22px;font-weight: bold;">
-										11:00 a.m. | Reitz Union Lawn
+									<td class="header2" style="padding-top: 0;padding-left: 0;padding-bottom: 0;padding-right: 0;padding: 0px 0px 9px 0px;color: #00529b;font-family: Helvetica, Arial, sans-serif;font-size: 19px;line-height: 24px;font-weight: bold;">
+										UF vs. Missouri Homecoming Football Game Day<br>
+										Limited football and BBQ ticket packages available.
 									</td>
 								</tr>
 								<tr>
-									<td class="content" style="padding-top: 0;padding-left: 0;padding-bottom: 0;padding-right: 0;padding: 0px;font-family: Helvetica, Arial, sans-serif;font-size: 14px;line-height: 22px;color: #003663;">
-										Join us as we begin construction on the Herbert Wertheim Laboratory for Engineering Excellence. Located in the heart of campus, it will be the home of the New Engineer &ndash; and you are cordially invited to be a part of the groundbreaking festivities.
-									</td>
-								</tr>
-								<tr>
-									<td class="highlight" style="padding-top: 0;padding-left: 0;padding-bottom: 0;padding-right: 0;padding: 0px;color: #fA4616;font-family: Helvetica, Arial, sans-serif;font-size: 14px;line-height: 22px;font-weight: bold;">
-										<a href="https://www.eng.ufl.edu/about/transformation/herbert-wertheim-laboratory-for-engineering-excellence/" target="_blank" style="color: #fa4616;">Click here</a> for more information.
-									</td>
-								</tr>
-								<tr>
-									<td style="padding-top: 36px;padding-bottom: 36px;padding-left: 0;padding-right: 0;">
-										<table width="100%" border="0" cellspacing="0" cellpadding="0">
+									<td align="left" style="padding-top: 10px;padding-bottom: 20px;padding-left: 0;padding-right: 0;">
+										<table border="0" cellspacing="0" cellpadding="0" class="button" style="font-size: 24px;font-family: Helvetica, Arial, sans-serif;font-weight: 700;letter-spacing: 1.5px;text-transform: uppercase;background-color: #ffffff;display: inline-block;">
 											<tr>
-												<td align="left" style="padding-top: 0;padding-left: 0;padding-bottom: 0;padding-right: 0;">
-													<table border="0" cellspacing="0" cellpadding="0" class="button" style="font-size: 20px;font-family: Helvetica, Arial, sans-serif;font-weight: 700;letter-spacing: 0.5px;text-transform: uppercase;background-color: #fA4616;border-top: 6px solid #fA4616;border-bottom: 6px solid #fA4616;border-right: 18px solid #fA4616;border-left: 18px solid #fA4616;display: inline-block;height: auto;">
-														<tr>
-															<td align="center" style="padding-top: 0;padding-left: 0;padding-bottom: 0;padding-right: 0;">
-																<a href="https://www.eng.ufl.edu/about/transformation/herbert-wertheim-laboratory-for-engineering-excellence/" target="_blank" style="color: #ffffff;text-decoration: none;">Save the date &bull; October 6</a>
-															</td>
-														</tr>
-													</table>
+												<td align="center" style="padding-top: 0;padding-left: 0;padding-bottom: 0;padding-right: 0;">
+													<a href="#" target="_blank" style="color: #fa4616;text-decoration: none;"><img src="https://www.eng.ufl.edu/eblasts/reunion2016/images/btn-register.png" width="253" height="34" border="0" alt="REGISTER NOW! &gt;" style="height: auto;"></a>
 												</td>
 											</tr>
 										</table>
 									</td>
 								</tr>
+								<tr>
+									<td class="content" style="padding-top: 0;padding-left: 0;padding-bottom: 0;padding-right: 0;padding: 9px 0px;font-family: Helvetica, Arial, sans-serif;font-size: 14px;line-height: 22px;color: #5e5e5e;">
+										<p style="margin-top: 0px;">Connect with your fellow Gator Engineers at UF&rsquo;s Homecoming weekend and learn how we are Powering the New Engineer to Transform the Future!</p>
+										<p style="margin-top: 0px;">Join us for BBQ, student displays, face painting and fun for the whole family. Festivities begin 3 hours prior to kickoff and will be held on the J. Wayne Reitz Union North Lawn.</p>
+									</td>
+								</tr>
+					
 							</table>
 						</td>
 					</tr>
 					<tr>
-						<td class="footer" bgcolor="#005496" align="center" style="padding-top: 0;padding-left: 0;padding-bottom: 0;padding-right: 0;padding: 18px 18px 9px 18px;">
-							<table border="0" cellpadding="0" cellspacing="0" align="left" class="column-content" style="width: 265px;">
+						<td background="https://www.eng.ufl.edu/eblasts/reunion2016/images/reunion1-footer-bg.png" bgcolor="#062861" width="600" height="70" valign="top" class="footer" align="center" style="padding-top: 0;padding-left: 0;padding-bottom: 0;padding-right: 0;padding: 9px 9px 0px 9px;">
+							<table border="0" cellpadding="0" cellspacing="0" align="left" class="column-content" style="width: 247px;">
 								<tr>
-									<td class="content" valign="top" style="padding-right: 20px;padding-top: 0;padding-left: 0;padding-bottom: 0;padding: 0px;font-family: Helvetica, Arial, sans-serif;font-size: 14px;line-height: 22px;color: #003663;">
-										<a href="https://www.eng.ufl.edu" title="Herbert Wertheim College of Engineering" target="_blank" style="color: #fa4616;"><img src="https://www.eng.ufl.edu/eblasts/groundbreaking/images/hwcoe-logo.png" width="265" height="63" border="0" alt="Herbert Wertheim College of Engineering" class="column-image" style="height: auto;display: block;margin-bottom: 6px;max-width: 260px;"></a>
+									<td class="content" valign="top" style="padding-right: 20px;padding-top: 0;padding-left: 0;padding-bottom: 0;padding: 9px 0px;font-family: Helvetica, Arial, sans-serif;font-size: 14px;line-height: 22px;color: #5e5e5e;">
+										<a href="https://www.eng.ufl.edu" title="Herbert Wertheim College of Engineering" target="_blank" style="color: #fa4616;"><img src="https://www.eng.ufl.edu/eblasts/reunion2016/images/hwcoe-logo.png" width="265" height="63" border="0" alt="Herbert Wertheim College of Engineering" class="column-image" style="height: auto;display: block;margin-bottom: 6px;max-width: 242px;"></a>
 									</td>
 								</tr>
 							</table>
-							<table border="0" cellpadding="0" cellspacing="0" align="right" class="column-content" style="width: 265px;">
+							<table border="0" cellpadding="0" cellspacing="0" align="right" class="column-content" style="width: 247px;">
 								<tr>
-									<td class="content" valign="top" style="padding-top: 0;padding-left: 0;padding-bottom: 0;padding-right: 0;padding: 0px;font-family: Helvetica, Arial, sans-serif;font-size: 14px;line-height: 22px;color: #003663;">
-										<a href="https://www.eng.ufl.edu/about/transformation/" title="Powering the New Engineer to Transform the Future" target="_blank" style="color: #fa4616;"><img src="https://www.eng.ufl.edu/eblasts/groundbreaking/images/pne-tf.png" width="265" height="63" border="0" align="left" class="column-image" alt="Powering the New Engineer to Transform the Future" style="height: auto;display: block;margin-bottom: 6px;max-width: 260px;"></a>
+									<td class="content" valign="top" style="padding-top: 0;padding-left: 0;padding-bottom: 0;padding-right: 0;padding: 9px 0px;font-family: Helvetica, Arial, sans-serif;font-size: 14px;line-height: 22px;color: #5e5e5e;">
+										<a href="https://www.eng.ufl.edu/about/transformation/" title="Powering the New Engineer to Transform the Future" target="_blank" style="color: #fa4616;"><img src="https://www.eng.ufl.edu/eblasts/reunion2016/images/pne-tf.png" width="265" height="63" border="0" align="left" class="column-image" alt="Powering the New Engineer to Transform the Future" style="height: auto;display: block;margin-bottom: 6px;max-width: 242px;"></a>
 									</td>
 								</tr>
 							</table>
@@ -321,13 +293,12 @@
 					</tr>
 					<tr>
 						<td class="footer-content" align="center" style="padding-top: 0;padding-left: 0;padding-bottom: 0;padding-right: 0;padding: 9px;color: #ffffff;font-family: Helvetica, Arial, sans-serif;font-size: 10px;line-height: 12px;text-transform: uppercase;">
-							<a href="https://www.eng.ufl.edu/eblasts/groundbreaking/groundbreaking-std.html" target="_blank" style="color: #ffffff;">View this email in your browser</a>
+							<a href="https://www.eng.ufl.edu/eblasts/reunion2016/reunion1.html" style="color: #ffffff;">View this email in your browser</a>
 						</td>
 					</tr>
 					<tr>
 						<td class="footer-content" align="center" style="padding-top: 0;padding-left: 0;padding-bottom: 0;padding-right: 0;padding: 9px;color: #ffffff;font-family: Helvetica, Arial, sans-serif;font-size: 10px;line-height: 12px;text-transform: uppercase;">
-							You are receiving this email because you opted in at <a href="https://www.eng.ufl.edu" target="_blank" style="color: #ffffff;">our website</a> or because you are affiliated with Herbert Wertheim College of Engineering.<br>
-							<a href="mailto:tcgordon@eng.ufl.edu" style="color: #ffffff;">Email to be removed from this list</a>
+							You are receiving this email because you opted in at <a href="https://www.eng.ufl.edu" style="color: #ffffff;">our website</a> or because you are affiliated with Herbert Wertheim College of Engineering.
 						</td>
 					</tr>	
 					<tr>
