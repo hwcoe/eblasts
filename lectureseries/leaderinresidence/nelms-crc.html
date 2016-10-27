@@ -34,6 +34,14 @@
 			font-size:9px; 
 			text-transform:uppercase;
 		}
+		.dateline {
+			padding: 9px 18px 9px 18px;
+			font-family:Helvetica, Arial, sans-serif;
+			font-size:14px; 
+			letter-spacing: 1px;
+			color:#FFFFFF;
+			text-align: center;
+		}
 		.content-container {
 			padding: 18px 18px 18px 18px;
 		}
@@ -51,63 +59,69 @@
 			outline: none;
 			text-decoration: none;
 		}
-		.header1 {
+		h1, h2, h3, h4, h5 {
+			margin:0;
+			font-weight:normal;
+		}
+		h1, .header1 {
 			padding: 9px 0px 9px 0px;
 			color:#00529b;
 			font-family:Helvetica, Arial, sans-serif;
-			font-size:34px; 
-			line-height:40px;
+			font-size:28px; 
+			line-height:34px;
 		}
-		.header2 {
-			padding: 9px 0px 9px 0px;
+		h2, .header2 {
+			padding: 9px 0px 0px 0px;
 			color:#00529b;
 			font-family:Helvetica, Arial, sans-serif;
-			font-size:20px; 
-			line-height:26px;
+			font-size:24px; 
+			line-height:30px;
 		}
-		.header3 {
-			padding:27px 0 18px 0;
-			color:#7F7F7F;
+		h3, .header3 {
+			padding:0 0 18px 0;
+			color:#00529b;
 			font-family: Helvetica, Arial, sans-serif;
+			font-size:14px; 
+			line-height:16px;
+		}
+		h4, .kicker {
+			padding: 0px 0px 9px 0px;
+			font-family: Helvetica, Arial, sans-serif; 
 			font-size:12px; 
-			line-height:12px;
+			line-height:14px;
+			color:#00529b;
 			font-weight:900;
 			letter-spacing: 2px;
-			text-transform:uppercase;
-			text-align:center;
-		}
-		.header3 span {
-			border:3px solid #d5d5d5;
-			padding: 9px 14px;
-			display:inline-block;
-		}
-		.header3 span a {
-			text-decoration: none;
-		}
-		.lead {
-			padding: 9px 0px 0px;
-			font-family: Helvetica, Arial, sans-serif; 
-			font-size:14px;
-			line-height:24px;
-			color:#7F7F7F;	
-			font-style:italic;
+			text-transform:uppercase;	
 		}
 		.content {
 			padding: 9px 0px;
 			font-family: Helvetica, Arial, sans-serif; 
 			font-size:14px;
-			line-height:24px;
+			line-height:20px;
 			color:#404040;	
+		}
+		.date {
+			font-weight:900;
+			color:#00529b;
+			padding: 9px 0px;
 		}
 		.content a:link, .content a:active, .content a:visited,
 		.header2 a:link, .header2 a:active, .header2 a:visited {
-			color:#fA4616;
+			color:#f36f21;
 		}
 		.header3 a:link, .header3 a:active, .header3 a:visited {
 			color:#00529b;
+			color: #002a5c;
 		}
 		.column-content {
 			width:265px;
+		}
+		.left-column-content {
+			width:260px;
+		}
+		.right-column-content {
+			width:270px;
 		}
 		.column-image {
 			display:block;
@@ -115,37 +129,17 @@
 			max-width:260px;
 			height:auto;
 		}
-		.ghostbutton {
-			font-size: 24px;
-			font-family: Helvetica, Arial, sans-serif; 
-			font-weight: 700;
-			letter-spacing: 1.5px;
-			text-transform:uppercase;
-			border-top: 3px solid #fA4616; 
-			border-bottom: 3px solid #fA4616; 
-			border-right: 3px solid #fA4616; 
-			border-left: 3px solid #fA4616; 
-			display: inline-block;
-			height:auto;
-		}
-		.ghostbutton td {
-			padding: 15px 0 12px 16px;
-		}
-		.ghostbutton a:link, .ghostbutton a:visited {
-			color: #fA4616;
-			text-decoration: none;
-		}
 		.button {
 			font-size: 24px;
 			font-family: Helvetica, Arial, sans-serif; 
 			font-weight: 700;
 			letter-spacing: 1.5px;
 			text-transform:uppercase;
-			background-color: #fA4616; 
-			border-top: 16px solid #fA4616; 
-			border-bottom: 16px solid #fA4616; 
-			border-right: 18px solid #fA4616; 
-			border-left: 18px solid #fA4616; 
+			background-color: #f36f21; 
+			border-top: 16px solid #f36f21; 
+			border-bottom: 16px solid #f36f21; 
+			border-right: 18px solid #f36f21; 
+			border-left: 18px solid #f36f21; 
 			display: inline-block;
 			height:auto;
 		}
@@ -164,7 +158,6 @@
 			line-height:12px;
 			text-transform:uppercase;
 		}
-
 		.footer-content a:link, .footer-content a:visited {
 			color:#ffffff;
 		}
@@ -182,6 +175,7 @@
 			font-weight: inherit !important;
 			line-height: inherit !important;
 		}
+
 		/* media queries */
 		@media only screen and (min-width: 601px) { /* Outlook and Apple Mail */
 			.content {width: 600px !important;}
@@ -205,15 +199,19 @@
 				line-height:20px;
 				padding-right:0 !important;
 		 	}
-		 	.header2 {
+		 	h1, .header1 {
+		 		font-size:20px;
+		 		line-height:24px;
+		 	}
+		 	h2, .header2 {
 		 		font-size:16px;
 		 		line-height:22px;
 		 	}
-		 	.column-content {
+			.column-content, .left-column-content, .right-column-content {
 				max-width:480px !important;
 				width:100% !important;
 			}
-			.column-image {
+			.img, .column-image {
 				max-width: 440px !important;
 				width:100%;
 			}
@@ -240,31 +238,25 @@
 					</tr>
 					<tr>
 						<td class="img">
-							<a href="https://www.eng.ufl.edu" title="Herbert Wertheim College of Engineering" target="_blank"><img src="https://www.eng.ufl.edu/eblasts/templates/images/hwcoe-email-header.png" width="600" height="80" border="0" align="left" class="header-image" alt="Herbert Wertheim College of Engineering" /></a>
+							<a href="https://www.eng.ufl.edu/leadership/curriculum/linda-parker-hudson-leader-in-residence-program/" title="The Linda Parker Hudson Leader in Residence Program in Engineering Lecture Series" target="_blank"><img src="https://www.eng.ufl.edu/eblasts/lectureseries/leaderinresidence/images/hudson-leaderinresidence-luncheon-header.png" align="left" alt="The Linda Parker Hudson Leader in Residence Program in Engineering Lecture Series" width="600" height="260" border="0" class="header-image" /></a>
 						</td>
 					</tr>
 					<tr>
-						<td class="img">
-							<a href="https://www.eng.ufl.edu/transformation/" title="Powering the New Engineer to Transform the Future" target="_blank"><img src="https://www.eng.ufl.edu/eblasts/templates/images/header-img.png" align="left" alt="Powering the New Engineer to Transform the Future" width="600" height="303" border="0" class="header-image" /></a>
+						<td class="dateline" bgcolor="#f36f21" >
+							BY INVITATION ONLY - Wednesday, November 2
 						</td>
 					</tr>
 					<tr>
 						<td class="content-container" bgcolor="#FFFFFF">
 							<table border="0" width="100%" cellpadding="0" cellspacing="0" style="border-collapse:collapse;">
 								<tr>
-									<td class="header1" align="center">
-										This is header text which may extend for two or more lines if it gets long enough
-									</td>
-								</tr>
-								<tr>
-									<td class="lead" align="center">
-										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tempus adipiscing felis, sit amet blandit ipsum volutpat sed. Morbi porttitor, eget accumsan dictum, nisi libero ultricies ipsum, in posuere mauris neque at erat.</p>
+									<td class="header1" valign="top" align="center">
+										You've been selected to join us for a Leadership Luncheon with David Nelms, Chairman and CEO of Discover Financial
 									</td>
 								</tr>
 								<tr>
 									<td class="content" align="center">
-									<p>Lorem ipsum dolor sit amet, <a href="https://www.eng.ufl.edu/">consectetur adipiscing elit</a>. In tempus adipiscing felis, sit amet blandit ipsum volutpat sed. Morbi porttitor, eget accumsan dictum, nisi libero ultricies ipsum, in posuere mauris neque at erat.</p>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tempus adipiscing felis, sit amet blandit ipsum volutpat sed. Morbi porttitor, eget accumsan dictum, nisi libero ultricies ipsum, in posuere mauris neque at erat.</p>
+										Linda Parker Hudson established the <a href="https://www.eng.ufl.edu/leadership/curriculum/linda-parker-hudson-leader-in-residence-program/">Leader in Residence program</a> to create opportunities for nationally recognized, accomplished executives from a variety of fields related to technology to come to the University of Florida. While on campus, David Nelms will share his experiences and offer guidance on how to navigate common career issues.
 									</td>
 								</tr>
 								<tr>
@@ -273,42 +265,56 @@
 									</td>
 								</tr>
 								<tr>
-									<td class="header2" align="center">
-										This is level 2 header text which may extend for two or more lines if it gets long enough
+									<td class="content">
+										<img src="https://www.eng.ufl.edu/eblasts/lectureseries/leaderinresidence/images/nelms.png" title="David Nelms" alt="David Nelms" width="180" height="205" border="0" align="left" class="img" />
+										<h2 class="header2">David Nelms</h2>
+										<h3 class="header3">
+										Chairman and CEO, Discover Financial<br />
+										(MAE, &lsquo;83)
+										</h3>
+										<p>David Nelms is responsible for all Discover-branded financial services. He also serves as Chairman of Discover Bank, the issuing bank for the Discover card brands.</p>
+										<p>Before his appointment at Discover in 1998, Mr. Nelms served as a Vice Chairman of MBNA America Bank. Prior to that, he held management positions at Progressive Insurance, General Electric Company, and Bain &amp; Company Consulting.</p>
+										<p>Mr. Nelms holds a bachelor&rsquo;s degree in mechanical engineering from the University of Florida and an M.B.A. from the Harvard Business School.</p>
 									</td>
 								</tr>
 								<tr>
 									<td class="content" align="center">
-										<p>Lorem ipsum dolor sit amet, <a href="https://www.eng.ufl.edu/">consectetur adipiscing elit</a>. In tempus adipiscing felis, sit amet blandit ipsum volutpat sed. Morbi porttitor, eget accumsan dictum, nisi libero ultricies ipsum, in posuere mauris neque at erat.</p>
+										<hr size="4" color="#d5d5d5" noshade />
 									</td>
 								</tr>
 								<tr>
-									<td class="header3" align="center">Header Text</td>
-								</tr>
-								<tr>
-									<td class="content" align="center">
-										<p>Lorem ipsum dolor sit amet, <a href="https://www.eng.ufl.edu/">consectetur adipiscing elit</a>. In tempus adipiscing felis, sit amet blandit ipsum volutpat sed. Morbi porttitor, eget accumsan dictum, nisi libero ultricies ipsum, in posuere mauris neque at erat.</p>
-									</td>
-								</tr>
-								
-								<tr>
-									<td style="padding-top:20px;">
-										<table width="100%" border="0" cellspacing="0" cellpadding="0">
+									<td>
+										<table border="0" cellpadding="0" cellspacing="0" align="left" class="left-column-content">
 											<tr>
-												<td align="center">
+												<td class="content date">
+													WEDNESDAY, NOVEMBER 2<br />
+													11:45 AM - 1 PM<br />
+													REITZ UNION ROOM 2355
+												</td>
+
+											</tr>
+										</table>
+										<table border="0" cellpadding="0" cellspacing="0" align="right" class="right-column-content">
+											<tr>
+												<td class="content" align="center">
 													<table border="0" cellspacing="0" cellpadding="0" class="button">
 														<tr>
 															<td align="center">
-																<a href="#" target="_blank">Call to Action</a>
+																<a href="https://shibboleth-ufl-csm.symplicity.com/sso/" target="_blank">RSVP NOW</a>
 															</td>
 															<td width="30" style="padding:5px;" align="right" valign="middle">
-																<a href="#" target="_blank"><img src="https://www.eng.ufl.edu/eblasts/templates/images/arrow-wht.png" width="30" height="30" border="0" alt="" align="right" valign="middle" /></a>
+																<a href="https://shibboleth-ufl-csm.symplicity.com/sso/" target="_blank"><img src="https://www.eng.ufl.edu/eblasts/templates/images/arrow-wht.png" width="30" height="30" border="0" alt="" align="right" valign="middle" /></a>
 															</td>
 														</tr>
 													</table>
 												</td>
 											</tr>
 										</table>
+									</td>
+								</tr>
+								<tr>
+									<td class="content" align="center">
+										<a href="https://www.crc.ufl.edu/" target="_blank"><img src="http://www.eng.ufl.edu/eblasts/lectureseries/leaderinresidence/images/crc.png" width="275" height="75" align="center" border="0" alt="Career Resource Center">
 									</td>
 								</tr>
 							</table>
@@ -324,14 +330,14 @@
 							<table border="0" cellpadding="0" cellspacing="0" align="left" class="column-content">
 								<tr>
 									<td class="content" valign="top" style="padding-right:20px;">
-										<a href="https://www.eng.ufl.edu" title="Herbert Wertheim College of Engineering" target="_blank"><img src="https://www.eng.ufl.edu/eblasts/templates/images/hwcoe-email-logo.png" width="265" height="63" border="0" alt="Herbert Wertheim College of Engineering" class="column-image" /></a>
+										<a href="https://www.eng.ufl.edu/about/transformation/" title="Powering the New Engineer to Transform the Future" target="_blank"><img src="https://www.eng.ufl.edu/eblasts/lectureseries/leaderinresidence/images/pne-tf.png" width="265" height="63" border="0" align="left" class="column-image" alt="Powering the New Engineer to Transform the Future" /></a>
 									</td>
 								</tr>
 							</table>
 							<table border="0" cellpadding="0" cellspacing="0" align="right" class="column-content">
 								<tr>
 									<td class="content" valign="top">
-										<a href="https://www.eng.ufl.edu/about/transformation/" title="Powering the New Engineer to Transform the Future" target="_blank"><img src="https://www.eng.ufl.edu/eblasts/templates/images/pne-tf.png" width="265" height="63" border="0" align="left" class="column-image" alt="Powering the New Engineer to Transform the Future" /></a>
+										<a href="https://www.eng.ufl.edu" title="Herbert Wertheim College of Engineering" target="_blank"><img src="https://www.eng.ufl.edu/eblasts/lectureseries/leaderinresidence/images/hwcoe-email-logo.png" width="220" height="53" border="0" alt="Herbert Wertheim College of Engineering" class="column-image" /></a>
 									</td>
 								</tr>
 							</table>
@@ -368,13 +374,13 @@
 					</tr>
 					<tr>
 						<td class="footer-content" align="center">
-							<a href="#" target="_blank">View this email in your browser</a>
+							<a href="%%view_email_url%%" target="_blank">View this email in your browser</a>
 						</td>
 					</tr>
 					<tr>
 						<td class="footer-content" align="center">
-							You are receiving this email because you opted in at our website, <a href="https://www.eng.ufl.edu" target="_blank">www.eng.ufl.edu</a>, or because you are affiliated with Herbert Wertheim College of Engineering.<br />
-							<a href="mailto:szjeng@eng.ufl.edu">Email to be removed from this list</a>
+							You are receiving this email because you opted in at <a href="https://www.eng.ufl.edu" target="_blank">our website</a> or because you are affiliated with Herbert Wertheim College of Engineering.<br />
+							<a href="mailto:tcgordon@eng.ufl.edu">Email to be removed from this list</a>
 						</td>
 					</tr>	
 					<tr>
@@ -384,7 +390,7 @@
 							P.O. Box 116550<br />
 							Gainesville, FL 32611-6550
 						</td>
-					</tr>		
+					</tr>	
 				</table>
 			</td>
 		</tr>
