@@ -55,43 +55,32 @@
 			padding: 9px 0px 0px 0px;
 			color:#00529b;
 			font-family:Helvetica, Arial, sans-serif;
-			font-size:20px; 
-			line-height:26px;
-			font-weight: bold;
-			/*text-transform: uppercase;*/
+			font-size:32px; 
+			line-height:38px;
 		}
 		.header2 {
 			padding: 9px 0px 0px 0px;
-			color:#fa4616;
+			color:#404040;
 			font-family:Helvetica, Arial, sans-serif;
 			font-size:18px; 
 			line-height:24px;
 		}
 		.header3 {
 			padding:9px 0 9px 0;
-			color:#7F7F7F;
+			color:#00529b;
 			font-family: Helvetica, Arial, sans-serif;
-			font-size:14px; 
-			line-height:18px;
-			font-weight:900;
-			letter-spacing: 2px;
+			font-size:18px; 
+			line-height:24px;
+			font-weight:600;
+			letter-spacing: 1px;
 			text-align:center;
-		}
-		.header3 span {
-			border:3px solid #d5d5d5;
-			padding: 9px 14px;
-			display:inline-block;
-		}
-		.header3 span a {
-			text-decoration: none;
 		}
 		.lead {
 			padding: 9px 0px 0px;
 			font-family: Helvetica, Arial, sans-serif; 
-			font-size:18px;
+			font-size:20px;
 			line-height:26px;
-			color:#7F7F7F;	
-			font-style:italic;
+			color:#404040;	
 		}
 		.content {
 			padding: 9px 0px;
@@ -206,7 +195,11 @@
 				line-height:20px;
 				padding-right:0 !important;
 		 	}
-		 	.header2 {
+		 	.lead, .header1 {
+		 		font-size:18px;
+		 		line-height:24px;
+			}
+		 	.header2, .header3 {
 		 		font-size:16px;
 		 		line-height:22px;
 		 	}
@@ -249,14 +242,20 @@
 							<table border="0" width="100%" cellpadding="0" cellspacing="0" style="border-collapse:collapse;">
 								<tr>
 									<td class="lead" align="center">
-										Esteemed alumni of the Herbert Wertheim College of Engineering,
+										Gator Engineering cordially invites you to a
 									</td>
 								</tr>
 								<tr>
 									<td class="header1" align="center">
-										Dean Cammy Abernathy cordially invites you to an evening with University of Florida President Kent Fuchs.
+										Celebration of Innovation
 									</td>
 								</tr>
+								<tr>
+									<td class="lead" align="center">
+										with fellow alumni and friends
+									</td>
+								</tr>
+								
 								<tr>
 									<td class="content" align="center">
 										<hr size="4" color="#d5d5d5" noshade />
@@ -264,14 +263,14 @@
 								</tr>
 								<tr>
 									<td class="header3" align="center">
-										March 23, 2017 &bull; 5:30 &ndash; 7:30 pm<br />
+										March 23, 2017 &bull; 5:45 pm<br />
 										The Epiphany Hotel, Room 804 &bull; Palo Alto, CA
 									</td>
 								</tr>
 								<tr>
 									<td class="content" align="center">
-										<em>Hors d&rsquo;oeuvres and drinks will be served.<br />
-										Attire is business casual.</em>
+										<em>Remarks by UF President Kent Fuchs.</br >
+										Business casual attire; hors d&rsquo;oeuvres and drinks will be served.</em>
 									</td>
 								</tr>
 								<tr>
@@ -379,18 +378,20 @@
 							<a href="%%view_email_url%%" target="_blank">View this email in your browser</a>
 						</td>
 					</tr>
+					<!-- exact target code - events -->
 					<tr>
 						<td class="footer-content" align="center">
-							You are receiving this email because you opted in at <a href="https://www.eng.ufl.edu" target="_blank">our website</a> or because you are affiliated with Herbert Wertheim College of Engineering.<br />
-							<a href="mailto:szjeng@eng.ufl.edu">Email to be removed from this list</a>
+							<p>You are receiving this email because you opted in at <a href="https://www.eng.ufl.edu" style="color: #ffffff;">our website</a> or because you are affiliated with Herbert Wertheim College of Engineering.</p>
+							<p><a href="%%subscription_center_url%%" alias="Manage Subscriptions">Unsubscribe/manage subscriptions</a> &bull; <a href="%%profile_center_url%%" alias="Manage profile">Manage your profile</a></p>
 						</td>
-					</tr>	
+					</tr>
 					<tr>
 						<td class="footer-content" align="center">
-							Herbert Wertheim College of Engineering<br />
-							300 Weil Hall<br />
-							P.O. Box 116550<br />
-							Gainesville, FL 32611-6550
+							<p>
+							%%Member_Busname%%<br>
+							%%Member_Addr%%<br>
+							%%Member_City%%, %%Member_State%% %%Member_PostalCode%%
+							</p>
 						</td>
 					</tr>		
 				</table>
