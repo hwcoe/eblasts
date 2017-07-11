@@ -18,6 +18,13 @@
 		p.MsoNormal {
 			margin: 0px
 		}
+		div.visually-hidden {
+			font-size:1px;
+			line-height:1px;
+			max-height:0px;
+			max-width:0px;
+			opacity:0;
+		}
 		td {
 			padding-top:0;
 			padding-left: 0;
@@ -252,7 +259,10 @@
 
 	</style>
 </head> 
-<body bgcolor="#d5d5d5" style="margin:0; padding:0;">	
+<body bgcolor="#d5d5d5" style="margin:0; padding:0;">
+	<div class="visually-hidden" style="color:#d5d5d5;">
+		Preview text (displays after the subject line in the viewer's inbox)
+	</div>	
 	<table border="0" width="100%" cellpadding="0" cellspacing="0">
 		<tr>
 			<td bgcolor="#d5d5d5" align="center">
