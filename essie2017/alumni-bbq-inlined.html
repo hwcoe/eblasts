@@ -18,6 +18,13 @@
 		p.MsoNormal {
 			margin: 0px
 		}
+		div.visually-hidden {
+			font-size:1px;
+			line-height:1px;
+			max-height:0px;
+			max-width:0px;
+			opacity:0;
+		}
 		td {
 			padding-top:0;
 			padding-left: 0;
@@ -55,26 +62,37 @@
 			padding: 9px 0px 9px 0px;
 			color:#00529b;
 			font-family:Helvetica, Arial, sans-serif;
-			font-size:38px; 
-			line-height:48px;
+			font-size:28px; 
+			line-height:34px;
 		}
 		.header2 {
 			padding: 9px 0px 9px 0px;
 			color:#00529b;
 			font-family:Helvetica, Arial, sans-serif;
-			font-size:24px; 
-			line-height:32px;
+			font-size:18px; 
+			line-height:24px;
+		}
+		.lead {
+			padding: 9px 0px 0px;
+			font-family: Helvetica, Arial, sans-serif; 
+			font-size:18px;
+			line-height:24px;
+			color:#7F7F7F;	
+			font-style:italic;
 		}
 		.content {
 			padding: 9px 0px;
 			font-family: Helvetica, Arial, sans-serif; 
-			font-size:18px;
-			line-height:26px;
+			font-size:14px;
+			line-height:24px;
 			color:#404040;	
 		}
 		.content a:link, .content a:active, .content a:visited,
 		.header2 a:link, .header2 a:active, .header2 a:visited {
 			color:#fA4616;
+		}
+		.header3 a:link, .header3 a:active, .header3 a:visited {
+			color:#00529b;
 		}
 		.column-content {
 			width:265px;
@@ -85,7 +103,58 @@
 			max-width:260px;
 			height:auto;
 		}
-
+		.ghostbutton {
+			font-size: 24px;
+			font-family: Helvetica, Arial, sans-serif; 
+			font-weight: 700;
+			letter-spacing: 1.5px;
+			text-transform:uppercase;
+			border-top: 3px solid #fA4616; 
+			border-bottom: 3px solid #fA4616; 
+			border-right: 3px solid #fA4616; 
+			border-left: 3px solid #fA4616; 
+			display: inline-block;
+			height:auto;
+		}
+		.ghostbutton td {
+			padding: 15px 0 12px 16px;
+		}
+		.ghostbutton a:link, .ghostbutton a:visited {
+			color: #fA4616;
+			text-decoration: none;
+		}
+		.ghostbutton-sm {
+			font-size: 12px;
+			font-weight:900;
+			border-top: 3px solid #d5d5d5; 
+			border-bottom: 3px solid #d5d5d5; 
+			border-right: 3px solid #d5d5d5; 
+			border-left: 3px solid #d5d5d5; 
+		}
+		.ghostbutton-sm td {
+			padding: 9px 0 9px 16px;
+		}
+		.ghostbutton-sm a:link, .ghostbutton-sm a:visited {
+			color: #00529b;
+		}
+		.button {
+			font-size: 24px;
+			font-family: Helvetica, Arial, sans-serif; 
+			font-weight: 700;
+			letter-spacing: 1.5px;
+			text-transform:uppercase;
+			background-color: #fA4616; 
+			border-top: 16px solid #fA4616; 
+			border-bottom: 16px solid #fA4616; 
+			border-right: 18px solid #fA4616; 
+			border-left: 18px solid #fA4616; 
+			display: inline-block;
+			height:auto;
+		}
+		.button a:link, .button a:visited {
+			color:#ffffff;
+			text-decoration: none;
+		}
 		.footer {
 			padding: 9px 18px; 
 		}
@@ -106,6 +175,22 @@
 			padding: 18px 0;
 			font-family:Helvetica, Arial, sans-serif;
 			font-size:9px; 
+		}
+		a[x-apple-data-detectors] { /* remove blue links for addresses, phone numbers, etc. in IOS */
+			color: inherit !important;
+			text-decoration: none !important;
+			font-size: inherit !important;
+			font-family: inherit !important;
+			font-weight: inherit !important;
+			line-height: inherit !important;
+		}
+		span.MsoHyperlink {
+			mso-style-priority:99;
+			color:inherit;
+		}
+		span.MsoHyperlinkFollowed {
+			mso-style-priority:99;
+			color:inherit;
 		}
 		/* media queries */
 		@media only screen and (min-width: 601px) { /* Outlook and Apple Mail */
@@ -133,7 +218,7 @@
 		 	.header2 {
 		 		font-size:16px;
 		 		line-height:22px;
-		 	}		 	
+		 	}
 		 	.column-content {
 				max-width:480px !important;
 				width:100% !important;
@@ -155,7 +240,10 @@
 
 	</style>
 </head> 
-<body bgcolor="#d5d5d5" style="margin:0; padding:0;">	
+<body bgcolor="#d5d5d5" style="margin:0; padding:0;">
+	<div class="visually-hidden" style="color: #d5d5d5;font-size: 1px;line-height: 1px;max-height: 0px;max-width: 0px;opacity: 0;">
+		Preview text (displays after the subject line in the viewer's inbox)
+	</div>	
 	<table border="0" width="100%" cellpadding="0" cellspacing="0">
 		<tr>
 			<td bgcolor="#d5d5d5" align="center" style="padding-top: 0;padding-left: 0;padding-bottom: 0;padding-right: 0;">
@@ -163,49 +251,31 @@
 					<tr>
 						<td class="preheader" bgcolor="#d5d5d5" align="right" style="padding-top: 9px;padding-left: 0;padding-bottom: 0;padding-right: 0;font-family: Helvetica, Arial, sans-serif;font-size: 9px;text-transform: uppercase;">&nbsp;</td>
 					</tr>
-					<!-- <tr>
-						<td class="img">
-							<a href="https://www.eng.ufl.edu" title="Herbert Wertheim College of Engineering" target="_blank"><img src="https://www.eng.ufl.edu/eblasts/templates/images/hwcoe-email-header-official-flat.png" width="600" height="80" border="0" align="left" class="header-image" alt="Herbert Wertheim College of Engineering" /></a>
-						</td>
-					</tr> -->
 					<tr>
 						<td class="img" style="padding-top: 0;padding-left: 0;padding-bottom: 0;padding-right: 0;font-family: Helvetica, Arial, sans-serif;font-size: 12px;">
-							<a href="#" title="Powering the New Engineer to Transform the Future" target="_blank"><img src="https://www.eng.ufl.edu/eblasts/essie2016/images/alumni-bbq-header-2016-.png" align="left" alt="" width="600" height="303" border="0" class="header-image" style="height: auto;display: block;margin: 0;padding: 0;border: 0;max-width: 600px;vertical-align: bottom;outline: none;text-decoration: none;"></a>
+							<a href="https://www.eng.ufl.edu/academics/schools-departments/essie/?utm_source=email_invite&utm_medium=email&utm_campaign=essie_alumni_bbq_2017" target="_blank"><img src="https://www.eng.ufl.edu/eblasts/essie2017/images/alumni-bbq-header-2017.png" align="left" alt="Engineering School of Sustainable Infrastructure & Environment (ESSIE)" width="600" height="303" border="0" class="header-image" style="height: auto;display: block;margin: 0;padding: 0;border: 0;max-width: 600px;vertical-align: bottom;outline: none;text-decoration: none;"></a>
 						</td>
 					</tr>
 					<tr>
 						<td class="content-container" bgcolor="#FFFFFF" style="padding-top: 0;padding-left: 0;padding-bottom: 0;padding-right: 0;padding: 18px 18px 18px 18px;">
 							<table border="0" width="100%" cellpadding="0" cellspacing="0" style="border-collapse:collapse;">
 								<tr>
-									<td class="header1" align="center" style="padding-top: 0;padding-left: 0;padding-bottom: 0;padding-right: 0;padding: 9px 0px 9px 0px;color: #00529b;font-family: Helvetica, Arial, sans-serif;font-size: 38px;line-height: 48px;">
-										Join us at the 2016 ESSIE Alumni Homecoming BBQ!
-									</td>
-								</tr>
-								<tr>
-									<td class="content" align="center" style="padding-top: 0;padding-left: 0;padding-bottom: 0;padding-right: 0;padding: 9px 0px;font-family: Helvetica, Arial, sans-serif;font-size: 18px;line-height: 26px;color: #404040;">
+									<td class="header1" align="center" style="padding-top: 0;padding-left: 0;padding-bottom: 0;padding-right: 0;padding: 9px 0px 9px 0px;color: #00529b;font-family: Helvetica, Arial, sans-serif;font-size: 28px;line-height: 34px;">
 										Dear Civil, Coastal and Environmental Engineering Alumni &amp; Friends,
 									</td>
 								</tr>
+								
 								<tr>
-									<td class="content" align="center" style="padding-top: 0;padding-left: 0;padding-bottom: 0;padding-right: 0;padding: 9px 0px;font-family: Helvetica, Arial, sans-serif;font-size: 18px;line-height: 26px;color: #404040;">
-										Dr. Hatfield and the Civil &amp; Environmental Sciences Gators invite you to attend the 2016 ESSIE Alumni Homecoming BBQ and get ready to root for the Florida Gators vs. the Missouri Tigers.
+									<td class="content" align="center" style="padding-top: 0;padding-left: 0;padding-bottom: 0;padding-right: 0;padding: 9px 0px;font-family: Helvetica, Arial, sans-serif;font-size: 14px;line-height: 24px;color: #404040;">
+										Dr. Hatfield and the Civil &amp; Environmental Sciences Gators invite you to attend the 2016 ESSIE Alumni Homecoming BBQ before the Florida Gators vs. LSU Tigers game.
 									</td>
 								</tr>
 								<tr>
-									<td class="content" align="center" style="padding-top: 0;padding-left: 0;padding-bottom: 0;padding-right: 0;padding: 9px 0px;font-family: Helvetica, Arial, sans-serif;font-size: 18px;line-height: 26px;color: #404040;">
-										<hr size="4" color="#d5d5d5" noshade>
-									</td>
-								</tr>
-								<tr>
-									<td class="header2" align="center" style="padding-top: 0;padding-left: 0;padding-bottom: 0;padding-right: 0;padding: 9px 0px 9px 0px;color: #00529b;font-family: Helvetica, Arial, sans-serif;font-size: 24px;line-height: 32px;">
-										Saturday, October 15, 2016<br>
+									<td class="header2" align="center" style="padding-top: 0;padding-left: 0;padding-bottom: 0;padding-right: 0;padding: 9px 0px 9px 0px;color: #00529b;font-family: Helvetica, Arial, sans-serif;font-size: 18px;line-height: 24px;">
+										Saturday, October 7, 2017<br>
 										Two hours before kickoff<br>
-										Weil Hall, &ldquo;The Pit&rdquo; Structures and Soils Lab
-									</td>
-								</tr>
-								<tr>
-									<td class="content" align="center" style="padding-top: 0;padding-left: 0;padding-bottom: 0;padding-right: 0;padding: 9px 0px;font-family: Helvetica, Arial, sans-serif;font-size: 18px;line-height: 26px;color: #404040;">
-										Please RSVP to Melissa Centurion at <a href="mailto:melissa.centurion@essie.ufl.edu" style="color: #fA4616;">melissa.centurion@essie.ufl.edu</a> or call 352-392-6115 by Friday, September 30, 2016.
+										Weil Hall, “The Pit” Structures and Soils Lab<br>
+										RSVP to <a href="mailto:melissa.centurion@essie.ufl.edu?Subject=RSVP: ESSIE Homecoming BBQ" style="color: #fA4616;">melissa.centurion@essie.ufl.edu</a> or call 352-392-6115 by Friday, September 29, 2017
 									</td>
 								</tr>
 								
@@ -221,15 +291,15 @@
 						<td class="footer" bgcolor="#FFFFFF" align="center" style="padding-top: 0;padding-left: 0;padding-bottom: 0;padding-right: 0;padding: 9px 18px;">
 							<table border="0" cellpadding="0" cellspacing="0" align="left" class="column-content" style="width: 265px;">
 								<tr>
-									<td class="content" valign="top" style="padding-right: 20px;padding-top: 0;padding-left: 0;padding-bottom: 0;padding: 9px 0px;font-family: Helvetica, Arial, sans-serif;font-size: 18px;line-height: 26px;color: #404040;">
-										<a href="https://www.eng.ufl.edu" title="Herbert Wertheim College of Engineering" target="_blank" style="color: #fA4616;"><img src="https://www.eng.ufl.edu/eblasts/templates/images/hwcoe-email-logo.png" width="265" height="63" border="0" alt="Herbert Wertheim College of Engineering" class="column-image" style="height: auto;display: block;margin-bottom: 6px;max-width: 260px;"></a>
+									<td class="content" valign="top" style="padding-right: 20px;padding-top: 0;padding-left: 0;padding-bottom: 0;padding: 9px 0px;font-family: Helvetica, Arial, sans-serif;font-size: 14px;line-height: 24px;color: #404040;">
+										<a href="https://www.eng.ufl.edu/?utm_source=email_invite&utm_medium=email&utm_campaign=essie_alumni_bbq_2017" title="Herbert Wertheim College of Engineering" target="_blank" style="color: #fA4616;"><img src="https://www.eng.ufl.edu/eblasts/templates/images/hwcoe-email-logo.png" width="265" height="63" border="0" alt="Herbert Wertheim College of Engineering" class="column-image" style="height: auto;display: block;margin-bottom: 6px;max-width: 260px;"></a>
 									</td>
 								</tr>
 							</table>
 							<table border="0" cellpadding="0" cellspacing="0" align="right" class="column-content" style="width: 265px;">
 								<tr>
-									<td class="content" valign="top" style="padding-top: 0;padding-left: 0;padding-bottom: 0;padding-right: 0;padding: 9px 0px;font-family: Helvetica, Arial, sans-serif;font-size: 18px;line-height: 26px;color: #404040;">
-										<a href="https://www.eng.ufl.edu/about/transformation/" title="Powering the New Engineer to Transform the Future" target="_blank" style="color: #fA4616;"><img src="https://www.eng.ufl.edu/eblasts/templates/images/pne-tf.png" width="265" height="63" border="0" align="left" class="column-image" alt="Powering the New Engineer to Transform the Future" style="height: auto;display: block;margin-bottom: 6px;max-width: 260px;"></a>
+									<td class="content" valign="top" style="padding-top: 0;padding-left: 0;padding-bottom: 0;padding-right: 0;padding: 9px 0px;font-family: Helvetica, Arial, sans-serif;font-size: 14px;line-height: 24px;color: #404040;">
+										<a href="https://www.eng.ufl.edu/about/transformation/?utm_source=email_invite&utm_medium=email&utm_campaign=essie_alumni_bbq_2017" title="Powering the New Engineer to Transform the Future" target="_blank" style="color: #fA4616;"><img src="https://www.eng.ufl.edu/eblasts/templates/images/pne-tf.png" width="265" height="63" border="0" align="left" class="column-image" alt="Powering the New Engineer to Transform the Future" style="height: auto;display: block;margin-bottom: 6px;max-width: 260px;"></a>
 									</td>
 								</tr>
 							</table>
@@ -243,11 +313,11 @@
 				<table width="600" border="0" align="center" cellpadding="0" cellspacing="0" class="container-table" style="width: 600px;border-collapse: collapse;">
 					<tr>
 						<td class="footer-content" align="center" style="padding-top: 0;padding-left: 0;padding-bottom: 0;padding-right: 0;padding: 9px;color: #ffffff;font-family: Helvetica, Arial, sans-serif;font-size: 10px;line-height: 12px;text-transform: uppercase;">
-							<a href="https://www.facebook.com/gatorengineering" target="_blank" style="color: #ffffff;"><img src="https://www.eng.ufl.edu/eblasts/templates/images/icon-facebook.png" width="30" height="30" border="0" title="Facebook" alt="Facebook" style="height: auto;"></a>&nbsp;
-							<a href="https://twitter.com/floridaengineer" target="_blank" style="color: #ffffff;"><img src="https://www.eng.ufl.edu/eblasts/templates/images/icon-twitter.png" width="30" height="30" border="0" title="Twitter" alt="Twitter" style="height: auto;"></a>&nbsp;
+							<a href="https://www.facebook.com/ufwertheim" target="_blank" style="color: #ffffff;"><img src="https://www.eng.ufl.edu/eblasts/templates/images/icon-facebook.png" width="30" height="30" border="0" title="Facebook" alt="Facebook" style="height: auto;"></a>&nbsp;
+							<a href="https://twitter.com/ufwertheim" target="_blank" style="color: #ffffff;"><img src="https://www.eng.ufl.edu/eblasts/templates/images/icon-twitter.png" width="30" height="30" border="0" title="Twitter" alt="Twitter" style="height: auto;"></a>&nbsp;
 							<a href="https://www.youtube.com/user/gatorengineering" target="_blank" style="color: #ffffff;"><img src="https://www.eng.ufl.edu/eblasts/templates/images/icon-youtube.png" width="30" height="30" border="0" title="YouTube" alt="YouTube" style="height: auto;"></a>&nbsp;
-							<a href="https://www.linkedin.com/grp/home?gid=8412066" target="_blank" style="color: #ffffff;"><img src="https://www.eng.ufl.edu/eblasts/templates/images/icon-linkedin.png" width="30" height="30" border="0" title="LinkedIn" alt="LinkedIn" style="height: auto;"></a>&nbsp;
-							<a href="https://www.instagram.com/gatorengineering/" target="_blank" style="color: #ffffff;"><img src="https://www.eng.ufl.edu/eblasts/templates/images/icon-instagram.png" width="30" height="30" border="0" title="Instagram" alt="Instagram" style="height: auto;"></a>&nbsp;
+							<a href="https://www.linkedin.com/school/15099723/" target="_blank" style="color: #ffffff;"><img src="https://www.eng.ufl.edu/eblasts/templates/images/icon-linkedin.png" width="30" height="30" border="0" title="LinkedIn" alt="LinkedIn" style="height: auto;"></a>&nbsp;
+							<a href="https://www.instagram.com/ufwertheim/" target="_blank" style="color: #ffffff;"><img src="https://www.eng.ufl.edu/eblasts/templates/images/icon-instagram.png" width="30" height="30" border="0" title="Instagram" alt="Instagram" style="height: auto;"></a>&nbsp;
 							<a href="https://www.flickr.com/photos/gatorengineering/" target="_blank" style="color: #ffffff;"><img src="https://www.eng.ufl.edu/eblasts/templates/images/icon-flickr.png" width="30" height="30" border="0" title="Flickr" alt="Flickr" style="height: auto;"></a>
 						</td>
 					</tr>
@@ -256,9 +326,9 @@
 							<table border="0" cellspacing="0" cellpadding="0">
 								<tr>
 									<td width="30" style="padding-top: 0;padding-left: 0;padding-bottom: 0;padding-right: 0;">
-										<a href="http://www.ufengineering.skorfanshop.com/" target="_blank" style="color: #ffffff;"><img src="https://www.eng.ufl.edu/eblasts/templates/images/icon-store.png" width="30" height="30" border="0" title="Online Store" alt="Online Store" valign="middle" style="height: auto;"></a></td>
+										<a href="http://www.ufengineering.skorfanshop.com/" style="color: #ffffff;"><img src="https://www.eng.ufl.edu/eblasts/templates/images/icon-store.png" width="30" height="30" border="0" title="Online Store" alt="Online Store" valign="middle" style="height: auto;"></a></td>
 									<td class="footer-content" style="padding-top: 0;padding-left: 0;padding-bottom: 0;padding-right: 0;padding: 9px;color: #ffffff;font-family: Helvetica, Arial, sans-serif;font-size: 10px;line-height: 12px;text-transform: uppercase;">
-										<a href="http://www.ufengineering.skorfanshop.com/" target="_blank" style="color: #ffffff;">Online Store</a>
+										<a href="http://www.ufengineering.skorfanshop.com/" style="color: #ffffff;">Online Store</a>
 									</td>
 								</tr>
 							</table>
@@ -271,27 +341,23 @@
 					</tr>
 					<tr>
 						<td class="footer-content" align="center" style="padding-top: 0;padding-left: 0;padding-bottom: 0;padding-right: 0;padding: 9px;color: #ffffff;font-family: Helvetica, Arial, sans-serif;font-size: 10px;line-height: 12px;text-transform: uppercase;">
-							<p style="margin-top: 0px;">You are receiving this email because you opted in at <a href="https://www.eng.ufl.edu" style="color: #ffffff;">our website</a> or because you are affiliated with Herbert Wertheim College of Engineering.</p>
-							<p style="margin-top: 0px;"><a href="%%subscription_center_url%%" alias="Manage Subscriptions" style="color: #ffffff;">Unsubscribe/manage subscriptions</a> &bull; <a href="%%profile_center_url%%" alias="Manage profile" style="color: #ffffff;">Manage your profile</a></p>
-						</td>
-					</tr>				
-					<!-- <tr>
-						<td class="footer-content" align="center">
-							You are receiving this email because you opted in at <a href="https://www.eng.ufl.edu" target="_blank">our website</a> or because you are affiliated with Herbert Wertheim College of Engineering.<br />
-							<a href="mailto:tcgordon@eng.ufl.edu">Email to be removed from this list</a>
+							You are receiving this email because you opted in at <a href="https://www.eng.ufl.edu" target="_blank" style="color: #ffffff;">our website</a> or because you are affiliated with Herbert Wertheim College of Engineering.<br>
+							<a href="mailto:szjeng@eng.ufl.edu" style="color: #ffffff;">Email to be removed from this list</a>
 						</td>
 					</tr>	
 					<tr>
-						<td class="footer-content" align="center">
-							Herbert Wertheim College of Engineering<br />
-							300 Weil Hall<br />
-							P.O. Box 116550<br />
+						<td class="footer-content" align="center" style="padding-top: 0;padding-left: 0;padding-bottom: 0;padding-right: 0;padding: 9px;color: #ffffff;font-family: Helvetica, Arial, sans-serif;font-size: 10px;line-height: 12px;text-transform: uppercase;">
+							Herbert Wertheim College of Engineering<br>
+							300 Weil Hall<br>
+							P.O. Box 116550<br>
 							Gainesville, FL 32611-6550
 						</td>
-					</tr>		 -->
+					</tr>		
 				</table>
 			</td>
 		</tr>
 	</table>
-</body>
+<!-- tracking code -->
+<custom name="opencounter" type="tracking">
+</custom></body>
 </html>
