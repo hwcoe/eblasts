@@ -81,7 +81,7 @@
 		}
 		.content-container {
 			padding: 0px 20px 15px 20px;
-			border-bottom: 1px solid #d5d5d5;
+			border-bottom: 2px solid #d5d5d5;
 		}
 		.img {
 			font-family:Helvetica, Arial, sans-serif;
@@ -97,36 +97,24 @@
 			outline: none;
 			text-decoration: none;
 		}
-		.tagline-tbl {
-			width:400px;
+		.dateline {
+			padding: 10px 0 0 0;
+			color:#fa4616; 
+			font-family:'Quadon-ExtraBold', Georgia, serif!important; 
+			text-transform:uppercase!important; 
+			letter-spacing:2px!important; 
+			font-size: 14px!important;
+			line-height: 22px!important;
+			text-align:left!important;
 		}
-		.dateline-tbl {
-			width:110px;
-		}
-		.tagline, .dateline {
-			padding: 5px 20px 5px 0px;
-			font-family:Helvetica, Arial, sans-serif;
-			font-size:12px; 
-			letter-spacing: 1px;
-			color:#FFFFFF;
-		}
-		.tagline {
-			padding: 5px 0px 5px 20px;
-		}
-		.header1 {
-			padding: 9px 0px 18px 0px;
-			color:#7f7f7f;
-			font-family:Helvetica, Arial, sans-serif;
-			text-transform:uppercase;
-			font-size: 24px;
-			line-height:28px;
-			font-weight: 700;
-			letter-spacing: 2px;
-		}
-		.header1 span {
-			border:3px solid #cccccc;
-			padding: 7px 10px;
-			display:inline-block;
+		.h1 {
+			font-family:'gentonalight', Arial, sans-serif;
+			font-size:26px!important; 
+			color: #00529b;
+			letter-spacing:2px!important;
+			text-transform:uppercase!important;
+			line-height:30px!important;
+			text-align:left!important;
 		}
 		.header2 {
 			padding: 9px 0px 9px 0px;
@@ -169,9 +157,16 @@
 			text-align:left;
 			padding:10px 0px 0px 0px;
 			color:#7F7F7F;
-			border-bottom: 1px solid #7F7F7F;
 			font-size: 14px!important;
 			line-height: 14px!important;
+		}
+		td.category span {
+			border:3px solid #d5d5d5;
+			padding: 7px 10px;
+			display:inline-block;
+		}	
+		td.category span a {
+			text-decoration: none;
 		}
 	 
 		.powering {
@@ -214,7 +209,8 @@
 			color:#00529b;
 			text-decoration: none;
 		}
-		.header3 a:link, .header3 a:active, .header3 a:visited {
+		.header3 a:link, .header3 a:active, .header3 a:visited,
+		.category a:link, .category a:active, .category a:visited {
 			color:#7F7F7F;
 		}	
 		.content a:hover, .caption a:hover, .header2 a:hover, .header3 a:hover, .header4 a:hover {
@@ -233,7 +229,7 @@
 			height:auto;
 		}
 		.story-image {
-			max-width:132px;
+			max-width:270px;
 			height:auto;
 		}
 		.left-column-content {
@@ -345,8 +341,8 @@
 			}
 			.story-image {
 				height:auto !important;
-				max-width: 240px !important;
-				width:50%;
+				max-width: 420px !important;
+				width:100%;
 			}
 			.footer-content {
 				font-size:14px !important;
@@ -366,36 +362,20 @@
 					</tr>
 					<tr>
 						<td class="img">
-							<a href="https://www.eng.ufl.edu/newengineer/?utm_source=newsletter&utm_campaign=summer2017newsletter&utm_medium=email" title="Herbert Wertheim College of Engineering" target="_blank"><img src="https://www.eng.ufl.edu/eblasts/newengineer/images/newengineer-header.png" width="600" height="95" border="0" align="left" class="header-image" alt="Herbert Wertheim College of Engineering" /></a>
+							<a href="https://www.eng.ufl.edu/newengineer/?utm_source=newsletter&utm_campaign=summer2017newsletter&utm_medium=email" title="Herbert Wertheim College of Engineering" target="_blank"><img src="https://www.eng.ufl.edu/eblasts/newengineer/images/newengineer-header-v2.png" width="600" height="300" border="0" align="left" class="header-image" alt="The New Engineer | News from Herbert Wertheim College of Engineering" /></a>
 						</td>
 					</tr>
-					<!-- dateline - delete if unused -->
-					<tr>
-						<td bgcolor="#FA4616">
-							<table border="0" cellpadding="0" cellspacing="0" align="left" class="tagline-tbl">
-								<tr>
-									<td class="tagline" align="left">
-										News from Herbert Wertheim College of Engineering
-									</td>
-								</tr>
-							</table>
-							<table border="0" cellpadding="0" cellspacing="0" align="right" class="dateline-tbl">
-								<tr>
-									<td class="dateline" align="right">
-										Summer 2017
-									</td>
-								</tr>
-							</table>
-						</td>
-					</tr>
-					<!-- /dateline -->
 					<tr>
 						<td class="content-container" bgcolor="#ffffff">
 							<table border="0" width="100%" cellpadding="0" cellspacing="0" style="border-collapse:collapse;">
-								
 								<tr>
-									<td class="header2" valign="top">
-										Blurb re news site
+									<td class="dateline fallback-font1" valign="top">
+										November 2017
+									</td>
+								</tr>
+								<tr>
+									<td class="content" valign="top">
+										Check out more news about the Herbert Wertheim College of Engineering at our online news source, <a href="https://www.eng.ufl.edu/newengineer" target="_blank">The New Engineer.</a> 
 									</td>
 								</tr>
 							</table>
@@ -408,18 +388,19 @@
 									<td>
 										<table border="0" cellpadding="0" cellspacing="0" align="left" class="column-content">
 											<tr>
-												<td class="header3 alert">
-													<span style="border: 3px solid #fA4616;"><a href="http://www.cvent.com/events/gator-engineering-alumni-tailgate-reunion/event-summary-9f3022c1cccf4ef89a7d213e06656f43.aspx" title="Gator Engineering Alumni Reunion: Saturday, September 30, 2017" target="_blank">Register Now</a></span>
-												</td>
-											</tr>
-											<tr>
-												<td class="header4">
-													<a href="http://www.cvent.com/events/gator-engineering-alumni-tailgate-reunion/event-summary-9f3022c1cccf4ef89a7d213e06656f43.aspx" target="_blank"><img src="https://www.eng.ufl.edu/eblasts/newengineer/2017-summer/images/reunion.png" alt="Gator Engineering Alumni Reunion: Saturday, November 18, 2017" class="story-image" width="132" height="75" align="left" border="0" />Join us at the Gator Engineering Alumni Reunion: Saturday, November 18, 2017</a>
-												</td>
-											</tr>
-											<tr>
-												<td class="header3">
+												<td class="category fallback-font2">
 													<span><a href="https://www.eng.ufl.edu/newengineer/research-innovation/?utm_source=newsletter&utm_campaign=summer2017newsletter&utm_medium=email">Research &amp; Innovation</a></span>
+												</td>
+											</tr>
+											<tr>
+												<td class="content">
+													<a href="#" target="_blank"><img class="story-image" src="https://www.eng.ufl.edu/eblasts/newengineer/2017-fall-v2/images/fitz-coy.png" alt="Dr. Norman Fitz-Coy" border="0" width="270" height="180" style="border:none; outline:none;"></a>
+												</td>
+											</tr>
+											<tr>
+												<td class="h1 fallback-font2">
+													FITZ-COY FUNDED BY NASA AND AIR FORCE
+
 												</td>
 											</tr>
 											<tr>
