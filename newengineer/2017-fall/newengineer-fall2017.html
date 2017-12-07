@@ -7,51 +7,11 @@
 	<link rel='apple-touch-icon' href='https://www.eng.ufl.edu/wp-content/themes/ufl-template-responsive/apple-touch-icon.png'>
 	<link rel='shortcut icon' href='https://www.eng.ufl.edu/wp-content/themes/ufl-template-responsive/favicon.ico' />
 
+	<!--[if !mso]><!-- -->
 	<link href="https://www.eng.ufl.edu/fonts/css/gentona.css" rel="stylesheet" type="text/css">
 	<link href="https://www.eng.ufl.edu/fonts/css/quadon.css" rel="stylesheet" type="text/css">
+	<!--<![endif]-->
 
-	<style type="text/css">
-		@import url(https://www.eng.ufl.edu/fonts/css/gentona.css);
-		@import url(https://www.eng.ufl.edu/fonts/css/quadon.css);
-	  
-	 	@media screen {
-			@font-face {
-				font-family:'Gentona-Light';
-				src: url('https://www.eng.ufl.edu/fonts/gentona_light-webfont.eot');
-				src: url('https://www.eng.ufl.edu/fonts/gentona_light-webfont.eot?#iefix') format('embedded-opentype'),  
-					url('https://www.eng.ufl.edu/fonts/gentona_light-webfont.woff') format('woff'),  
-					url('https://www.eng.ufl.edu/fonts/gentona_light-webfont.ttf') format('truetype'),  
-					url('https://www.eng.ufl.edu/fonts/gentona_light-webfont.svg#Gentona-Light') format('svg');
-				font-weight:normal;
-				font-style:normal;
-			}
-			@font-face {
-				font-family: 'Gentona-Light';
-				src: url('https://www.eng.ufl.edu/fonts/gentona_light_italic-webfont.eot');
-				src: url('https://www.eng.ufl.edu/fonts/gentona_light_italic-webfont.woff') format('woff'), 
-					url('https://www.eng.ufl.edu/fonts/gentona_light_italic-webfont.ttf') format('truetype'), 
-					url('https://www.eng.ufl.edu/fonts/gentona_light_italic-webfont.svg#gentonalight_italic') format('svg');
-				font-weight: normal;
-				font-style: italic;
-			}
-			@font-face {
-				font-family: 'Gentona-Bold';
-				src: url('https://www.eng.ufl.edu/fonts/gentona_bold-webfont.eot');
-				src: url('https://www.eng.ufl.edu/fonts/gentona_bold-webfont.woff') format('woff'), 
-					url('https://www.eng.ufl.edu/fonts/gentona_bold-webfont.ttf') format('truetype'), 
-					url('https://www.eng.ufl.edu/fonts/gentona_bold-webfont.svg#gentonabold') format('svg');
-				font-weight: normal;
-				font-style: normal
-			}
-			@font-face{
-				font-family:'Quadon-ExtraBold';
-				font-style:normal;
-				src:local('Quadon-ExtraBold'),
-				local('Quadon-ExtraBold'),
-				url('https://www.eng.ufl.edu/fonts/quadon_extrabold-webfont.woff')format('woff');
-			}
-		}
-	 </style>   
 	<style type="text/css">
 
 		/* style rules */
@@ -74,11 +34,12 @@
 			width: 600px; 
 			border-collapse:collapse;
 		}
-		.preheader {
-			padding-top: 9px;
-			font-family:'Gentona-Light', Helvetica, Arial, sans-serif;
-			font-size:10px; 
-			text-transform:uppercase;
+		div.visually-hidden {
+			font-size:1px;
+			line-height:1px;
+			max-height:0px;
+			max-width:0px;
+			opacity:0;
 		}
 		.content-container {
 			padding: 0px 20px 15px 20px;
@@ -132,27 +93,29 @@
 			line-height:18px;
 			color:#404040;	
 		}
-		td.category {
+		td.category-container {
 			text-align:left;
 			padding:10px 0px 0px 0px;
-			color:#7F7F7F;
-			
 		}
 		table.category {
 			font-family: 'Gentona-Bold', Helvetica, Arial, sans-serif;
+			border: 3px solid #d5d5d5;
+			display: inline-block;
+			height: auto;
+		}
+		table.category td {
+			padding: 7px 10px;
+			color:#7f7f7f; 
+			font-family: 'Gentona-Bold', Arial, sans-serif; 
 			letter-spacing: 2px;
 			font-size: 14px!important;
 			line-height: 14px!important;
 			mso-font-alt: 'Arial';
 			text-transform: uppercase;
-			border: 3px solid #d5d5d5;
-			display: inline-block;
-			height: auto; 
-			letter-spacing:2px;
-			color:#7f7f7f;
-		}
-		table.category td {
-			padding: 7px 10px;
+			padding-top:7px; 
+			padding-right:10px; 
+			padding-bottom:7px; 
+			padding-left:10px; 
 		}
 		table.category a {
 			text-decoration: none;
@@ -210,18 +173,25 @@
 		}
 
 		.button {
-			font-family:'Gentona-Light', Helvetica, Arial, sans-serif;
+			/*font-family:'Gentona-Light', Helvetica, Arial, sans-serif;
 			letter-spacing: 1px;
 			line-height:20px;
 			font-size: 16px;
 			text-transform:uppercase;
-			background-color: #fA4616; 
-			border-top: 3px solid #fA4616; 
-			border-bottom: 3px solid #fA4616; 
-			border-right: 15px solid #fA4616; 
-			border-left: 21px solid #fA4616; 
 			display: inline-block;
 			height:auto;
+*/
+			display: inline-block;
+			background-color: #fA4616;
+		}
+		.button td {
+			color:#ffffff; 
+			font-family: 'Gentona-Light', Helvetica, Arial, sans-serif; 
+			letter-spacing: 1px;
+			line-height:20px;
+			font-size: 16px;
+			padding:4px 15px; 
+			letter-spacing:1px;
 		}
 		.button a:link, .button a:active, .button a:visited {
 			color:#ffffff;
@@ -306,7 +276,7 @@
 				max-width:600px !important;
 				width:100% !important;
 			}
-			.story-image, .button {
+			.story-image {
 				height:auto !important;
 				max-width: 420px !important;
 				width:100% !important;
@@ -318,28 +288,15 @@
 		 }
 
 	</style>
-	<!--[if gte mso 9]><xml><o:OfficeDocumentSettings><o:AllowPNG/><o:PixelsPerInch>96</o:PixelsPerInch></o:OfficeDocumentSettings></xml><![endif]-->
-	<!--[if mso]>
-		<style type="text/css">
-			.fallback-font1 {
-			font-family: Georgia, serif !important;
-			letter-spacing:0 !important;
-			}
-			.fallback-font2 {
-				font-family: Helvetica, Arial, sans-serif !important;
-				letter-spacing:0 !important;
-			}
-		</style>
-	<![endif]-->
 </head> 
-<body bgcolor="#eeeeee" style="margin:0; padding:0;">	
+<body bgcolor="#eeeeee" style="margin:0; padding:0;">
+	<div class="visually-hidden" style="color:#eeeeee;">
+		Preview text (displays after the subject line in the viewer's inbox)
+	</div>		
 	<table border="0" width="100%" cellpadding="0" cellspacing="0">
 		<tr>
 			<td bgcolor="#eeeeee" align="center">
-				<table border="0" align="center" cellpadding="0" cellspacing="0" class="container-table">
-					<tr>
-						<td class="preheader" bgcolor="#eeeeee" align="right">&nbsp;</td>
-					</tr>
+				<table border="0" align="center" cellpadding="0" cellspacing="0" class="container-table" style="font-family:Arial, Helvetica, sans-serif; font-size:16px;">
 					<tr>
 						<td class="img">
 							<a href="https://www.eng.ufl.edu/newengineer/?utm_source=newsletter&utm_campaign=fall2017newsletter&utm_medium=email" title="Herbert Wertheim College of Engineering" target="_blank"><img src="https://www.eng.ufl.edu/eblasts/newengineer/images/newengineer-header-v2.png" width="600" height="205" border="0" align="left" class="header-image" alt="The New Engineer | News from Herbert Wertheim College of Engineering" /></a>
@@ -349,12 +306,12 @@
 						<td class="content-container" bgcolor="#ffffff">
 							<table border="0" width="100%" cellpadding="0" cellspacing="0" style="border-collapse:collapse;">
 								<tr>
-									<td class="dateline fallback-font1" valign="top">
+									<td class="dateline" valign="top">
 										December 2017
 									</td>
 								</tr>
 								<tr>
-									<td class="body fallback-font2" valign="top">
+									<td class="body" valign="top">
 										Check out more news about the Herbert Wertheim College of Engineering at our online news source, <a href="https://www.eng.ufl.edu/newengineer" target="_blank">The New Engineer.</a> 
 									</td>
 								</tr>
@@ -368,10 +325,10 @@
 									<td>
 										<table border="0" cellpadding="0" cellspacing="0" align="left" class="column-content">
 											<tr>
-												<td class="category">
-													<table class="category fallback-font2" border="0" cellspacing="0" cellpadding="0">
+												<td class="category-container">
+													<table class="category" border="0" cellspacing="0" cellpadding="0">
 														<tr>
-															<td align="center" class="fallback-font2">
+															<td align="center" valign="middle">
 																<a href="https://www.eng.ufl.edu/newengineer/research-innovation/?utm_source=newsletter&utm_campaign=fall2017newsletter&utm_medium=email">RESEARCH &AMP; INNOVATION</a>
 															</td>
 														</tr>
@@ -384,22 +341,22 @@
 												</td>
 											</tr>
 											<tr>
-												<td class="h1 fallback-font2">
+												<td class="h1">
 													Fitz-Coy Funded by NASA and Air Force
 												</td>
 											</tr>
 											<tr>
-												<td class="body fallback-font2">
+												<td class="body">
 													Norman Fitz-Coy (MAE) was funded by NASA and the Air Force for a <a href="#" target="_blank"><strong>5-year, $3M project</strong></a> to characterize the debris fragments from the DebriSat and DebrisLV laboratory hypervelocity impact (HVI) experiments. The research will generate critical data required to improve existing spacecraft breakup models used in the assessment and prediction of the orbital debris environment. The ability to accurately predict the orbital debris population in low earth orbit is one of the critical components in space traffic management.  
 												</td>
 											</tr>
 										</table>
 										<table border="0" cellpadding="0" cellspacing="0" align="right" class="column-content">
 											<tr>
-												<td class="category">
-													<table class="category fallback-font2" border="0" cellspacing="0" cellpadding="0">
+												<td class="category-container">
+													<table class="category" border="0" cellspacing="0" cellpadding="0">
 														<tr>
-															<td align="center" class="fallback-font2">
+															<td align="center" valign="middle">
 																<a href="https://www.eng.ufl.edu/newengineer/research-innovation/?utm_source=newsletter&utm_campaign=fall2017newsletter&utm_medium=email">ALUMNI SPOTLIGHT</a>
 															</td>
 														</tr>
@@ -412,12 +369,12 @@
 												</td>
 											</tr>
 											<tr>
-												<td class="h1 fallback-font2">
+												<td class="h1">
 													Discover CEO David Nelms Speaks to ELI Students
 												</td>
 											</tr>
 											<tr>
-												<td class="body fallback-font2">
+												<td class="body">
 													David Nelms, Discover Finance CEO and UF MAE alumnus, visited campus to speak to Engineering Leadership Institute students. He met with ECE and CISE faculty in the <a href="https://www.eng.ufl.edu/newengineer/research-innovation/welcome-secure-connected-future/" target="_blank"><strong>Warren B. Nelms Institute for the Connected World</strong></a> to discuss the latest trends in the Internet of Things. 
 												</td>
 											</tr>
@@ -431,10 +388,10 @@
 									<td>
 										<table border="0" cellpadding="0" cellspacing="0" align="left" class="column-content">
 											<tr>
-												<td class="category">
-													<table class="category fallback-font2" border="0" cellspacing="0" cellpadding="0">
+												<td class="category-container">
+													<table class="category" border="0" cellspacing="0" cellpadding="0">
 														<tr>
-															<td align="center" class="fallback-font2">
+															<td align="center" valign="middle">
 																<a href="https://www.eng.ufl.edu/newengineer/research-innovation/?utm_source=newsletter&utm_campaign=fall2017newsletter&utm_medium=email">RESEARCH &AMP; INNOVATION</a>
 															</td>
 														</tr>
@@ -447,22 +404,22 @@
 												</td>
 											</tr>
 											<tr>
-												<td class="h1 fallback-font2">
+												<td class="h1">
 													Keselowsky and Hudalla Awarded NIH Grant
 												</td>
 											</tr>
 											<tr>
-												<td class="body fallback-font2">
+												<td class="body">
 													Benjamin Keselowsky and Gregory Hudalla, BME, <a href="http://bme.ufl.edu/node/2032" target="_blank"><strong>were awarded a $2.1 million NIH grant</strong></a> to develop a new approach of administering enzymes to locally shut down the inflammation associated with periodontal infection. 
 												</td>
 											</tr>
 										</table>
 										<table border="0" cellpadding="0" cellspacing="0" align="right" class="column-content">
 											<tr>
-												<td class="category">
-													<table class="category fallback-font2" border="0" cellspacing="0" cellpadding="0">
+												<td class="category-container">
+													<table class="category" border="0" cellspacing="0" cellpadding="0">
 														<tr>
-															<td align="center" class="fallback-font2">
+															<td align="center" valign="middle">
 																<a href="https://www.eng.ufl.edu/newengineer/research-innovation/?utm_source=newsletter&utm_campaign=fall2017newsletter&utm_medium=email">STUDENT SPOTLIGHT</a>
 															</td>
 														</tr>
@@ -475,12 +432,12 @@
 												</td>
 											</tr>
 											<tr>
-												<td class="h1 fallback-font2">
+												<td class="h1">
 													Ojika Awarded $20K Research Award
 												</td>
 											</tr>
 											<tr>
-												<td class="body fallback-font2">
+												<td class="body">
 													David Ojika, ECE, <a href="https://www.ece.ufl.edu/news/david-ojika-awarded-20k-research-award-microsoft" target="_blank"><strong>was awarded a $20K Microsoft Azure Research Award.</strong></a> He is currently an intern at Microsoft, working in the company’s research and AI group. 
 												</td>
 											</tr>
@@ -493,10 +450,10 @@
 									<td>
 										<table border="0" cellpadding="0" cellspacing="0" align="left" class="column-content">
 											<tr>
-												<td class="category">
-													<table class="category fallback-font2" border="0" cellspacing="0" cellpadding="0">
+												<td class="category-container">
+													<table class="category" border="0" cellspacing="0" cellpadding="0">
 														<tr>
-															<td align="center" class="fallback-font2">
+															<td align="center" valign="middle">
 																<a href="https://www.eng.ufl.edu/newengineer/research-innovation/?utm_source=newsletter&utm_campaign=fall2017newsletter&utm_medium=email">IN THE HEADLINES</a>
 															</td>
 														</tr>
@@ -509,22 +466,22 @@
 												</td>
 											</tr>
 											<tr>
-												<td class="h1 fallback-font2">
+												<td class="h1">
 													Governments, Car Companies Must Resolve Their Competing Goals for Self-Driving Cars
 												</td>
 											</tr>
 											<tr>
-												<td class="body fallback-font2">
+												<td class="body">
 													Lily Elefteriadou, UFTI and ESSIE, <a href="https://www.eng.ufl.edu/newengineer/news/governments-car-companies-must-resolve-their-competing-goals-for-self-driving-cars/" target="_blank"><strong>was featured in the Conversation,</strong></a> an AP-affiliated academic journalist-targeted news website.
 												</td>
 											</tr>
 										</table>
 										<table border="0" cellpadding="0" cellspacing="0" align="right" class="column-content">
 											<tr>
-												<td class="category">
-													<table class="category fallback-font2" border="0" cellspacing="0" cellpadding="0">
+												<td class="category-container">
+													<table class="category" border="0" cellspacing="0" cellpadding="0">
 														<tr>
-															<td align="center" class="fallback-font2">
+															<td align="center" valign="middle">
 																<a href="https://www.eng.ufl.edu/newengineer/research-innovation/?utm_source=newsletter&utm_campaign=fall2017newsletter&utm_medium=email">STUDENT SPOTLIGHT</a>
 															</td>
 														</tr>
@@ -537,12 +494,12 @@
 												</td>
 											</tr>
 											<tr>
-												<td class="h1 fallback-font2">
+												<td class="h1">
 													Three UF Students Receive WTS Scholarships
 												</td>
 											</tr>
 											<tr>
-												<td class="body fallback-font2">
+												<td class="body">
 													Deja Jackson, Yantong Chen and Kelly Ward, ESSIE, <a href="http://www.transportation.institute.ufl.edu/2017/10/three-uf-students-receive-wts-scholarships/" target="_blank"><strong>received scholarships from the Women&rsquo;s Transportation Seminar WTS Advancing Women in Transportation.</strong></a> Jackson is the first African American to receive this scholarship. She also serves as the president of the WTS Florida Gator Student Chapter.
 												</td>
 											</tr>
@@ -557,48 +514,39 @@
 						<td class="content-container" bgcolor="#ffffff">
 							<table border="0" width="100%" cellpadding="0" cellspacing="0" style="border-collapse:collapse;">
 								<tr>
-									<td class="h2 fallback-font1" align="center">
+									<td class="h2" align="center">
 										CONNECT WITH US
 									</td>
 								</tr>
 								<tr>
-									<td class="body fallback-font2">
+									<td class="body">
 										<table border="0" cellpadding="0" cellspacing="0" align="left" class="column-content">
-
 											<tr>
-												<td style="padding-top:15px; padding-bottom: 20px;">
-													<table width="100%" border="0" cellspacing="0" cellpadding="0">
+												<td align="center" style="padding-top:15px; padding-bottom: 20px;">
+													<!-- Start Button -->
+													<table class="button" border="0" cellpadding="0" cellspacing="0">
 														<tr>
-															<td align="center">
-																<table border="0" cellspacing="0" cellpadding="0" class="button">
-																	<tr>
-																		<td align="center" class="fallback-font2">
-																			<a href="https://www.eng.ufl.edu/alumni-giving/contact/update-info/" target="_blank" style="color:#FFFFFF;">Update Your Information</a>
-																		</td>
-																	</tr>
-																</table>
+															<td align="center" valign="middle">
+															<a href="https://www.eng.ufl.edu/alumni-giving/contact/update-info/" target="_blank" style="color:#FFFFFF; text-decoration: none;">UPDATE YOUR INFORMATION <img src="https://www.eng.ufl.edu/eblasts/newengineer/images/arrow-right.png" width="10" height="14" border="0" /></a>
 															</td>
 														</tr>
 													</table>
+													<!-- End Button -->
 												</td>
 											</tr>
 										</table>
 										<table border="0" cellpadding="0" cellspacing="0" align="right" class="column-content">
 											<tr>
-												<td style="padding-top:15px; padding-bottom: 20px;">
-													<table width="100%" border="0" cellspacing="0" cellpadding="0">
+												<td align="center" style="padding-top:15px; padding-bottom: 20px;">
+													<!-- Start Button -->
+													<table class="button" border="0" cellpadding="0" cellspacing="0">
 														<tr>
-															<td align="center">
-																<table border="0" cellspacing="0" cellpadding="0" class="button">
-																	<tr>
-																		<td align="center" class="fallback-font2">
-																			<a href="https://www.eng.ufl.edu/alumni-giving/events/" target="_blank" style="color:#FFFFFF;">See Upcoming Events</a>
-																		</td>
-																	</tr>
-																</table>
+															<td align="center" valign="middle">
+															<a href="https://www.eng.ufl.edu/alumni-giving/events/" target="_blank" style="color:#FFFFFF; text-decoration: none;">SEE UPCOMING EVENTS <img src="https://www.eng.ufl.edu/eblasts/newengineer/images/arrow-right.png" width="10" height="14" border="0" /></a>
 															</td>
 														</tr>
 													</table>
+													<!-- End Button -->
 												</td>
 											</tr>
 										</table>
@@ -612,39 +560,32 @@
 						<td class="content-container" bgcolor="#dcdcdc">
 							<table border="0" width="100%" cellpadding="0" cellspacing="0" style="border-collapse:collapse;">
 								<tr>
-									<td class="h2 fallback-font1" align="center">
+									<td class="h2" align="center">
 										POWERING THE NEW ENGINEER TO TRANSFORM THE FUTURE
 									</td>
 								</tr>
 								<tr>
-									<td class="body fallback-font2">
+									<td class="body">
 										With a $50 million catalyst gift from Dr. Herbert &amp; Nicole Wertheim and the Dr. Herbert &amp; Nicole Wertheim Family Foundation, the college has embarked on a $300 million public-private partnership that will leverage support from the state, the university and from private donors, resulting in the biggest <a href="https://www.eng.ufl.edu/about/transformation/?utm_source=newsletter&utm_campaign=fall2017newsletter&utm_medium=email">transformation</a> in our 105-year history.
 									</td>
 								</tr>
 								<tr>
-									<td class="h3 fallback-font1" align="center">
+									<td class="h3" align="center">
 										How will you transform the future?
 									</td>
 								</tr>
 								<tr>
-									<td style="padding-top:15px; padding-bottom: 20px;">
-										<table width="100%" border="0" cellspacing="0" cellpadding="0">
+									<td align="center" style="padding-top:15px; padding-bottom: 20px;">
+										<!-- Start Button -->
+										<table class="button" border="0" cellpadding="0" cellspacing="0">
 											<tr>
-												<td align="center">
-													<table border="0" cellspacing="0" cellpadding="0" class="button">
-														<tr>
-															<td align="center" class="fallback-font2">
-																<a href="https://www.uff.ufl.edu/OnlineGiving/FundDetail.asp?FundCode=018435" target="_blank" style="color:#FFFFFF;">Give Now</a>
-															</td>
-															<td width="30" align="right" valign="middle">
-																<a href="https://www.uff.ufl.edu/OnlineGiving/FundDetail.asp?FundCode=018435" target="_blank"><img src="https://www.eng.ufl.edu/eblasts/templates/images/arrow-wht.png" width="30" height="30" border="0" alt="" align="right" valign="middle" /></a>
-															</td>
-														</tr>
-													</table>
+												<td align="center" valign="middle">
+												<a href="https://www.uff.ufl.edu/OnlineGiving/FundDetail.asp?FundCode=018435" target="_blank" style="color:#FFFFFF; text-decoration: none;">GIVE NOW <img src="https://www.eng.ufl.edu/eblasts/newengineer/images/arrow-right.png" width="10" height="14" border="0" /></a>
 												</td>
 											</tr>
-											
 										</table>
+										<!-- End Button -->
+										
 									</td>
 								</tr>
 								
@@ -655,7 +596,7 @@
 			</td>
 		</tr>
 		<tr>
-			<td class="postfooter fallback-font2" bgcolor="#7f7f7f" align="center">
+			<td class="postfooter" bgcolor="#7f7f7f" align="center">
 				<table border="0" align="center" cellpadding="0" cellspacing="0" class="container-table">
 					<tr>
 						<td class="footer-content" align="center">
@@ -668,7 +609,7 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="footer-content fallback-font2" align="center" valign="middle" style="padding:20px 0 0 0;"><img width="280" height="77" alt="UF Herbert Wertheim College of Engineering" border="0" style="border:none; outline:none; text-decoration:none;padding:0px; margin:0px" src="https://www.eng.ufl.edu/eblasts/newengineer/images/hwcoe-email-monogram-wht.png"></td>
+						<td class="footer-content" align="center" valign="middle" style="padding:20px 0 0 0;"><img width="280" height="77" alt="UF Herbert Wertheim College of Engineering" border="0" style="border:none; outline:none; text-decoration:none;padding:0px; margin:0px" src="https://www.eng.ufl.edu/eblasts/newengineer/images/hwcoe-email-monogram-wht.png"></td>
 					</tr>
 					<tr>
 						<td class="footer-content" align="center">
@@ -679,12 +620,12 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="footer-content fallback-font2" align="center">
+						<td class="footer-content" align="center">
 							<a href="%%view_email_url%%">View this email in your browser</a>
 						</td>
 					</tr>
 					<tr>
-						<td class="footer-content fallback-font2" align="center">
+						<td class="footer-content" align="center">
 							You are receiving this email because you opted in at <a href="https://www.eng.ufl.edu">our website</a> or because you are affiliated with Herbert Wertheim College of Engineering.
 							<p><a href="%%subscription_center_url%%" alias="Manage Subscriptions">Unsubscribe/manage subscriptions</a> &bull; <a href="%%profile_center_url%%" alias="Manage profile">Manage your profile</a></p>
 						</td>
