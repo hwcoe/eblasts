@@ -79,6 +79,16 @@
 			line-height:24px!important;
 			text-align:left!important;
 		}
+		.h2 {
+			padding: 24px 0px 9px 0px;
+			color:#00529b;
+			font-size: 28px;
+			line-height:32px;
+			font-weight: 700;
+			font-family:'Quadon-ExtraBold', Georgia, serif!important; 
+			text-transform:uppercase!important; 
+			letter-spacing:2px!important;
+		}
 		.h3 {
 			font-family:'Quadon-ExtraBold', Georgia, serif!important; 
 			letter-spacing:2px!important; 
@@ -121,31 +131,9 @@
 		table.category a {
 			text-decoration: none;
 		}
-	 
-		.h2 {
-			padding: 24px 0px 9px 0px;
-			color:#00529b;
-			font-size: 28px;
-			line-height:32px;
-			font-weight: 700;
-
-			font-family:'Quadon-ExtraBold', Georgia, serif!important; 
-			text-transform:uppercase!important; 
-			letter-spacing:2px!important;
-		}
-
-		td.lead {
-			font-family:'Gentona-Light', Helvetica, Arial, sans-serif;
-			padding: 0px;
-			font-size:14px;
-			line-height:18px;
-			font-style:italic;
-			color:#404040;	
-		}
 		.body a:link, .body a:active, .body a:visited,
 		.h1 a:link, .h1 a:active, .h1 a:visited,
 		.h2 a:link, .h2 a:active, .h2 a:visited,
-		.caption a:link, .caption a:active, .caption a:visited,
 		.h4 a:link, .h4 a:active, .h4 a:visited {
 			color:#00529b;
 		}
@@ -153,17 +141,17 @@
 		.category a:link, .category a:active, .category a:visited {
 			color:#7F7F7F;
 		}	
-		.body a:hover, .caption a:hover, .h2 a:hover, .h3 a:hover, .h4 a:hover {
+		.body a:hover, .h2 a:hover, .h3 a:hover, .h4 a:hover {
 			text-decoration: underline;
 		}
 		.alert, .alert a:link, .alert a:active, .alert a:visited {
 			color:#fA4616;
 		}
 		.left-column-content {
-			width:270px;
+			width:280px;
 		}
 		.right-column-content {
-			width:270px;
+			width:260px;
 		}
 		.column-content {
 			width:270px;
@@ -172,18 +160,10 @@
 			max-width:270px;
 			height:auto;
 		}
-
 		.button {
-			/*font-family:'Gentona-Light', Helvetica, Arial, sans-serif;
-			letter-spacing: 1px;
-			line-height:20px;
-			font-size: 16px;
-			text-transform:uppercase;
-*/
 			display: inline-block;
 			height: auto;
 			background-color: #fA4616;
-
 		}
 		.button td {
 			color:#ffffff; 
@@ -195,6 +175,25 @@
 		}
 		.button a:link, .button a:active, .button a:visited {
 			color:#ffffff;
+			text-decoration: none;
+		}
+		.ghostbutton {
+			display: inline-block;
+			height: auto;
+			background-color: #fA4616;
+			background-color: #ffffff;
+			border: 2px solid #fA4616;
+		}
+		.ghostbutton td {
+			color: #fA4616;
+			font-family: 'Gentona-Bold', Helvetica, Arial, sans-serif; 
+			line-height:20px;
+			font-size: 14px;
+			padding:2px 12px; 
+			letter-spacing:1px;
+		}
+		.ghostbutton a:link, .ghostbutton a:active, .ghostbutton a:visited {
+			color:#fA4616;
 			text-decoration: none;
 		}
 		.footer {
@@ -246,18 +245,12 @@
 				max-width: 600px !important;
 				width:100% !important;
 			}
-			.preheader {
-				text-align: center;
-			}
-			.body, .caption {
+			.body {
 				max-width:600px !important;
 				width:100% !important;
 				font-size:14px;
 				line-height:20px;
 				padding-right:0 !important;
-			}
-			.caption {
-				padding-bottom:10px;
 			}
 			.h2, .h3, .h4 {
 				font-size:14px;
@@ -281,6 +274,9 @@
 				max-width: 420px !important;
 				width:100% !important;
 			}
+			td.category-container {
+				padding:20px 0px 0px 0px;
+			}
 			.footer-content {
 				font-size:14px !important;
 				line-height:24px !important;
@@ -291,7 +287,7 @@
 </head> 
 <body bgcolor="#eeeeee" style="margin:0; padding:0;">
 	<div class="visually-hidden" style="color: #eeeeee;font-size: 1px;line-height: 1px;max-height: 0px;max-width: 0px;opacity: 0;">
-		Preview text (displays after the subject line in the viewer's inbox)
+		News from Herbert Wertheim College of Engineering &bull; December 2017
 	</div>		
 	<table border="0" width="100%" cellpadding="0" cellspacing="0">
 		<tr>
@@ -312,7 +308,7 @@
 								</tr>
 								<tr>
 									<td class="body" valign="top" style="padding-top: 0;padding-left: 0;padding-bottom: 0;padding-right: 0;font-family: 'Gentona-Light', Helvetica, Arial, sans-serif;padding: 9px 0px;font-size: 14px;line-height: 18px;color: #404040;">
-										Check out more news about the Herbert Wertheim College of Engineering at our online news source, <a href="https://www.eng.ufl.edu/newengineer" target="_blank" style="color: #00529b;">The New Engineer.</a> 
+										Check out more news about the Herbert Wertheim College of Engineering at our online news source, <a href="https://www.eng.ufl.edu/newengineer/?utm_source=newsletter&utm_campaign=fall2017newsletter&utm_medium=email" target="_blank" style="color: #00529b;">The New Engineer.</a> 
 									</td>
 								</tr>
 							</table>
@@ -357,7 +353,7 @@
 													<table class="category" border="0" cellspacing="0" cellpadding="0" style="font-family: 'Gentona-Bold', Helvetica, Arial, sans-serif;border: 3px solid #d5d5d5;display: inline-block;height: auto;">
 														<tr>
 															<td align="center" valign="middle" style="padding-top: 7px;padding-left: 10px;padding-bottom: 7px;padding-right: 10px;color: #7f7f7f;font-family: 'Gentona-Bold', Arial, sans-serif;mso-font-alt: 'Arial';text-transform: uppercase;letter-spacing: 1px;padding: 4px 10px !important;font-size: 14px!important;line-height: 14px!important;">
-																<a href="https://www.eng.ufl.edu/newengineer/research-innovation/?utm_source=newsletter&utm_campaign=fall2017newsletter&utm_medium=email" style="text-decoration: none;color: #7F7F7F;">ALUMNI SPOTLIGHT</a>
+																<a href="https://www.eng.ufl.edu/newengineer/alumni-spotlight/?utm_source=newsletter&utm_campaign=fall2017newsletter&utm_medium=email" style="text-decoration: none;color: #7F7F7F;">ALUMNI SPOTLIGHT</a>
 															</td>
 														</tr>
 													</table>
@@ -365,7 +361,7 @@
 											</tr>
 											<tr>
 												<td class="body" style="padding-top: 0;padding-left: 0;padding-bottom: 0;padding-right: 0;font-family: 'Gentona-Light', Helvetica, Arial, sans-serif;padding: 9px 0px;font-size: 14px;line-height: 18px;color: #404040;">
-													<a href="#" target="_blank" style="color: #00529b;"><img class="story-image" src="https://www.eng.ufl.edu/eblasts/newengineer/2017-fall/images/nelms.png" alt="David Nelms" border="0" width="270" height="180" style="border: none;outline: none;height: auto;max-width: 270px;"></a>
+													<img class="story-image" src="https://www.eng.ufl.edu/eblasts/newengineer/2017-fall/images/nelms.png" alt="David Nelms" border="0" width="270" height="180" style="border: none;outline: none;height: auto;max-width: 270px;">
 												</td>
 											</tr>
 											<tr>
@@ -375,7 +371,7 @@
 											</tr>
 											<tr>
 												<td class="body" style="padding-top: 0;padding-left: 0;padding-bottom: 0;padding-right: 0;font-family: 'Gentona-Light', Helvetica, Arial, sans-serif;padding: 9px 0px;font-size: 14px;line-height: 18px;color: #404040;">
-													David Nelms, Discover Finance CEO and UF MAE alumnus, visited campus to speak to Engineering Leadership Institute students. He met with ECE and CISE faculty in the <a href="https://www.eng.ufl.edu/newengineer/research-innovation/welcome-secure-connected-future/" target="_blank" style="color: #00529b;"><strong>Warren B. Nelms Institute for the Connected World</strong></a> to discuss the latest trends in the Internet of Things. 
+													David Nelms, Discover Finance CEO and UF MAE alumnus, visited campus to speak to Engineering Leadership Institute students. He met with ECE and CISE faculty in the <a href="https://www.eng.ufl.edu/newengineer/research-innovation/welcome-secure-connected-future/?utm_source=newsletter&utm_campaign=fall2017newsletter&utm_medium=email" target="_blank" style="color: #00529b;"><strong>Warren B. Nelms Institute for the Connected World</strong></a> to discuss the latest trends in the Internet of Things. 
 												</td>
 											</tr>
 											
@@ -420,7 +416,7 @@
 													<table class="category" border="0" cellspacing="0" cellpadding="0" style="font-family: 'Gentona-Bold', Helvetica, Arial, sans-serif;border: 3px solid #d5d5d5;display: inline-block;height: auto;">
 														<tr>
 															<td align="center" valign="middle" style="padding-top: 7px;padding-left: 10px;padding-bottom: 7px;padding-right: 10px;color: #7f7f7f;font-family: 'Gentona-Bold', Arial, sans-serif;mso-font-alt: 'Arial';text-transform: uppercase;letter-spacing: 1px;padding: 4px 10px !important;font-size: 14px!important;line-height: 14px!important;">
-																<a href="https://www.eng.ufl.edu/newengineer/research-innovation/?utm_source=newsletter&utm_campaign=fall2017newsletter&utm_medium=email" style="text-decoration: none;color: #7F7F7F;">STUDENT SPOTLIGHT</a>
+																<a href="https://www.eng.ufl.edu/newengineer/engineering-education/?utm_source=newsletter&utm_campaign=fall2017newsletter&utm_medium=email" style="text-decoration: none;color: #7F7F7F;">STUDENT SPOTLIGHT</a>
 															</td>
 														</tr>
 													</table>
@@ -428,7 +424,7 @@
 											</tr>
 											<tr>
 												<td class="body" style="padding-top: 0;padding-left: 0;padding-bottom: 0;padding-right: 0;font-family: 'Gentona-Light', Helvetica, Arial, sans-serif;padding: 9px 0px;font-size: 14px;line-height: 18px;color: #404040;">
-													<a href="#" target="_blank" style="color: #00529b;"><img class="story-image" src="https://www.eng.ufl.edu/eblasts/newengineer/2017-fall/images/ojika.png" alt="David Ojika" border="0" width="270" height="180" style="border: none;outline: none;height: auto;max-width: 270px;"></a>
+													<a href="https://www.ece.ufl.edu/news/david-ojika-awarded-20k-research-award-microsoft" target="_blank" style="color: #00529b;"><img class="story-image" src="https://www.eng.ufl.edu/eblasts/newengineer/2017-fall/images/ojika.png" alt="David Ojika" border="0" width="270" height="180" style="border: none;outline: none;height: auto;max-width: 270px;"></a>
 												</td>
 											</tr>
 											<tr>
@@ -454,7 +450,7 @@
 													<table class="category" border="0" cellspacing="0" cellpadding="0" style="font-family: 'Gentona-Bold', Helvetica, Arial, sans-serif;border: 3px solid #d5d5d5;display: inline-block;height: auto;">
 														<tr>
 															<td align="center" valign="middle" style="padding-top: 7px;padding-left: 10px;padding-bottom: 7px;padding-right: 10px;color: #7f7f7f;font-family: 'Gentona-Bold', Arial, sans-serif;mso-font-alt: 'Arial';text-transform: uppercase;letter-spacing: 1px;padding: 4px 10px !important;font-size: 14px!important;line-height: 14px!important;">
-																<a href="https://www.eng.ufl.edu/newengineer/research-innovation/?utm_source=newsletter&utm_campaign=fall2017newsletter&utm_medium=email" style="text-decoration: none;color: #7F7F7F;">IN THE HEADLINES</a>
+																<a href="https://www.eng.ufl.edu/newengineer/in-the-headlines/?utm_source=newsletter&utm_campaign=fall2017newsletter&utm_medium=email" style="text-decoration: none;color: #7F7F7F;">IN THE HEADLINES</a>
 															</td>
 														</tr>
 													</table>
@@ -462,7 +458,7 @@
 											</tr>
 											<tr>
 												<td class="body" style="padding-top: 0;padding-left: 0;padding-bottom: 0;padding-right: 0;font-family: 'Gentona-Light', Helvetica, Arial, sans-serif;padding: 9px 0px;font-size: 14px;line-height: 18px;color: #404040;">
-													<a href="#" target="_blank" style="color: #00529b;"><img class="story-image" src="https://www.eng.ufl.edu/eblasts/newengineer/2017-fall/images/elefteriadou.png" alt="Dr. Lily Elefteriadou" border="0" width="270" height="180" style="border: none;outline: none;height: auto;max-width: 270px;"></a>
+													<a href="https://www.eng.ufl.edu/newengineer/research-innovation/a-smart-city-where-self-driving-cars-traffic-lights-pedestrians-and-cyclists-all-talk-to-one-another/?utm_source=newsletter&utm_campaign=fall2017newsletter&utm_medium=email&utm_content=img" target="_blank" style="color: #00529b;"><img class="story-image" src="https://www.eng.ufl.edu/eblasts/newengineer/2017-fall/images/elefteriadou.png" alt="Dr. Lily Elefteriadou" border="0" width="270" height="180" style="border: none;outline: none;height: auto;max-width: 270px;"></a>
 												</td>
 											</tr>
 											<tr>
@@ -472,7 +468,7 @@
 											</tr>
 											<tr>
 												<td class="body" style="padding-top: 0;padding-left: 0;padding-bottom: 0;padding-right: 0;font-family: 'Gentona-Light', Helvetica, Arial, sans-serif;padding: 9px 0px;font-size: 14px;line-height: 18px;color: #404040;">
-													Lily Elefteriadou, UFTI and ESSIE, <a href="https://www.eng.ufl.edu/newengineer/news/governments-car-companies-must-resolve-their-competing-goals-for-self-driving-cars/" target="_blank" style="color: #00529b;"><strong>was featured in the Conversation,</strong></a> an AP-affiliated academic journalist-targeted news website.
+													Lily Elefteriadou, UFTI and ESSIE, <a href="https://www.eng.ufl.edu/newengineer/news/governments-car-companies-must-resolve-their-competing-goals-for-self-driving-cars/?utm_source=newsletter&utm_campaign=fall2017newsletter&utm_medium=email&utm_content=link" target="_blank" style="color: #00529b;"><strong>was featured in the Conversation,</strong></a> an AP-affiliated academic journalist-targeted news website.
 												</td>
 											</tr>
 										</table>
@@ -482,7 +478,7 @@
 													<table class="category" border="0" cellspacing="0" cellpadding="0" style="font-family: 'Gentona-Bold', Helvetica, Arial, sans-serif;border: 3px solid #d5d5d5;display: inline-block;height: auto;">
 														<tr>
 															<td align="center" valign="middle" style="padding-top: 7px;padding-left: 10px;padding-bottom: 7px;padding-right: 10px;color: #7f7f7f;font-family: 'Gentona-Bold', Arial, sans-serif;mso-font-alt: 'Arial';text-transform: uppercase;letter-spacing: 1px;padding: 4px 10px !important;font-size: 14px!important;line-height: 14px!important;">
-																<a href="https://www.eng.ufl.edu/newengineer/research-innovation/?utm_source=newsletter&utm_campaign=fall2017newsletter&utm_medium=email" style="text-decoration: none;color: #7F7F7F;">STUDENT SPOTLIGHT</a>
+																<a href="https://www.eng.ufl.edu/newengineer/engineering-education/?utm_source=newsletter&utm_campaign=fall2017newsletter&utm_medium=email" style="text-decoration: none;color: #7F7F7F;">STUDENT SPOTLIGHT</a>
 															</td>
 														</tr>
 													</table>
@@ -490,7 +486,7 @@
 											</tr>
 											<tr>
 												<td class="body" style="padding-top: 0;padding-left: 0;padding-bottom: 0;padding-right: 0;font-family: 'Gentona-Light', Helvetica, Arial, sans-serif;padding: 9px 0px;font-size: 14px;line-height: 18px;color: #404040;">
-													<a href="#" target="_blank" style="color: #00529b;"><img class="story-image" src="https://www.eng.ufl.edu/eblasts/newengineer/2017-fall/images/wts-scholarships.png" alt="WTS Logo" border="0" width="270" height="180" style="border: none;outline: none;height: auto;max-width: 270px;"></a>
+													<a href="http://www.transportation.institute.ufl.edu/2017/10/three-uf-students-receive-wts-scholarships/" target="_blank" style="color: #00529b;"><img class="story-image" src="https://www.eng.ufl.edu/eblasts/newengineer/2017-fall/images/wts-scholarships.png" alt="WTS Logo" border="0" width="270" height="180" style="border: none;outline: none;height: auto;max-width: 270px;"></a>
 												</td>
 											</tr>
 											<tr>
@@ -514,20 +510,41 @@
 						<td class="content-container" bgcolor="#ffffff" style="padding-top: 0;padding-left: 0;padding-bottom: 0;padding-right: 0;padding: 0px 20px 15px 20px;border-bottom: 2px solid #d5d5d5;">
 							<table border="0" width="100%" cellpadding="0" cellspacing="0" style="border-collapse:collapse;">
 								<tr>
-									<td class="h2" align="center" style="padding-top: 0;padding-left: 0;padding-bottom: 0;padding-right: 0;padding: 24px 0px 9px 0px;color: #00529b;font-size: 28px;line-height: 32px;font-weight: 700;font-family: 'Quadon-ExtraBold', Georgia, serif!important;text-transform: uppercase!important;letter-spacing: 2px!important;">
-										CONNECT WITH US
-									</td>
-								</tr>
-								<tr>
-									<td class="body" style="padding-top: 0;padding-left: 0;padding-bottom: 0;padding-right: 0;font-family: 'Gentona-Light', Helvetica, Arial, sans-serif;padding: 9px 0px;font-size: 14px;line-height: 18px;color: #404040;">
+									<td style="padding-top: 0;padding-left: 0;padding-bottom: 0;padding-right: 0;">
 										<table border="0" cellpadding="0" cellspacing="0" align="left" class="column-content" style="width: 270px;">
 											<tr>
-												<td align="center" style="padding-top: 15px;padding-bottom: 20px;padding-left: 0;padding-right: 0;">
-													<!-- Start Button -->
-													<table class="button" border="0" cellpadding="0" cellspacing="0" style="display: inline-block;height: auto;background-color: #fA4616;">
+												<td class="category-container" style="padding-top: 0;padding-left: 0;padding-bottom: 0;padding-right: 0;text-align: left;padding: 10px 0px 0px 0px;">
+													<table class="category" border="0" cellspacing="0" cellpadding="0" style="font-family: 'Gentona-Bold', Helvetica, Arial, sans-serif;border: 3px solid #d5d5d5;display: inline-block;height: auto;">
 														<tr>
-															<td align="center" valign="middle" style="padding-top: 0;padding-left: 0;padding-bottom: 0;padding-right: 0;color: #ffffff;font-family: 'Gentona-Light', Helvetica, Arial, sans-serif;line-height: 20px;font-size: 14px;padding: 4px 15px;letter-spacing: 1px;">
-															<a href="https://www.eng.ufl.edu/alumni-giving/contact/update-info/" target="_blank" style="color:#FFFFFF; text-decoration: none;">UPDATE YOUR INFORMATION <img src="https://www.eng.ufl.edu/eblasts/newengineer/images/arrow-right.png" width="10" height="14" border="0" style="height: auto;"></a>
+															<td align="center" valign="middle" style="padding-top: 7px;padding-left: 10px;padding-bottom: 7px;padding-right: 10px;color: #7f7f7f;font-family: 'Gentona-Bold', Arial, sans-serif;mso-font-alt: 'Arial';text-transform: uppercase;letter-spacing: 1px;padding: 4px 10px !important;font-size: 14px!important;line-height: 14px!important;">
+																<a href="https://www.eng.ufl.edu/alumni-giving/?utm_source=newsletter&utm_medium=email&utm_campaign=fall2017newsletter" style="text-decoration: none;color: #7F7F7F;">CONNECT WITH US</a>
+															</td>
+														</tr>
+													</table>
+												</td>
+											</tr>
+											<tr>
+												<td class="body" style="padding-top: 0;padding-left: 0;padding-bottom: 0;padding-right: 0;font-family: 'Gentona-Light', Helvetica, Arial, sans-serif;padding: 9px 0px;font-size: 14px;line-height: 18px;color: #404040;">
+													<a href="https://www.eng.ufl.edu/alumni-giving/contact/update-info/?utm_source=newsletter&utm_medium=email&utm_campaign=fall2017newsletter&utm_content=img" target="_blank" style="color: #00529b;"><img class="story-image" src="https://www.eng.ufl.edu/eblasts/newengineer/2017-fall/images/alumni-affairs.png" alt="Keep us in the loop!" border="0" width="270" height="180" style="border: none;outline: none;height: auto;max-width: 270px;"></a>
+												</td>
+											</tr>
+											<tr>
+												<td class="h1" style="padding-top: 0;padding-left: 0;padding-bottom: 0;padding-right: 0;font-family: 'Gentona-Light', Helvetica, Arial, sans-serif;color: #00529b;font-size: 20px!important;letter-spacing: 1px!important;line-height: 24px!important;text-align: left!important;">
+													Engineering Alumni Affairs
+												</td>
+											</tr>
+											<tr>
+												<td class="body" style="padding-top: 0;padding-left: 0;padding-bottom: 0;padding-right: 0;font-family: 'Gentona-Light', Helvetica, Arial, sans-serif;padding: 9px 0px;font-size: 14px;line-height: 18px;color: #404040;">
+													Do you want to become more involved as a Gator Engineering alum, get invitations to events, and keep up with the latest Gator Engineering and University of Florida news? Keep your connection up to date to make sure you receive our latest news, including invitations to events, and updates on all of our benefits and services.
+												</td>
+											</tr>
+											<tr>
+												<td class="body" style="padding-top: 0;padding-left: 0;padding-bottom: 0;padding-right: 0;font-family: 'Gentona-Light', Helvetica, Arial, sans-serif;padding: 9px 0px;font-size: 14px;line-height: 18px;color: #404040;">
+													<!-- Start Button -->
+													<table class="ghostbutton" border="0" cellpadding="0" cellspacing="0" style="display: inline-block;height: auto;background-color: #ffffff;border: 2px solid #fA4616;">
+														<tr>
+															<td align="center" valign="middle" style="padding-top: 0;padding-left: 0;padding-bottom: 0;padding-right: 0;color: #fA4616;font-family: 'Gentona-Bold', Helvetica, Arial, sans-serif;line-height: 20px;font-size: 14px;padding: 2px 12px;letter-spacing: 1px;">
+															<a href="https://www.eng.ufl.edu/alumni-giving/contact/update-info/?utm_source=newsletter&utm_medium=email&utm_campaign=fall2017newsletter&utm_content=button" target="_blank" style="color:#fa4616; text-decoration: none;">UPDATE YOUR INFORMATION <img src="https://www.eng.ufl.edu/eblasts/newengineer/images/arrow-right-orange.png" width="10" height="14" border="0" style="height: auto;"></a>
 															</td>
 														</tr>
 													</table>
@@ -537,12 +554,38 @@
 										</table>
 										<table border="0" cellpadding="0" cellspacing="0" align="right" class="column-content" style="width: 270px;">
 											<tr>
-												<td align="center" style="padding-top: 15px;padding-bottom: 20px;padding-left: 0;padding-right: 0;">
-													<!-- Start Button -->
-													<table class="button" border="0" cellpadding="0" cellspacing="0" style="display: inline-block;height: auto;background-color: #fA4616;">
+												<td class="category-container" style="padding-top: 0;padding-left: 0;padding-bottom: 0;padding-right: 0;text-align: left;padding: 10px 0px 0px 0px;">
+													<table class="category" border="0" cellspacing="0" cellpadding="0" style="font-family: 'Gentona-Bold', Helvetica, Arial, sans-serif;border: 3px solid #d5d5d5;display: inline-block;height: auto;">
 														<tr>
-															<td align="center" valign="middle" style="padding-top: 0;padding-left: 0;padding-bottom: 0;padding-right: 0;color: #ffffff;font-family: 'Gentona-Light', Helvetica, Arial, sans-serif;line-height: 20px;font-size: 14px;padding: 4px 15px;letter-spacing: 1px;">
-															<a href="https://www.eng.ufl.edu/alumni-giving/events/" target="_blank" style="color:#FFFFFF; text-decoration: none;">SEE UPCOMING EVENTS <img src="https://www.eng.ufl.edu/eblasts/newengineer/images/arrow-right.png" width="10" height="14" border="0" style="height: auto;"></a>
+															<td align="center" valign="middle" style="padding-top: 7px;padding-left: 10px;padding-bottom: 7px;padding-right: 10px;color: #7f7f7f;font-family: 'Gentona-Bold', Arial, sans-serif;mso-font-alt: 'Arial';text-transform: uppercase;letter-spacing: 1px;padding: 4px 10px !important;font-size: 14px!important;line-height: 14px!important;">
+																FEATURED PROGRAM
+															</td>
+														</tr>
+													</table>
+												</td>
+											</tr>
+											<tr>
+												<td class="body" style="padding-top: 0;padding-left: 0;padding-bottom: 0;padding-right: 0;font-family: 'Gentona-Light', Helvetica, Arial, sans-serif;padding: 9px 0px;font-size: 14px;line-height: 18px;color: #404040;">
+													<a href="https://ufedge.ufl.edu/students/degree-programs/?utm_source=newsletter&utm_medium=email&utm_campaign=fall2017newsletter&utm_content=img" target="_blank" style="color: #00529b;"><img class="story-image" src="https://www.eng.ufl.edu/eblasts/newengineer/2017-fall/images/online-masters.png" alt="UF Edge Online Master's degree program" border="0" width="270" height="180" style="border: none;outline: none;height: auto;max-width: 270px;"></a>
+												</td>
+											</tr>
+											<tr>
+												<td class="h1" style="padding-top: 0;padding-left: 0;padding-bottom: 0;padding-right: 0;font-family: 'Gentona-Light', Helvetica, Arial, sans-serif;color: #00529b;font-size: 20px!important;letter-spacing: 1px!important;line-height: 24px!important;text-align: left!important;">
+													Online Master&rsquo;s Degree
+												</td>
+											</tr>
+											<tr>
+												<td class="body" style="padding-top: 0;padding-left: 0;padding-bottom: 0;padding-right: 0;font-family: 'Gentona-Light', Helvetica, Arial, sans-serif;padding: 9px 0px;font-size: 14px;line-height: 18px;color: #404040;">
+													<a href="https://ufedge.ufl.edu/students/?utm_source=newsletter&utm_campaign=fall2017newsletter&utm_medium=email" style="color: #00529b;"><strong>UF EDGE (Electronic Delivery of Gator Engineering)</strong></a> offers online master&rsquo;s degrees from seven of our UF Engineering departments with multiple degree program tracks available. Master&rsquo;s degrees can be completed in as little as 24 months. Students are free to take as many or as few classes as desired.
+												</td>
+											</tr>
+											<tr>
+												<td class="body" style="padding-top: 0;padding-left: 0;padding-bottom: 0;padding-right: 0;font-family: 'Gentona-Light', Helvetica, Arial, sans-serif;padding: 9px 0px;font-size: 14px;line-height: 18px;color: #404040;">
+													<!-- Start Button -->
+													<table class="ghostbutton" border="0" cellpadding="0" cellspacing="0" style="display: inline-block;height: auto;background-color: #ffffff;border: 2px solid #fA4616;">
+														<tr>
+															<td align="center" valign="middle" style="padding-top: 0;padding-left: 0;padding-bottom: 0;padding-right: 0;color: #fA4616;font-family: 'Gentona-Bold', Helvetica, Arial, sans-serif;line-height: 20px;font-size: 14px;padding: 2px 12px;letter-spacing: 1px;">
+															<a href="https://ufedge.ufl.edu/students/degree-programs/?utm_source=newsletter&utm_medium=email&utm_campaign=fall2017newsletter&utm_content=button" target="_blank" style="color:#fa4616; text-decoration: none;">SEE DEGREE PROGRAMS <img src="https://www.eng.ufl.edu/eblasts/newengineer/images/arrow-right-orange.png" width="10" height="14" border="0" style="height: auto;"></a>
 															</td>
 														</tr>
 													</table>
@@ -551,9 +594,9 @@
 											</tr>
 										</table>
 									</td>
-								</tr>
-								
+								</tr>					
 							</table>
+							
 						</td>
 					</tr>
 					<tr>
@@ -613,10 +656,10 @@
 					</tr>
 					<tr>
 						<td class="footer-content" align="center" style="padding-top: 0;padding-left: 0;padding-bottom: 0;padding-right: 0;padding: 9px;color: #ffffff;font-family: 'Gentona-Light', Helvetica, Arial, sans-serif;font-size: 12px;line-height: 14px;text-transform: uppercase;">
-							Herbert Wertheim College of Engineering <br>
-							300 Weil Hall | P.O. Box 116550<br>
-							Gainesville, FL 32611-6550<br>
-							<a href="https://eng.ufl.edu" style="font-weight: normal;color: #ffffff;" target="_blank">eng.ufl.edu</a> | <a href="https://ufengineering.skorfanshop.com/shops/portal/?fanshopid=775&CFID=17609476&CFTOKEN=b5a4c9be17a3746c-EF777725-5056-1D98-4943D80A5E87B791" target="_blank" style="color: #ffffff;">Online store</a>
+							%%Member_Busname%%<br>
+							%%Member_Addr%%<br>
+							%%Member_City%%, %%Member_State%% %%Member_PostalCode%%<br>
+							<a href="https://eng.ufl.edu/?utm_source=newsletter&utm_campaign=fall2017newsletter&utm_medium=email" style="font-weight: normal;color: #ffffff;" target="_blank">eng.ufl.edu</a> | <a href="https://ufengineering.skorfanshop.com/shops/portal/?fanshopid=775&CFID=17609476&CFTOKEN=b5a4c9be17a3746c-EF777725-5056-1D98-4943D80A5E87B791" target="_blank" style="color: #ffffff;">Online store</a>
 						</td>
 					</tr>
 					<tr>
@@ -626,7 +669,7 @@
 					</tr>
 					<tr>
 						<td class="footer-content" align="center" style="padding-top: 0;padding-left: 0;padding-bottom: 0;padding-right: 0;padding: 9px;color: #ffffff;font-family: 'Gentona-Light', Helvetica, Arial, sans-serif;font-size: 12px;line-height: 14px;text-transform: uppercase;">
-							You are receiving this email because you opted in at <a href="https://www.eng.ufl.edu" style="color: #ffffff;">our website</a> or because you are affiliated with Herbert Wertheim College of Engineering.
+							You are receiving this email because you opted in at <a href="https://www.eng.ufl.edu/?utm_source=newsletter&utm_campaign=fall2017newsletter&utm_medium=email" style="color: #ffffff;">our website</a> or because you are affiliated with Herbert Wertheim College of Engineering.
 							<p style="margin-top: 0px;"><a href="%%subscription_center_url%%" alias="Manage Subscriptions" style="color: #ffffff;">Unsubscribe/manage subscriptions</a> &bull; <a href="%%profile_center_url%%" alias="Manage profile" style="color: #ffffff;">Manage your profile</a></p>
 						</td>
 					</tr>	
