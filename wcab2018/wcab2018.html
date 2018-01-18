@@ -33,6 +33,15 @@
 			font-style: normal;
 		}
 		@font-face {
+			font-family: 'gentonabook_italic';
+			src: url('https://www.eng.ufl.edu/fonts/gentona_book_italic-webfont.eot');
+			src: url('https://www.eng.ufl.edu/fonts/gentona_book_italic-webfont.woff') format('woff'), 
+				url('https://www.eng.ufl.edu/fonts/gentona_book_italic-webfont.ttf') format('truetype'), 
+				url('https://www.eng.ufl.edu/fonts/gentona_book_italic-webfont.svg#gentonabook_italic') format('svg');
+			font-weight: normal;
+			font-style: normal;
+		}
+		@font-face {
 			font-family: 'Gentona-Bold';
 			src: url('https://www.eng.ufl.edu/fonts/gentona_bold-webfont.eot');
 			src: url('https://www.eng.ufl.edu/fonts/gentona_bold-webfont.woff') format('woff'), 
@@ -118,6 +127,7 @@
 			letter-spacing:1px!important;
 			line-height:20px!important;
 			text-align:left!important;
+			padding: 0px 0px 9px 0px;
 		}
 		.h3 {
 			font-family:'Quadon-ExtraBold', Georgia, serif!important; 
@@ -125,6 +135,14 @@
 			font-size: 18px!important;
 			line-height: 22px!important;
 			color: #00529b;
+		}
+		td.lead {
+			padding: 0px 0px 18px 0px;
+			font-family:'gentonabook_italic', Helvetica, Arial, sans-serif;
+			letter-spacing:1px!important; 
+			font-size: 14px!important;
+			line-height: 18px!important;
+			color: #7f7f7f;
 		}
 		td.body {
 			font-family:'Gentona-Light', Helvetica, Arial, sans-serif;
@@ -289,13 +307,17 @@
 			<td bgcolor="#eeeeee" align="center">
 				<table border="0" align="center" cellpadding="0" cellspacing="0" class="container-table" style="font-family:Arial, Helvetica, sans-serif; font-size:16px;">
 					<tr>
-						<td class="img">
-							<a href="https://www.uff.ufl.edu/gogreater/sanfrancisco/" title="Herbert Wertheim College of Engineering" target="_blank"><img src="https://www.eng.ufl.edu/eblasts/wcab2018/images/wcab-header.png" width="600" height="205" border="0" align="left" class="header-image" alt="#" /></a>
+						<td class="img" bgcolor="#ffffff">
+							<a href="https://www.uff.ufl.edu/gogreater/sanfrancisco/" title="Herbert Wertheim College of Engineering" target="_blank"><img src="https://www.eng.ufl.edu/eblasts/wcab2018/images/wcab-header.png" width="600" height="400" border="0" align="left" class="header-image" alt="Go Greater | University of Florida in the San Francisco Bay Area" /></a>
 						</td>
 					</tr>
 					<tr>
 						<td class="content-container" bgcolor="#ffffff">
 							<table border="0" width="100%" cellpadding="0" cellspacing="0" style="border-collapse:collapse;">
+								<tr>
+									<td class="lead" valign="top">
+										Please join University of Florida President Kent Fuchs and fellow local alumni for cocktails, conversation and an exciting update on all that is unfolding at UF.
+									</td>
 								<tr>
 									<td class="h1" valign="top">
 										Dear %%First_Name%%,
@@ -303,12 +325,12 @@
 								</tr>
 								<tr>
 									<td class="body" valign="top">
-										By now, you should have received an invitation to the University of Florida’s "Go Greater" celebration in Menlo Park on <strong>February 8.</strong>
+										By now, you should have received an invitation to the University of Florida&rsquo;s &ldquo;Go Greater&rdquo; celebration in Menlo Park on <strong>February 8.</strong>
 									</td>
 								</tr>
 								<tr>
 									<td class="body" valign="top">
-										I hope you will be able to join President Kent Fuchs and I, as we celebrate how engineering alumni, like yourself, and other Gators are transforming the future.
+										I hope you will be able to join us as we celebrate how engineering alumni and other Gators are transforming the future.
 									</td>
 								<tr>
 									<td class="body" valign="top">
@@ -316,9 +338,14 @@
 									</td>
 								</tr>
 								<tr>
+									<td class="body" valign="top">
+										 Go Gators!
+									</td>
+								</tr>
+								<tr>
 									<td class="h2" valign="top">
-										 Go Gators!<br />
-										 - Cammy
+										Cammy R. Abernathy<br />
+										Dean, Herbert Wertheim College of Engineering
 									</td>
 								</tr>
 								<tr>
