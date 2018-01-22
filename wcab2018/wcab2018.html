@@ -8,57 +8,48 @@
 	<link rel='shortcut icon' href='https://www.eng.ufl.edu/wp-content/themes/ufl-template-responsive/favicon.ico' />
 
 	<!--[if !mso]><!-- -->
-	<link href="https://www.eng.ufl.edu/fonts/css/gentona.css" rel="stylesheet" type="text/css">
-	<link href="https://www.eng.ufl.edu/fonts/css/quadon.css" rel="stylesheet" type="text/css">
+	<link href="https://www.eng.ufl.edu/fonts/css/uf-fonts-2018.css" rel="stylesheet" type="text/css">
 	<!--<![endif]-->
 
 	<!--[if !mso]><!-- -->
 	<style type="text/css">
-		@font-face {
-			font-family: 'Gentona-Light';
-			src: url('https://www.eng.ufl.edu/fonts/gentona_light_italic-webfont.eot');
-			src: url('https://www.eng.ufl.edu/fonts/gentona_light_italic-webfont.woff') format('woff'), 
-				url('https://www.eng.ufl.edu/fonts/gentona_light_italic-webfont.ttf') format('truetype'), 
-				url('https://www.eng.ufl.edu/fonts/gentona_light_italic-webfont.svg#gentonalight_italic') format('svg');
-			font-weight: normal;
-			font-style: italic;
-		}
-		@font-face {
-			font-family: 'Gentona-Light';
+		@font-face { 
+			font-family: 'gentona'; 
 			src: url('https://www.eng.ufl.edu/fonts/gentona_light-webfont.eot');
 			src: url('https://www.eng.ufl.edu/fonts/gentona_light-webfont.woff') format('woff'), 
 				url('https://www.eng.ufl.edu/fonts/gentona_light-webfont.ttf') format('truetype'), 
 				url('https://www.eng.ufl.edu/fonts/gentona_light-webfont.svg#gentonalight') format('svg');
-			font-weight: normal;
+			font-weight: 300;
+			font-style: normal;
+		} 
+		@font-face { 
+			font-family: 'gentona'; 
+			src: url('https://www.eng.ufl.edu/fonts/gentona_light_italic-webfont.eot');
+			src: url('https://www.eng.ufl.edu/fonts/gentona_light_italic-webfont.woff') format('woff'), 
+				url('https://www.eng.ufl.edu/fonts/gentona_light_italic-webfont.ttf') format('truetype'), 
+				url('https://www.eng.ufl.edu/fonts/gentona_light_italic-webfont.svg#gentonalight_italic') format('svg');
+			font-weight: 300; 
+			font-style: italic;
+		} 
+		@font-face { 
+			font-family: 'quadon'; 
+			src: url('https://www.eng.ufl.edu/fonts/quadon_medium-webfont.eot');
+			src: url('https://www.eng.ufl.edu/fonts/quadon_medium-webfont.woff2') format('woff2'), 
+				url('https://www.eng.ufl.edu/fonts/quadon_medium-webfont.woff') format('woff'), 
+				url('https://www.eng.ufl.edu/fonts/quadon_medium-webfont.ttf') format('truetype');
+			font-weight: normal; 
+			font-style: normal;
+		} 
+		@font-face { 
+			font-family: 'quadon'; 
+			src: url('https://www.eng.ufl.edu/fonts/quadon_bold-webfont.eot');
+			src: url('https://www.eng.ufl.edu/fonts/quadon_bold-webfont.woff2') format('woff2'), 
+				url('https://www.eng.ufl.edu/fonts/quadon_bold-webfont.woff') format('woff'), 
+				url('https://www.eng.ufl.edu/fonts/quadon_bold-webfont.ttf') format('truetype');
+			font-weight:bold;
 			font-style: normal;
 		}
-		@font-face {
-			font-family: 'gentonabook_italic';
-			src: url('https://www.eng.ufl.edu/fonts/gentona_book_italic-webfont.eot');
-			src: url('https://www.eng.ufl.edu/fonts/gentona_book_italic-webfont.woff') format('woff'), 
-				url('https://www.eng.ufl.edu/fonts/gentona_book_italic-webfont.ttf') format('truetype'), 
-				url('https://www.eng.ufl.edu/fonts/gentona_book_italic-webfont.svg#gentonabook_italic') format('svg');
-			font-weight: normal;
-			font-style: normal;
-		}
-		@font-face {
-			font-family: 'Gentona-Bold';
-			src: url('https://www.eng.ufl.edu/fonts/gentona_bold-webfont.eot');
-			src: url('https://www.eng.ufl.edu/fonts/gentona_bold-webfont.woff') format('woff'), 
-				url('https://www.eng.ufl.edu/fonts/gentona_bold-webfont.ttf') format('truetype'), 
-				url('https://www.eng.ufl.edu/fonts/gentona_bold-webfont.svg#gentonabold') format('svg');
-			font-weight: normal;
-			font-style: normal
-		}
-		@font-face {
-			font-family: 'Quadon-ExtraBold';
-			src: url('https://www.eng.ufl.edu/fonts/quadon_extrabold-webfont.eot');
-			src: url('https://www.eng.ufl.edu/fonts/quadon_extrabold-webfont.woff2') format('woff2'), 
-				url('https://www.eng.ufl.edu/fonts/quadon_extrabold-webfont.woff') format('woff'), 
-				url('https://www.eng.ufl.edu/fonts/quadon_extrabold-webfont.ttf') format('truetype');
-			font-weight: normal;
-			font-style: normal
-		}
+
 
 	</style>
 	<!--<![endif]-->
@@ -81,6 +72,7 @@
 			padding-bottom: 0;
 			padding-right: 0;
 		}
+
 		.container-table {
 			width: 600px; 
 			border-collapse:collapse;
@@ -97,7 +89,8 @@
 			border-bottom: 2px solid #d5d5d5;
 		}
 		.img {
-			font-family:'Gentona-Light', Helvetica, Arial, sans-serif;
+			font-family:'gentona', Helvetica, Arial, sans-serif;
+			font-weight:300;
 			font-size:12px; 
 		}
 		.header-image {
@@ -113,15 +106,17 @@
 			image-rendering: crisp-edges;
 		}
 		.h1 {
-			font-family:'Gentona-Light', Helvetica, Arial, sans-serif;
-			font-size:20px!important; 
+			font-family:'gentona', Helvetica, Arial, sans-serif;
+			font-weight:300;font-size:20px!important; 
 			color: #00529b;
 			letter-spacing:1px!important;
 			line-height:24px!important;
 			text-align:left!important;
 		}
 		.h2 {
-			font-family:'gentonalight_italic', Helvetica, Arial, sans-serif;
+			font-family:'gentona', Helvetica, Arial, sans-serif;
+			font-style: italic;
+			font-weight:300;
 			font-size:16px!important; 
 			color: #00529b;
 			letter-spacing:1px!important;
@@ -130,7 +125,8 @@
 			padding: 0px 0px 9px 0px;
 		}
 		.h3 {
-			font-family:'Quadon-ExtraBold', Georgia, serif!important; 
+			font-family:'quadon', Georgia, serif!important; 
+			font-weight:bold;
 			letter-spacing:2px!important; 
 			font-size: 18px!important;
 			line-height: 22px!important;
@@ -138,14 +134,15 @@
 		}
 		td.lead {
 			padding: 0px 0px 18px 0px;
-			font-family:'gentonabook_italic', Helvetica, Arial, sans-serif;
+			font-family:'gentona', Helvetica, Arial, sans-serif;
+			font-style: italic;
 			letter-spacing:1px!important; 
 			font-size: 14px!important;
 			line-height: 18px!important;
 			color: #7f7f7f;
 		}
 		td.body {
-			font-family:'Gentona-Light', Helvetica, Arial, sans-serif;
+			font-family:'gentona', Helvetica, Arial, sans-serif;
 			padding: 9px 0px;
 			font-size:14px;
 			line-height:18px;
@@ -187,7 +184,8 @@
 		}
 		.button td {
 			color:#ffffff; 
-			font-family: 'Gentona-Light', Helvetica, Arial, sans-serif; 
+			font-family: 'gentona', Helvetica, Arial, sans-serif; 
+			font-weight: 300;
 			line-height:20px;
 			font-size: 14px;
 			padding:4px 13px 4px 15px; 
@@ -206,7 +204,8 @@
 		}
 		.ghostbutton td {
 			color: #fA4616;
-			font-family: 'Gentona-Bold', Helvetica, Arial, sans-serif; 
+			font-family: 'gentona', Helvetica, Arial, sans-serif; 
+			font-weight:bold;
 			line-height:20px;
 			font-size: 14px;
 			padding:2px 10px 2px 12px; 
@@ -222,7 +221,8 @@
 		.footer-content {
 			padding: 9px;
 			color:#ffffff;
-			font-family:'Gentona-Light', Helvetica, Arial, sans-serif;
+			font-family:'gentona', Helvetica, Arial, sans-serif;
+			font-weight:300;
 			font-size:12px; 
 			line-height:14px;
 			text-transform:uppercase;
@@ -233,7 +233,8 @@
 		.postfooter {
 			border-top: 2px solid #eeeeee;
 			padding: 18px 0;
-			font-family:'Gentona-Light', Helvetica, Arial, sans-serif;
+			font-family:'gentona', Helvetica, Arial, sans-serif;
+			font-weight:300;
 			font-size:10px; 
 		}
 		a[x-apple-data-detectors] { /* remove blue links for addresses, phone numbers, etc. in IOS */
@@ -300,7 +301,7 @@
 </head> 
 <body bgcolor="#eeeeee" style="margin:0; padding:0;">
 	<div class="visually-hidden" style="color:#eeeeee;">
-		Celebrate how engineering and other Gator alumni are transforming the future. 
+		Please join University of Florida President Kent Fuchs and fellow local alumni for cocktails, conversation and an exciting update on all that is unfolding at UF.
 	</div>		
 	<table border="0" width="100%" cellpadding="0" cellspacing="0">
 		<tr>
@@ -320,7 +321,7 @@
 									</td>
 								<tr>
 									<td class="h1" valign="top">
-										Dear %%First_Name%%,
+										Dear %%First Name%%,
 									</td>
 								</tr>
 								<tr>
@@ -346,6 +347,29 @@
 									<td class="h2" valign="top">
 										Cammy R. Abernathy<br />
 										Dean, Herbert Wertheim College of Engineering
+									</td>
+								</tr>
+								<tr>
+									<td class="body" valign="top">
+										<hr color="#999" noshade>
+									</td>
+								</tr>
+								<tr>
+									<td class="h3" valign="top" align="center">
+										Thursday, February 8
+									</td>
+								</tr>
+								<tr>
+									<td class="body" valign="top" align="center">
+										<strong>Rosewood Sand Hill</strong><br />
+										2825 Sand Hill Road<br />
+										Menlo Park, CA 94025
+									</td>
+								</tr>
+								<tr>
+									<td class="body" valign="top" align="center">
+										<strong>Reception 6:30 PM &bull; Program 7:30 PM &bull; Networking 8:15 PM</strong><br />
+										Attire: Business
 									</td>
 								</tr>
 								<tr>
