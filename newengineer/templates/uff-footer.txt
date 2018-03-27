@@ -1,0 +1,30 @@
+<tr>
+						<td class="footer-content" align="center" valign="middle" style="padding:20px 0 0 0;"><img width="280" height="77" alt="UF Herbert Wertheim College of Engineering" border="0" style="border:none; outline:none; text-decoration:none;padding:0px; margin:0px" src="https://www.eng.ufl.edu/eblasts/newengineer/images/hwcoe-email-monogram-wht.png"></td>
+					</tr>
+					<tr>
+						<td class="footer-content" align="center">
+							%%Member_Busname%%<br>
+							%%Member_Addr%%<br>
+							%%Member_City%%, %%Member_State%% %%Member_PostalCode%%<br />
+							<a href="https://eng.ufl.edu/?utm_source=newsletter&utm_campaign=march2018newsletter&utm_medium=email" style="font-weight: normal;" target="_blank">eng.ufl.edu</a> | <a href="https://ufengineering.skorfanshop.com/shops/portal/?fanshopid=775&CFID=17609476&CFTOKEN=b5a4c9be17a3746c-EF777725-5056-1D98-4943D80A5E87B791" target="_blank">Online store</a>
+						</td>
+					</tr>
+					<tr>
+						<td class="footer-content" align="center">
+							<a href="%%view_email_url%%">View this email in your browser</a>
+						</td>
+					</tr>
+					<tr>
+						<td class="footer-content" align="center">
+							You are receiving this email because you opted in at <a href="https://www.eng.ufl.edu/?utm_source=newsletter&utm_campaign=march2018newsletter&utm_medium=email">our website</a> or because you are affiliated with Herbert Wertheim College of Engineering.
+							<p><a href="%%subscription_center_url%%" alias="Manage Subscriptions">Unsubscribe/manage subscriptions</a> &bull; <a href="%%profile_center_url%%" alias="Manage profile">Manage your profile</a></p>
+						</td>
+					</tr>	
+					
+				</table>
+			</td>
+		</tr>
+	</table>
+<custom name="opencounter" type="tracking">
+</body>
+</html>
