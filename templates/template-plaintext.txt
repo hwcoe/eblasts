@@ -1,0 +1,33 @@
+ENTER YOUR SUBJECT LINE OR HEADER HERE
+
+Enter your email body content here. This is how it will look in the body of the plaintext version of your email, so make sure it makes sense and doesn't have any weird line breaks. Link URLs should be spelled out and labeled, e.g.:
+
+Visit our website: https://www.eng.ufl.edu/
+
+==================================================
+https://www.eng.ufl.edu/
+https://www.facebook.com/ufwertheim
+https://twitter.com/ufwertheim
+https://www.youtube.com/user/gatorengineering
+https://www.linkedin.com/edu/school?id=193009
+https://www.instagram.com/ufwertheim/
+https://www.flickr.com/photos/gatorengineering/
+
+Online store: https://ufengineering.skorfanshop.com/shops/portal/?fanshopid=775&CFID=17609476&CFTOKEN=b5a4c9be17a3746c-EF777725-5056-1D98-4943D80A5E87B791
+===================================================
+
+%%Member_Busname%%
+%%Member_Addr%%
+%%Member_City%%, %%Member_State%% %%Member_PostalCode%%
+ 
+View this email in your browser
+%%view_email_url%%
+ 
+You are receiving this email because you opted in at our website or because you are affiliated with Herbert Wertheim College of Engineering.
+ 
+Unsubscribe/manage subscriptions: %%subscription_center_url%%
+Manage your profile: %%profile_center_url%%
+
+
+<custom name="opencounter" type="tracking">
+ 
