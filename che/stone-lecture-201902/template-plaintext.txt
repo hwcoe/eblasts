@@ -1,0 +1,50 @@
+The Department of Chemical Engineering at the University of Florida invites you to attend the Distinguished Lecture Series in Fluid Mechanics: https://www.che.ufl.edu/event/endowed-distinguished-lecture-series-in-fluid-mechanics/
+ 
+“Seeking Intersections Between Disciplines: ‘Boundaries’ in Multiphase Flows”
+ 
+In this presentation I will discuss various multiphase flow problems that we have studied in recent years. These problems have often appeared when working with colleagues in different disciplines. New questions were generated but then were realized to have some relation to classical multiphase flow problems in fluid mechanics. Thus, I will discuss: (i) The “Bretherton” problem concerns a long bubble translating in a close-fitting, liquid-filled tube. We show via experiments and theory that, for the case of a bidisperse suspension, a bubble, which is separated from the wall by a thin film, acts as a speed-dependent filter to separate the small and large particles. (ii) A spherical particle translating at low Reynolds numbers (slow flows) parallel to a rigid wall maintains the same separation distance during its motion. We show using theory and experiments that a particle moving along an elastic membrane, which can deform by bending, is repelled from the membrane due to hydroelastic forces. (iii) It is well known that mechanics plays an important role in biological systems. I highlight a few cases of this interplay between mechanics and bacterial systems. At the heart of each of the problems mentioned above are classical ideas in mechanics.
+ 
+Professor Stone’s research interests are in fluid dynamics, especially as they arise in research and applications at the interface of engineering, chemistry, physics, and biology. In particular, he developed original research directions in microfluidics including studies and applications involving bubbles and droplets, red blood cells, bacteria, chemical kinetics, etc. He is a Fellow of the American Physical Society (APS), and is past Chair of the Division of Fluid Dynamics of the APS. For 10 years he served as an Associate Editor for the Journal of Fluid Mechanics, and is currently on the editorial or advisory boards of Physical Review Fluids, Langmuir, Philosophical Transactions of the Royal Society, and Soft Matter, and is co-editor of the Soft Matter Book Series. He was the first recipient of the G.K. Batchelor Prize in Fluid Dynamics, which was awarded in August 2008. He was elected to the National Academy of Engineering in 2009, the American Academy of Arts and Sciences in 2011 and the National Academy of Sciences in 2014.
+ 
+FREE & OPEN TO ALL
+
+Monday, March 18, 2019 at 4:05 p.m.
+New Engineering Building, Room 201
+
+
+==================================================
+https://www.eng.ufl.edu/
+https://www.facebook.com/UFLChE/
+https://twitter.com/UFLChE
+https://www.youtube.com/user/gatorengineering
+https://www.linkedin.com/edu/school?id=193009
+https://www.instagram.com/ufwertheim/
+https://www.flickr.com/photos/gatorengineering/
+
+Online store: https://ufengineering.skorfanshop.com/shops/portal/?fanshopid=775&amp;CFID=17609476&amp;CFTOKEN=b5a4c9be17a3746c-EF777725-5056-1D98-4943D80A5E87B791
+===================================================
+
+%%Member_Busname%%
+%%Member_Addr%%
+%%Member_City%%, %%Member_State%% %%Member_PostalCode%%
+
+ 
+Department of Chemical Engineering
+
+1030 Center Drive
+
+P.O. Box 116005
+
+Gainesville, FL 32611
+ 
+View this email in your browser
+%%view_email_url%%
+ 
+You are receiving this email because you opted in at our website or because you are affiliated with Herbert Wertheim College of Engineering.
+ 
+Unsubscribe/manage subscriptions: %%subscription_center_url%%
+Manage your profile: %%profile_center_url%%
+
+
+<custom name="opencounter" type="tracking">
+ 
