@@ -1,0 +1,62 @@
+The Department of Chemical Engineering at the University of Florida invites you to attend the Dinesh O. Shah Annual Lecture in Surface Science  https://www.che.ufl.edu/event/d-o-shah-annual-lecture-in-surface-science/
+
+Distinguished Guest Lecturer
+Kathleen J. Stebe
+Richer & Elizabeth Goodwin Professor, Department of Chemical and Biomolecular Engineering
+University of Pennsylvania
+ 
+“Curvature and the Directed Motion of Colloids”
+ 
+The ability to dictate the trajectories and assembly of colloidal objects has far-reaching implications in fields ranging from reconfigurable materials to intelligent systems. Diverse approaches have been developed in the literature. Here, we exploit curvature as a cue to direct colloid motion in three physical settings. First, colloids on curved fluid interfaces are addressed. Particles adhered to fluid interfaces deform the interface around them. The area of this deformation depends on the interface shape. Particles orient and migrate along curvature gradients. Second, analogies to this migration are explored for Janus colloids adhered to tense giant unilamellar vesicles. Finally, colloidal migration in nematic liquid crystals near undulated boundaries is described. We design a director field that, in the absence of the colloids, is defect-free, but features regions of bend and splay that can be sensed by colloids placed within the domain. This NLC director field gently guides colloid motion. We show that a simple boundary of alternating hills and wells embeds energetic cues that dictate particle paths and multi-stable equilibrium loci. Furthermore, we demonstrate remarkable control over the defect structure associated with the colloid, a significant outcome, since such defects attract surfactants and nanoparticles. Since the field is related to NLC orientation, the interactions are reconfigurable, either by reorientation of the NLC under applied fields, or by reconfiguration of the boundary shape. These means of directing colloid motion is readily combined with other fields to afford additional control with promise in reconfigurable systems and in microrobotics applications.
+
+ABOUT KATHLEEN J. STEBE 
+
+Stebe is the Deputy Dean for Research and Innovation and the Goodwin Professor in the School Engineering and Applied Sciences at the University of Pennsylvania. Educated at the City College of New York, she received a B.A. in Economics and a Ph.D. in Chemical Engineering at the Levich Institute. After a post-doctoral year in Compiegne, France, she joined the Department of Chemical Engineering at Johns Hopkins University, where she became Professor and served as the department chair.Thereafter, she joined the University of Pennsylvania, where she served as department chair prior to her service as Deputy Dean. She is an Associate Editor of the journal Soft Matter, and has been recognized by the Johns Hopkins Society of Scholars, as a Fellow of the American Physical Society and of the Radcliffe Institute. Her research focuses on directed assembly in soft matter and at fluid interfaces, with an emphasis on confinement, geometry, and emergent structures for novel functional materials.
+
+ 
+FREE & OPEN TO ALL
+
+Monday, April 8, 2019 at 4:05 p.m.
+
+New Engineering Building, Room 201
+
+
+THE DINESH O. SHAH ANNUAL LECTURE IN SURFACE SCIENCE was established in the Chemical Engineering Department at UF by Professor Dinesh O. Shah because of his strong commitment to the university and the field of surface science. Professor Shah retired in 2005 from UF after a distinguished academic career spanning 35 years.
+
+
+==================================================
+https://www.eng.ufl.edu/
+https://www.facebook.com/UFLChE/
+https://twitter.com/UFLChE
+https://www.youtube.com/user/gatorengineering
+https://www.linkedin.com/edu/school?id=193009
+https://www.instagram.com/ufwertheim/
+https://www.flickr.com/photos/gatorengineering/
+
+Online store: https://ufengineering.skorfanshop.com/shops/portal/?fanshopid=775&amp;CFID=17609476&amp;CFTOKEN=b5a4c9be17a3746c-EF777725-5056-1D98-4943D80A5E87B791
+===================================================
+
+%%Member_Busname%%
+%%Member_Addr%%
+%%Member_City%%, %%Member_State%% %%Member_PostalCode%%
+
+ 
+Department of Chemical Engineering
+
+1030 Center Drive
+
+P.O. Box 116005
+
+Gainesville, FL 32611
+ 
+View this email in your browser
+%%view_email_url%%
+ 
+You are receiving this email because you opted in at our website or because you are affiliated with Herbert Wertheim College of Engineering.
+ 
+Unsubscribe/manage subscriptions: %%subscription_center_url%%
+Manage your profile: %%profile_center_url%%
+
+
+<custom name="opencounter" type="tracking">
+ 
