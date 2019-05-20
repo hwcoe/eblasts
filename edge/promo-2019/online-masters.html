@@ -131,13 +131,21 @@
 		.h1 {
 			font-family:'gentona', Helvetica, Arial, sans-serif;
 			font-weight: normal;
-			font-size:28px; 
-			line-height:34px;
+			font-size:32px; 
+			line-height:36px;
 			color: #00529b;
 			letter-spacing:1px;
 			padding: 0.5em 0 0.25em 0;
 		}
 		.h2 {
+			font-family:'quadon', Georgia, serif; 
+			font-weight: bold;
+			font-size: 14px;
+			line-height: 22px;
+			color: #00529b;
+			padding: 0.5em 0 0;
+		}
+		.h3 {
 			font-family:'gentona', Helvetica, Arial, sans-serif;
 			font-weight:normal;
 			letter-spacing:2px; 
@@ -145,15 +153,6 @@
 			line-height: 24px;
 			text-transform: uppercase;
 			color: #7f7f7f;
-			padding: 0.5em 0 0;
-		}
-		.h3 {
-			font-family:'quadon', Georgia, serif; 
-			font-weight:bold;
-			letter-spacing:2px; 
-			font-size: 22px;
-			line-height: 22px;
-			color: #00529b;
 			padding: 0.5em 0 0;
 		}
 		td.body {
@@ -174,6 +173,9 @@
 		.column-content {
 			width:265px;
 		}
+		.column-content-3 {
+			width:175px;
+		}
 		.column-image {
 			display:block;
 			max-width:260px;
@@ -187,15 +189,24 @@
 			image-rendering: -webkit-optimize-contrast;/* Webkit (non-standard naming) */
 			image-rendering: crisp-edges;
 		}
+		.cta {
+			background-color:#00529b;
+		}
+		.cta td {
+			padding: 10px;
+		}
+		.cta *, .cta a:link, .cta a:active, .cta a:visited {
+			color: #fff;
+		}
 		.ghostbutton {
 			display: inline-block;
 			height: auto;
-			background-color: #fA4616;
+			background-color: #f37021;
 			background-color: #ffffff;
-			border: 2px solid #fA4616;
+			border: 2px solid #f37021;
 		}
 		.ghostbutton td {
-			color: #fA4616;
+			color: #f37021;
 			font-family: 'gentona', Helvetica, Arial, sans-serif; 
 			font-weight:bold;
 			line-height:20px;
@@ -204,7 +215,7 @@
 			letter-spacing:1px;
 		}
 		.ghostbutton a:link, .ghostbutton a:active, .ghostbutton a:visited {
-			color:#fA4616;
+			color:#f37021;
 			text-decoration: none;
 		}
 		.footer {
@@ -273,7 +284,7 @@
 				font-size:14px;
 				line-height:20px;
 			}
-			.column-content {
+			.column-content, .column-content-3 {
 				max-width:480px !important;
 				width:100% !important;
 			}
@@ -306,7 +317,7 @@
 				<table border="0" align="center" cellpadding="0" cellspacing="0" class="container-table" style="font-family:Arial, Helvetica, sans-serif; font-size:16px;">
 					<tr>
 						<td class="img" bgcolor="#ffffff">
-							<a href="https://www.eng.ufl.edu" title="Herbert Wertheim College of Engineering" target="_blank"><img src="https://www.eng.ufl.edu/eblasts/edge/promo-2019/images/header.png" width="600" height="80" border="0" align="left" class="header-image" alt="Master the Skills&mdash;100% Online" /></a>
+							<a href="https://ufedge.ufl.edu" target="_blank"><img src="https://www.eng.ufl.edu/eblasts/edge/promo-2019/images/header.png" width="600" height="318" border="0" align="left" class="header-image" alt="Master the Skills&mdash;100% Online" /></a>
 						</td>
 					</tr>
 					<tr>
@@ -314,63 +325,136 @@
 							<table border="0" width="100%" cellpadding="0" cellspacing="0" style="border-collapse:collapse;">
 								<tr>
 									<td class="h1" valign="top" align="center">
-										Master the Skills&mdash;100% Online
+										Online Engineering Master&rsquo;s
+									</td>
+								</tr>
+								<tr>
+									<td class="h2" valign="top" align="center">
+										Expand your career opportunities with a master&rsquo;s degree or certificate in engineering from a Top 10 public university.
 									</td>
 								</tr>
 								<tr>
 									<td class="body" valign="top" align="center">
-										Lorem ipsum dolor sit amet, <strong>consectetur adipiscing elit.</strong> In tempus adipiscing felis, sit amet blandit ipsum volutpat sed. Morbi porttitor, eget accumsan dictum, nisi libero ultricies ipsum, <em>in posuere mauris</em> neque at erat.
+										The Herbert Wertheim College of Engineering at the University of Florida offers graduate degrees and certificates in engineering&mdash;completely online.
 									</td>
 								</tr>
 								<tr>
 									<td class="body" align="center">
-										Lorem ipsum dolor sit amet, <a href="https://www.eng.ufl.edu/">consectetur adipiscing elit</a>. In tempus adipiscing felis, sit amet blandit ipsum volutpat sed. Morbi porttitor, eget accumsan dictum, nisi libero ultricies ipsum, in posuere mauris neque at erat.
+										With the flexibility of <strong>EDGE (Electronic Delivery of Gator Engineering),</strong> you can power up your future with a leadership role in engineering on your own time.
+
+									</td>
+								</tr>
+								<!-- 3 column content -->
+								
+								<tr>
+									<td>
+										<table border="0" cellpadding="0" cellspacing="0" align="left" class="column-content-3">
+											<tr>
+												<td class="body" valign="top" align="center" style="padding-right:10px;">
+													<img src="https://www.eng.ufl.edu/eblasts/edge/promo-2019/images/icon-calendar.png" alt="Calendar icon" width="170" height="150" border="0" class="column-image" />
+													Master’s degree tracks can be completed in as little as 24 months.
+												</td>
+											</tr>
+										</table>
+										<table border="0" cellpadding="0" cellspacing="0" align="left" class="column-content-3">
+											<tr>
+												<td class="body" valign="top" align="center" style="padding-right:10px; padding-left:10px;">
+													<img src="https://www.eng.ufl.edu/eblasts/edge/promo-2019/images/icon-award.png" alt="Award icon" width="170" height="150" border="0" class="column-image" />
+													Twelve graduate certificates available in technical and leadership roles.
+												</td>
+											</tr>
+										</table>
+										<table border="0" cellpadding="0" cellspacing="0" align="right" class="column-content-3">
+											<tr>
+												<td class="body" valign="top" align="center">
+													<img src="https://www.eng.ufl.edu/eblasts/edge/promo-2019/images/icon-value.png" alt="Value icon" width="170" height="150" border="0" class="column-image" />
+													UF is No. 2 in the nation among public universities for best value. (Kiplinger Best College Values, 2018)
+												</td>
+											</tr>
+										</table>
 									</td>
 								</tr>
 								<tr>
 									<td class="body" valign="top">
-										<hr color="#fA4616">
+										<hr color="#f37021">
+									</td>
+								</tr>
+								<!-- <tr>
+									<td class="h3">
+										Degrees and Certificates Offered In: 
 									</td>
 								</tr>
 								<tr>
-									<td class="h2" align="center">
-										This is level 2 header text which may extend for two or more lines if it gets long enough
+									<td class="body" valign="top">
+										<ul>
+											<li>Civil Engineering</li>
+											<li>Environmental Engineering</li>
+											<li>Electrical & Computer Engineering</li>
+											<li>Industrial & Systems Engineering</li>
+											<li>Materials Science & Engineering</li>
+											<li>Mechanical & Aerospace Engineering</li>
+											<li>Leadership</li>
+											<li>Innovation</li>
+										</ul>
 									</td>
 								</tr>
 								<tr>
-									<td class="body" align="center">
-										Lorem ipsum dolor sit amet, <a href="https://www.eng.ufl.edu/">consectetur adipiscing elit</a>. In tempus adipiscing felis, sit amet blandit ipsum volutpat sed. Morbi porttitor, eget accumsan dictum, nisi libero ultricies ipsum, in posuere mauris neque at erat.
+									<td class="h2">
+										Ready to Get Started?
 									</td>
 								</tr>
-								
-								<!-- 2 column content -->
-								
+								<tr>
+									<td class="body" valign="top">
+										<ul>
+											<li>Visit <a href="https://ufedge.ufl.edu" target="_blank">UFEDGE.UFL.EDU</a></li>
+											<li>Contact the degree program of your choice.</li>
+											<li>Check enrollment dates & requirements.</li>
+											<li>Make your choice: Certificate or Degree</li>
+											<li>Apply</li>
+										</ul>
+									</td>
+								</tr> -->
 								<tr>
 									<td>
 										<table border="0" cellpadding="0" cellspacing="0" align="left" class="column-content">
 											<tr>
-												<td class="body" valign="top" style="padding-right:20px;">
-													<a href="https://www.eng.ufl.edu/" title="Herbert Wertheim College of Engineering" target="_blank"><img src="https://www.eng.ufl.edu/eblasts/templates/images/content-img.png" title="Image title" alt="Image alt text" width="260" height="181" border="0" class="column-image" /></a>
-													<a href="#">Story title will go here and link to the story online</a>
+												<td class="h3">
+													Degrees & Certificates Offered In: 
 												</td>
 											</tr>
-										</table>
-										<table border="0" cellpadding="0" cellspacing="0" align="right" class="column-content">
 											<tr>
 												<td class="body" valign="top">
-													<a href="https://www.eng.ufl.edu/" title="Herbert Wertheim College of Engineering" target="_blank"><img src="https://www.eng.ufl.edu/eblasts/templates/images/content-img.png" title="Image title" alt="Image alt text" width="260" height="181" border="0" class="column-image" /></a>
-													<a href="#">Link to the story</a>
+													<ul>
+														<li>Civil Engineering</li>
+														<li>Environmental Engineering</li>
+														<li>Electrical & Computer Engineering</li>
+														<li>Industrial & Systems Engineering</li>
+														<li>Materials Science & Engineering</li>
+														<li>Mechanical & Aerospace Engineering</li>
+														<li>Leadership</li>
+														<li>Innovation</li>
+													</ul>
 												</td>
 											</tr>
 										</table>
-									</td>
-								</tr>
-								<tr>
-									<td class="h3" align="center">Header Text</td>
-								</tr>
-								<tr>
-									<td class="body" align="center">
-										Lorem ipsum dolor sit amet, <a href="https://www.eng.ufl.edu/">consectetur adipiscing elit</a>. In tempus adipiscing felis, sit amet blandit ipsum volutpat sed. Morbi porttitor, eget accumsan dictum, nisi libero ultricies ipsum, in posuere mauris neque at erat.
+										<table border="0" cellpadding="0" cellspacing="0" align="right" class="column-content cta">
+											<tr>
+												<td class="h3">
+													Ready to Get Started?
+												</td>
+											</tr>
+											<tr>
+												<td class="body" valign="top">
+													<ul>
+														<li>Visit <a href="https://ufedge.ufl.edu" target="_blank"><strong>UFEDGE.UFL.EDU</strong></a></li>
+														<li>Contact the degree program of your choice.</li>
+														<li>Check enrollment dates & requirements.</li>
+														<li>Make your choice: Certificate or Degree</li>
+														<li>Apply</li>
+													</ul>
+												</td>
+											</tr>
+										</table>
 									</td>
 								</tr>
 								<tr>
@@ -379,13 +463,15 @@
 										<table class="ghostbutton" border="0" cellpadding="0" cellspacing="0">
 											<tr>
 												<td align="center" valign="middle">
-												<a href="#" target="_blank" style="color:#fa4616; text-decoration: none;">CALL TO ACTION <img src="https://www.eng.ufl.edu/eblasts/newengineer/images/arrow-right-orange.png" width="10" height="14" border="0" /></a>
+												<a href="https://ufedge.ufl.edu/" target="_blank" style="color:#f37021; text-decoration: none;">LEARN MORE <img src="https://www.eng.ufl.edu/eblasts/newengineer/images/arrow-right-orange.png" width="10" height="14" border="0" /></a>
 												</td>
 											</tr>
 										</table>
 										<!-- End Button -->
 									</td>
 								</tr>
+								
+								
 							</table>
 						</td>
 					</tr>
