@@ -50,45 +50,38 @@
 			outline: none;
 			text-decoration: none;
 		}
-		.header1 {
+		.header1, h1 {
 			padding: 9px 0px 9px 0px;
 			color:#00529b;
 			font-family:Helvetica, Arial, sans-serif;
 			font-size:34px; 
 			line-height:40px;
+			font-weight: normal;
 		}
-		.header2 {
+		.header2, h2 {
 			padding: 9px 0px 9px 0px;
 			color:#00529b;
 			font-family:Helvetica, Arial, sans-serif;
 			font-size:20px; 
 			line-height:26px;
+			font-weight: normal;
 		}
-		.header3 {
+		.header3, h3 {
 			padding:27px 0 18px 0;
-			color:#7F7F7F;
+			color:#595959;
 			font-family: Helvetica, Arial, sans-serif;
 			font-size:12px; 
 			line-height:12px;
 			font-weight:900;
 			letter-spacing: 2px;
 			text-transform:uppercase;
-			text-align:center;
-		}
-		.header3 span {
-			border:3px solid #d5d5d5;
-			padding: 9px 14px;
-			display:inline-block;
-		}
-		.header3 span a {
-			text-decoration: none;
 		}
 		.lead {
 			padding: 9px 0px 0px;
 			font-family: Helvetica, Arial, sans-serif; 
 			font-size:14px;
 			line-height:24px;
-			color:#7F7F7F;	
+			color:#595959;	
 			font-style:italic;
 		}
 		.content {
@@ -97,6 +90,10 @@
 			font-size:14px;
 			line-height:24px;
 			color:#404040;	
+		}
+		h1, h2, h3 {
+			margin:0;
+			padding:0;
 		}
 		.content a:link, .content a:active, .content a:visited,
 		.header2 a:link, .header2 a:active, .header2 a:visited {
@@ -113,26 +110,6 @@
 			margin-bottom:6px;
 			max-width:260px;
 			height:auto;
-		}
-		.ghostbutton {
-			font-size: 24px;
-			font-family: Helvetica, Arial, sans-serif; 
-			font-weight: 700;
-			letter-spacing: 1.5px;
-			text-transform:uppercase;
-			border-top: 3px solid #fA4616; 
-			border-bottom: 3px solid #fA4616; 
-			border-right: 3px solid #fA4616; 
-			border-left: 3px solid #fA4616; 
-			display: inline-block;
-			height:auto;
-		}
-		.ghostbutton td {
-			padding: 15px 0 12px 16px;
-		}
-		.ghostbutton a:link, .ghostbutton a:visited {
-			color: #fA4616;
-			text-decoration: none;
 		}
 		.button {
 			font-size: 24px;
@@ -230,10 +207,10 @@
 	</style>
 </head> 
 <body bgcolor="#d5d5d5" style="margin:0; padding:0;">	
-	<table border="0" width="100%" cellpadding="0" cellspacing="0">
+	<table role="presentation" border="0" width="100%" cellpadding="0" cellspacing="0">
 		<tr>
 			<td bgcolor="#d5d5d5" align="center">
-				<table width="600" border="0" align="center" cellpadding="0" cellspacing="0" class="container-table">
+				<table role="presentation" width="600" border="0" align="center" cellpadding="0" cellspacing="0" class="container-table">
 					<tr>
 						<td class="preheader" bgcolor="#d5d5d5" align="right">
 							<div style="font-size:1px; color:#d5d5d5; line-height:1px; max-height:0px; max-width:0px; opacity:0;">
@@ -257,53 +234,55 @@
 					</tr>
 					<tr>
 						<td class="content-container" bgcolor="#FFFFFF">
-							<table border="0" width="100%" cellpadding="0" cellspacing="0" style="border-collapse:collapse;">
+							<table role="presentation" border="0" width="100%" cellpadding="0" cellspacing="0" style="border-collapse:collapse;">
 								<tr>
-									<td class="header1" align="center">
-										This is header text which may extend for two or more lines if it gets long enough
+									<td class="header1">
+										<h1>This is header text which may extend for two or more lines if it gets long enough</h1>
 									</td>
 								</tr>
 								<tr>
-									<td class="lead" align="center">
+									<td class="lead">
 										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tempus adipiscing felis, sit amet blandit ipsum volutpat sed. Morbi porttitor, eget accumsan dictum, nisi libero ultricies ipsum, in posuere mauris neque at erat.</p>
 									</td>
 								</tr>
 								<tr>
-									<td class="content" align="center">
-									<p>Lorem ipsum dolor sit amet, <a href="https://www.eng.ufl.edu/">consectetur adipiscing elit</a>. In tempus adipiscing felis, sit amet blandit ipsum volutpat sed. Morbi porttitor, eget accumsan dictum, nisi libero ultricies ipsum, in posuere mauris neque at erat.</p>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tempus adipiscing felis, sit amet blandit ipsum volutpat sed. Morbi porttitor, eget accumsan dictum, nisi libero ultricies ipsum, in posuere mauris neque at erat.</p>
+									<td class="content">
+										<p>Lorem ipsum dolor sit amet, <a href="https://www.eng.ufl.edu/">consectetur adipiscing elit</a>. In tempus adipiscing felis, sit amet blandit ipsum volutpat sed. Morbi porttitor, eget accumsan dictum, nisi libero ultricies ipsum, in posuere mauris neque at erat.</p>
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tempus adipiscing felis, sit amet blandit ipsum volutpat sed. Morbi porttitor, eget accumsan dictum, nisi libero ultricies ipsum, in posuere mauris neque at erat.</p>
 									</td>
 								</tr>
 								<tr>
-									<td class="content" align="center">
+									<td class="content">
 										<hr size="4" color="#d5d5d5" noshade />
 									</td>
 								</tr>
 								<tr>
-									<td class="header2" align="center">
-										This is level 2 header text which may extend for two or more lines if it gets long enough
+									<td class="header2">
+										<h2>This is level 2 header text which may extend for two or more lines if it gets long enough</h2>
 									</td>
 								</tr>
 								<tr>
-									<td class="content" align="center">
+									<td class="content">
 										<p>Lorem ipsum dolor sit amet, <a href="https://www.eng.ufl.edu/">consectetur adipiscing elit</a>. In tempus adipiscing felis, sit amet blandit ipsum volutpat sed. Morbi porttitor, eget accumsan dictum, nisi libero ultricies ipsum, in posuere mauris neque at erat.</p>
 									</td>
 								</tr>
 								<tr>
-									<td class="header3" align="center">Header Text</td>
+									<td class="header3">
+										<h3>Header Text</h3>
+									</td>
 								</tr>
 								<tr>
-									<td class="content" align="center">
+									<td class="content">
 										<p>Lorem ipsum dolor sit amet, <a href="https://www.eng.ufl.edu/">consectetur adipiscing elit</a>. In tempus adipiscing felis, sit amet blandit ipsum volutpat sed. Morbi porttitor, eget accumsan dictum, nisi libero ultricies ipsum, in posuere mauris neque at erat.</p>
 									</td>
 								</tr>
 								
 								<tr>
 									<td style="padding-top:20px;">
-										<table width="100%" border="0" cellspacing="0" cellpadding="0">
+										<table role="presentation" width="100%" border="0" cellspacing="0" cellpadding="0">
 											<tr>
 												<td align="center">
-													<table border="0" cellspacing="0" cellpadding="0" class="button">
+													<table role="presentation" border="0" cellspacing="0" cellpadding="0" class="button">
 														<tr>
 															<td align="center">
 																<a href="#" target="_blank">Call to Action</a>
@@ -328,14 +307,14 @@
 					</tr>
 					<tr>
 						<td class="footer" bgcolor="#FFFFFF" align="center">
-							<table border="0" cellpadding="0" cellspacing="0" align="left" class="column-content">
+							<table role="presentation" border="0" cellpadding="0" cellspacing="0" align="left" class="column-content">
 								<tr>
 									<td class="content" valign="top" style="padding-right:20px;">
 										<a href="https://www.eng.ufl.edu" title="Herbert Wertheim College of Engineering" target="_blank"><img src="https://www.eng.ufl.edu/eblasts/templates/images/hwcoe-email-logo.png" width="265" height="63" border="0" alt="Herbert Wertheim College of Engineering" class="column-image" /></a>
 									</td>
 								</tr>
 							</table>
-							<table border="0" cellpadding="0" cellspacing="0" align="right" class="column-content">
+							<table role="presentation" border="0" cellpadding="0" cellspacing="0" align="right" class="column-content">
 								<tr>
 									<td class="content" valign="top">
 										<a href="https://www.eng.ufl.edu/about/transformation/" title="Powering the New Engineer to Transform the Future" target="_blank"><img src="https://www.eng.ufl.edu/eblasts/templates/images/pne-tf.png" width="265" height="63" border="0" align="left" class="column-image" alt="Powering the New Engineer to Transform the Future" /></a>
@@ -348,8 +327,8 @@
 			</td>
 		</tr>
 		<tr>
-			<td class="postfooter" bgcolor="#7F7F7F" align="center">
-				<table width="600" border="0" align="center" cellpadding="0" cellspacing="0" class="container-table">
+			<td class="postfooter" bgcolor="#595959" align="center">
+				<table role="presentation" width="600" border="0" align="center" cellpadding="0" cellspacing="0" class="container-table">
 					<tr>
 						<td class="footer-content" align="center">
 							<a href="https://www.facebook.com/ufwertheim" target="_blank"><img src="https://www.eng.ufl.edu/eblasts/templates/images/icon-facebook.png" width="30" height="30" border="0" title="Facebook" alt="Facebook" /></a>&nbsp;
@@ -362,7 +341,7 @@
 					</tr>
 					<tr>
 						<td class="footer-content" align="center">
-							<table border="0" cellspacing="0" cellpadding="0">
+							<table role="presentation" border="0" cellspacing="0" cellpadding="0">
 								<tr>
 									<td width="30">
 										<a href="http://www.ufengineering.skorfanshop.com/"><img src="https://www.eng.ufl.edu/eblasts/templates/images/icon-store.png" width="30" height="30" border="0" title="Online Store" alt="Online Store" valign="middle" /></a></td>

@@ -1,5 +1,5 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<title>Herbert Wertheim College of Engineering</title>
@@ -128,7 +128,7 @@
 			image-rendering: -webkit-optimize-contrast;/* Webkit (non-standard naming) */
 			image-rendering: crisp-edges;
 		}
-		.h1 {
+		.h1, h1 {
 			font-family:'gentona', Helvetica, Arial, sans-serif;
 			font-weight: normal;
 			font-size:28px; 
@@ -137,17 +137,17 @@
 			letter-spacing:1px;
 			padding: 0.5em 0 0.25em 0;
 		}
-		.h2 {
+		.h2, h2 {
 			font-family:'gentona', Helvetica, Arial, sans-serif;
 			font-weight:normal;
 			letter-spacing:2px; 
 			font-size: 18px;
 			line-height: 24px;
 			text-transform: uppercase;
-			color: #7f7f7f;
+			color: #595959;
 			padding: 0.5em 0 0;
 		}
-		.h3 {
+		.h3, h3 {
 			font-family:'quadon', Georgia, serif; 
 			font-weight:bold;
 			letter-spacing:2px; 
@@ -162,6 +162,10 @@
 			font-size:14px;
 			line-height:18px;
 			color:#404040;	
+		}
+		h1, h2, h3, p {
+			margin:0;
+			padding:0;
 		}
 		.body a:link, .body a:active, .body a:visited,
 		.h1 a:link, .h1 a:active, .h1 a:visited,
@@ -300,36 +304,36 @@
 	<div class="visually-hidden" style="color:#eeeeee;">
 		Preheader text here
 	</div>			
-	<table border="0" width="100%" cellpadding="0" cellspacing="0">
+	<table role="presentation" border="0" width="100%" cellpadding="0" cellspacing="0">
 		<tr>
 			<td bgcolor="#eeeeee" align="center">
-				<table border="0" align="center" cellpadding="0" cellspacing="0" class="container-table" style="font-family:Arial, Helvetica, sans-serif; font-size:16px;">
+				<table role="presentation" border="0" align="center" cellpadding="0" cellspacing="0" class="container-table" style="font-family:Arial, Helvetica, sans-serif; font-size:16px;">
 					<tr>
 						<td class="img" bgcolor="#ffffff">
-							<a href="https://www.eng.ufl.edu" title="Herbert Wertheim College of Engineering" target="_blank"><img src="https://www.eng.ufl.edu/eblasts/templates/images/hwcoe-email-header.png" width="600" height="80" border="0" align="left" class="header-image" alt="Herbert Wertheim College of Engineering" /></a>
+							<a href="https://www.eng.ufl.edu" target="_blank"><img src="https://www.eng.ufl.edu/eblasts/templates/images/hwcoe-email-header.png" width="600" height="80" border="0" align="left" class="header-image" alt="Herbert Wertheim College of Engineering" /></a>
 						</td>
 					</tr>
 					<tr>
 						<td class="img" bgcolor="#ffffff">
-							<a href="https://www.eng.ufl.edu/transformation/" title="Powering the New Engineer to Transform the Future" target="_blank"><img src="https://www.eng.ufl.edu/eblasts/templates/images/header-img.png" align="left" alt="Powering the New Engineer to Transform the Future" width="600" height="303" border="0" class="header-image" /></a>
+							<a href="https://www.eng.ufl.edu/transformation/" target="_blank"><img src="https://www.eng.ufl.edu/eblasts/templates/images/header-img.png" align="left" alt="Powering the New Engineer to Transform the Future" width="600" height="303" border="0" class="header-image" /></a>
 						</td>
 					</tr>
 					<tr>
 						<td class="content-container" bgcolor="#FFFFFF">
-							<table border="0" width="100%" cellpadding="0" cellspacing="0" style="border-collapse:collapse;">
+							<table role="presentation" border="0" width="100%" cellpadding="0" cellspacing="0" style="border-collapse:collapse;">
 								<tr>
-									<td class="h1" valign="top" align="center">
-										This is header text which may extend for two or more lines if it gets long enough
+									<td class="h1" valign="top">
+										<h1>This is header text which may extend for two or more lines if it gets long enough</h1>
 									</td>
 								</tr>
 								<tr>
-									<td class="body" valign="top" align="center">
-										Lorem ipsum dolor sit amet, <strong>consectetur adipiscing elit.</strong> In tempus adipiscing felis, sit amet blandit ipsum volutpat sed. Morbi porttitor, eget accumsan dictum, nisi libero ultricies ipsum, <em>in posuere mauris</em> neque at erat.
+									<td class="body" valign="top">
+										<p>Lorem ipsum dolor sit amet, <strong>consectetur adipiscing elit.</strong> In tempus adipiscing felis, sit amet blandit ipsum volutpat sed. Morbi porttitor, eget accumsan dictum, nisi libero ultricies ipsum, <em>in posuere mauris</em> neque at erat.</p>
 									</td>
 								</tr>
 								<tr>
-									<td class="body" align="center">
-										Lorem ipsum dolor sit amet, <a href="https://www.eng.ufl.edu/">consectetur adipiscing elit</a>. In tempus adipiscing felis, sit amet blandit ipsum volutpat sed. Morbi porttitor, eget accumsan dictum, nisi libero ultricies ipsum, in posuere mauris neque at erat.
+									<td class="body">
+										<p>Lorem ipsum dolor sit amet, <a href="https://www.eng.ufl.edu/">consectetur adipiscing elit</a>. In tempus adipiscing felis, sit amet blandit ipsum volutpat sed. Morbi porttitor, eget accumsan dictum, nisi libero ultricies ipsum, in posuere mauris neque at erat.</p>
 									</td>
 								</tr>
 								<tr>
@@ -338,30 +342,32 @@
 									</td>
 								</tr>
 								<tr>
-									<td class="h2" align="center">
-										This is level 2 header text which may extend for two or more lines if it gets long enough
+									<td class="h2">
+										<h2>This is level 2 header text which may extend for two or more lines if it gets long enough</h2>
 									</td>
 								</tr>
 								<tr>
-									<td class="body" align="center">
-										Lorem ipsum dolor sit amet, <a href="https://www.eng.ufl.edu/">consectetur adipiscing elit</a>. In tempus adipiscing felis, sit amet blandit ipsum volutpat sed. Morbi porttitor, eget accumsan dictum, nisi libero ultricies ipsum, in posuere mauris neque at erat.
+									<td class="body">
+										<p>Lorem ipsum dolor sit amet, <a href="https://www.eng.ufl.edu/">consectetur adipiscing elit</a>. In tempus adipiscing felis, sit amet blandit ipsum volutpat sed. Morbi porttitor, eget accumsan dictum, nisi libero ultricies ipsum, in posuere mauris neque at erat.</p>
 									</td>
 								</tr>
 								<tr>
-									<td class="h3" align="center">Header Text</td>
+									<td class="h3">
+										<h3>Header Text</h3>
+									</td>
 								</tr>
 								<tr>
-									<td class="body" align="center">
-										Lorem ipsum dolor sit amet, <a href="https://www.eng.ufl.edu/">consectetur adipiscing elit</a>. In tempus adipiscing felis, sit amet blandit ipsum volutpat sed. Morbi porttitor, eget accumsan dictum, nisi libero ultricies ipsum, in posuere mauris neque at erat.
+									<td class="body">
+										<p>Lorem ipsum dolor sit amet, <a href="https://www.eng.ufl.edu/">consectetur adipiscing elit</a>. In tempus adipiscing felis, sit amet blandit ipsum volutpat sed. Morbi porttitor, eget accumsan dictum, nisi libero ultricies ipsum, in posuere mauris neque at erat.</p>
 									</td>
 								</tr>
 								<tr>
 									<td class="body" align="center" style="padding-top:20px;">
 										<!-- Start Button -->
-										<table class="ghostbutton" border="0" cellpadding="0" cellspacing="0">
+										<table role="presentation" class="ghostbutton" border="0" cellpadding="0" cellspacing="0">
 											<tr>
 												<td align="center" valign="middle">
-												<a href="#" target="_blank" style="color:#fa4616; text-decoration: none;">CALL TO ACTION <img src="https://www.eng.ufl.edu/eblasts/newengineer/images/arrow-right-orange.png" width="10" height="14" border="0" /></a>
+												<a href="#" target="_blank" style="color:#fa4616; text-decoration: none;">CALL TO ACTION <img src="https://www.eng.ufl.edu/eblasts/newengineer/images/arrow-right-orange.png" alt="arrow pointing right" width="10" height="14" border="0" /></a>
 												</td>
 											</tr>
 										</table>
@@ -375,16 +381,16 @@
 			</td>
 		</tr>
 		<tr>
-			<td class="postfooter" bgcolor="#7f7f7f" align="center">
-				<table border="0" align="center" cellpadding="0" cellspacing="0" class="container-table">
+			<td class="postfooter" bgcolor="#595959" align="center">
+				<table role="presentation" border="0" align="center" cellpadding="0" cellspacing="0" class="container-table">
 					<tr>
 						<td class="footer-content" align="center">
-							<a href="https://www.facebook.com/ufwertheim" target="_blank"><img src="https://www.eng.ufl.edu/eblasts/templates/images/icon-facebook.png" width="30" height="30" border="0" title="Facebook" alt="Facebook" /></a>&nbsp;
-							<a href="https://twitter.com/ufwertheim" target="_blank"><img src="https://www.eng.ufl.edu/eblasts/templates/images/icon-twitter.png" width="30" height="30" border="0" title="Twitter" alt="Twitter" /></a>&nbsp;
-							<a href="https://www.youtube.com/user/gatorengineering" target="_blank"><img src="https://www.eng.ufl.edu/eblasts/templates/images/icon-youtube.png" width="30" height="30" border="0" title="YouTube" alt="YouTube" /></a>&nbsp;
-							<a href="https://www.linkedin.com/edu/school?id=193009" target="_blank"><img src="https://www.eng.ufl.edu/eblasts/templates/images/icon-linkedin.png" width="30" height="30" border="0" title="LinkedIn" alt="LinkedIn" /></a>&nbsp;
-							<a href="https://www.instagram.com/ufwertheim/" target="_blank"><img src="https://www.eng.ufl.edu/eblasts/templates/images/icon-instagram.png" width="30" height="30" border="0" title="Instagram" alt="Instagram" /></a>&nbsp;
-							<a href="https://www.flickr.com/photos/gatorengineering/" target="_blank"><img src="https://www.eng.ufl.edu/eblasts/templates/images/icon-flickr.png" width="30" height="30" border="0" title="Flickr" alt="Flickr" /></a>
+							<a href="https://www.facebook.com/ufwertheim" target="_blank"><img src="https://www.eng.ufl.edu/eblasts/templates/images/icon-facebook.png" width="30" height="30" border="0" alt="Facebook" /></a>&nbsp;
+							<a href="https://twitter.com/ufwertheim" target="_blank"><img src="https://www.eng.ufl.edu/eblasts/templates/images/icon-twitter.png" width="30" height="30" border="0" alt="Twitter" /></a>&nbsp;
+							<a href="https://www.youtube.com/user/gatorengineering" target="_blank"><img src="https://www.eng.ufl.edu/eblasts/templates/images/icon-youtube.png" width="30" height="30" border="0" alt="YouTube" /></a>&nbsp;
+							<a href="https://www.linkedin.com/edu/school?id=193009" target="_blank"><img src="https://www.eng.ufl.edu/eblasts/templates/images/icon-linkedin.png" width="30" height="30" border="0" alt="LinkedIn" /></a>&nbsp;
+							<a href="https://www.instagram.com/ufwertheim/" target="_blank"><img src="https://www.eng.ufl.edu/eblasts/templates/images/icon-instagram.png" width="30" height="30" border="0" alt="Instagram" /></a>&nbsp;
+							<a href="https://www.flickr.com/photos/gatorengineering/" target="_blank"><img src="https://www.eng.ufl.edu/eblasts/templates/images/icon-flickr.png" width="30" height="30" border="0" alt="Flickr" /></a>
 						</td>
 					</tr>
 					<tr>
@@ -395,27 +401,29 @@
 					</tr>
 					<tr>
 						<td class="footer-content" align="center">
-							Herbert Wertheim College of Engineering<br />
-							300 Weil Hall<br />
-							P.O. Box 116550<br />
-							Gainesville, FL 32611-6550<br />
-							<a href="https://www.eng.ufl.edu/" style="font-weight: normal;" target="_blank">eng.ufl.edu</a> | <a href="https://ufengineering.skorfanshop.com/shops/portal/?fanshopid=775&CFID=17609476&CFTOKEN=b5a4c9be17a3746c-EF777725-5056-1D98-4943D80A5E87B791" target="_blank">Online store</a>
+							<p>
+							%%Member_Busname%%<br>
+							%%Member_Addr%%<br>
+							%%Member_City%%, %%Member_State%% %%Member_PostalCode%%<br />
+							<a href="https://www.eng.ufl.edu/" style="font-weight: normal;" target="_blank">eng.ufl.edu</a> | <a href="https://ufengineering.skorfanshop.com/shops/portal/?fanshopid=775&CFID=17609476&CFTOKEN=b5a4c9be17a3746c-EF777725-5056-1D98-4943D80A5E87B791" target="_blank">Online store</a> | <a href="https://www.uff.ufl.edu/giving-opportunities/000661-engineering-development-fund/" target="_blank">Give Now</a></p>
 						</td>
 					</tr>
 					<tr>
 						<td class="footer-content" align="center">
-							<a href="%%view_email_url%%">View this email in your browser</a>
+							<p><a href="%%view_email_url%%">View this email in your browser</a></p>
 						</td>
 					</tr>
 					<tr>
 						<td class="footer-content" align="center">
-							You are receiving this email because you opted in at <a href="https://www.eng.ufl.edu" target="_blank">our website</a> or because you are affiliated with Herbert Wertheim College of Engineering.<br />
-							<a href="mailto:alumni@eng.ufl.edu">Email to be removed from this list</a>
+							<p>You are receiving this email because you opted in at <a href="https://www.eng.ufl.edu" style="color: #ffffff;">our website</a> or because you are affiliated with Herbert Wertheim College of Engineering.</p>
+							<p><a href="%%subscription_center_url%%" alias="Manage Subscriptions">Unsubscribe/manage subscriptions</a> &bull; <a href="%%profile_center_url%%" alias="Manage profile">Manage your profile</a></p>
 						</td>
 					</tr>	
 				</table>
 			</td>
 		</tr>
+<!-- tracking code -->
+<custom name="opencounter" type="tracking">
 	</table>
 </body>
 </html>
