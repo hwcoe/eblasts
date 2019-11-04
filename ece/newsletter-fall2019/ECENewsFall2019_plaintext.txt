@@ -1,0 +1,99 @@
+ECE Florida News: Fall 2019
+
+ECE Florida Research Expenditures at Record Highs
+
+While we celebrate Team GatorWings' victory (see story below), we would be remiss if we didn't trumpet UF's national ranking—rising from #8 to #7 in the 2019 national rankings for public universities (US News & World Report). Governor Ron DeSantis came to Gainesville to announce the good news on Sept. 9.
+
+ECE Florida research expenditures for Fiscal Year 2018-19 rose to $19M, the highest in our history and highest ever per faculty member (using the ASEE definition). These totals do not include the two new AFOSR Centers of Excellence that were just recently announced (see story below). These two centers focusing on hardware security are jointly administered with the Ohio State University.
+
+Our faculty numbers are also at record highs. We are now at 54 tenured/tenure-track faculty, up from 41 five years ago, showing ECE is seen by the university as a good return on investment. Searches are ongoing for new faculty in electronics, machine learning and neural engineering. Our ultimate goal is to reach 60 tenured/tenure-track faculty members.
+
+Please take the time to peruse the fall edition of ECE Florida News as we continue to showcase the work and successes of our faculty, students, and alumni. Go Gators!
+
+John G. Harris
+Professor and Chair
+
+
+
+Team GatorWings Takes First Place in DARPA SC2
+
+Team GatorWings traveled to Los Angeles last week and, in the culmination of a three-year competition cycle, beat all comers to take first place in the final of the DARPA Spectrum Collaboration Challenge (SC2), taking home the $2M prize. In the preliminary rounds, Team GatorWings placed in the Top 10 in Phase I (earning $750K) and was then one of six winners in Phase II (earning an additional $750K), before being selected to participate in the final round.  
+
+
+[ More: https://news.ece.ufl.edu/2019/10/24/team-gatorwings-takes-first-place-in-darpa-sc2 ]
+
+
+Hardware Security Research and Education Centers of Excellence Open at UF and Ohio State University
+
+The Herbert Wertheim College of Engineering at the University of Florida and The Ohio State University College of Engineering are collaborating as a close-knit team in two Centers of Excellence (COE) sponsored by the Air Force Office of Scientific Research (AFOSR), Air Force Research Laboratory (AFRL), and Nimbis Inc., a developer of collaborative cloud communities. The centers' dual goals are to advance the area of hardware-enabled cybersecurity through innovation and development of new analog and mixed signal (AMS) domain security and to provide a comprehensive workforce training and education program in areas related to microelectronics design and security.
+
+Dr. Mark Tehranipoor, the Intel Charles E. Young Preeminence Endowed Chair Professor in Cybersecurity and Director of the Florida Institute for Cybersecurity (FICS) Research, will serve as the co-director of both centers, along with Dr. Waleed Khalil from Ohio State.
+[ More: https://www.eng.ufl.edu/newengineer/ece/hardware-security-research-and-education-centers-of-excellence-open-at-university-of-florida-and-ohio-state/?utm_source=ECE%20Florida%20News&utm_campaign=0ee273a727-EMAIL_CAMPAIGN_2019_fall-news&utm_medium=email&utm_term=0_9dfe11c27a-0ee273a727-33936359 ]
+
+Three Young Faculty Members Shine
+
+On any given day, ECE Florida’s top-notch faculty are doing amazing work in any number of areas within the discipline, but this summer, three in particular earned prestigious high-profile awards. Associate Professor Yier Jin and Assistant Professors Roozbeh Tabrizian and Domenic Forte have all recently received national early career awards recognizing their outstanding research. 
+[ More: https://news.ece.ufl.edu/2019/08/07/three-young-faculty-members-shine/?utm_source=ECE+Florida+News&utm_campaign=0ee273a727-EMAIL_CAMPAIGN_2019_fall-news&utm_medium=email&utm_term=0_9dfe11c27a-0ee273a727-33936359 ]
+
+Harley Uses Deep Learning to Understand Abnormal Grain Growth
+
+Dr. Joel Harley is co-PI on a project that combines artificial intelligence and deep learning with materials and chemical science. The project, "Elucidating Grain Growth in Thermomagnetic Processed Materials with Transfer Learning and Reinforcement Learning," aims to combine deep learning with physics-driven models to elucidate one of the most fundamental, yet poorly understood, mechanisms in materials science: abnormal grain growth. A grain is small region of a material with the same crystal structure where all of the molecules are effectively aligned in the same direction.
+
+The $1.2M project is part of a $27.6M DOE funding initiative for targeted research in data science to accelerate discovery in chemistry and material sciences. 
+[ More: https://news.ece.ufl.edu/2019/09/19/harley-abnormal-grain-growth/?utm_source=ECE+Florida+News&utm_campaign=0ee273a727-EMAIL_CAMPAIGN_2019_fall-news&utm_medium=email&utm_term=0_9dfe11c27a-0ee273a727-33936359 ]
+
+Y.K. Yoon and MNM LAB Invited to Inaugural President's Council Tailgate
+
+Y.K. Yoon’s Multidisciplinary Nano & Microsystems (MnM) Lab was one of only four groups invited to participate in the first annual President’s Council Celebration and Tailgate on Saturday, Sept. 7.
+[ More: https://news.ece.ufl.edu/2019/09/11/y-k-yoon-and-mnm-lab-invited-to-inaugural-presidents-council-tailgate/?utm_source=ECE+Florida+News&utm_campaign=0ee273a727-EMAIL_CAMPAIGN_2019_fall-news&utm_medium=email&utm_term=0_9dfe11c27a-0ee273a727-33936359 ]
+
+
+Rakov Awarded Richard R. Stoddart Award
+
+Professor Vladimir Rakov, Co-Director of the International Center for Lightning Research & Testing (ICLRT), was recently awarded the Richard R. Stoddart Award for Outstanding Performance at the 2019 IEEE International Symposium on Electromagnetic Compatibility, Signal & Power Integrity (EMC & SPI). He was honored for "Outstanding Contributions to the field of lightning research." The award is is the highest award of the IEEE Electromagnetic Compatibility (EMC) Society. 
+[ More: https://news.ece.ufl.edu/2019/09/11/rakov-awarded-stoddart/?utm_source=ECE+Florida+News&utm_campaign=0ee273a727-EMAIL_CAMPAIGN_2019_fall-news&utm_medium=email&utm_term=0_9dfe11c27a-0ee273a727-33936359 ]
+
+
+
+ECE Alumna Helps Older Adults with New Technology
+
+ECE Florida graduate Ming Yang, 24, is the CEO and founder of Orchard, a technology repair company which strives to teach its target clients—seniors—about technology.
+[ More: https://www.eng.ufl.edu/newengineer/alumni-spotlight/computer-engineering-alumna-helps-older-adults-with-new-technology/?utm_source=ECE+Florida+News&utm_campaign=0ee273a727-EMAIL_CAMPAIGN_2019_fall-news&utm_medium=email&utm_term=0_9dfe11c27a-0ee273a727-33936359 ]
+
+
+UTokyo Collaborates with IMG, MIST, ECE
+
+ECE Florida and Professor Y.K. Yoon recently hosted a group of eight graduate students from the Graduate Program for Mechanical Systems Innovation (GMSI) at the University of Tokyo in Japan. The Japanese visitors collaborated with eight graduate students from UF in a workshop where recent research was presented and discussed.
+[ More: https://news.ece.ufl.edu/2019/09/11/utokyo-collaborates-with-img-mist/?utm_source=ECE+Florida+News&utm_campaign=0ee273a727-EMAIL_CAMPAIGN_2019_fall-news&utm_medium=email&utm_term=0_9dfe11c27a-0ee273a727-33936359 ]
+
+
+
+ECE Florida Remembers Bill Wagner
+Beloved ECE engineer and teaching faculty Bill Wagner passed away on June 26. Bill taught in the teaching lab from 1985 to 2002. Literally thousands of ECE students are grateful to Bill for the help and support he provided during ECE course labs and especially during their Senior Design Projects.
+[ More ]
+
+
+==================================================
+https://www.ece.ufl.edu/
+https://www.facebook.com/ecefloridauf
+https://twitter.com/eceflorida
+https://www.youtube.com/user/eceflorida
+https://www.linkedin.com/edu/school/eceflorida
+https://www.instagram.com/eceflorida
+===================================================
+
+%%Member_Busname%%
+%%Member_Addr%%
+%%Member_City%%, %%Member_State%% %%Member_PostalCode%%
+ 
+View this email in your browser
+%%view_email_url%%
+ 
+You are receiving this email because you opted in at our website or because you are affiliated with Herbert Wertheim College of Engineering.
+ 
+Unsubscribe/manage subscriptions: %%subscription_center_url%%
+Manage your profile: %%profile_center_url%%
+
+
+<custom name="opencounter" type="tracking">
+ 
