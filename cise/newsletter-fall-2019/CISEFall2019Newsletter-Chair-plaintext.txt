@@ -1,0 +1,64 @@
+UF CISE: Fall 2019 Newsletter
+
+Welcome to the digital newsletter from the University of Florida Department of Computer & Information Science & Engineering (CISE). Each semester, you will receive an email highlighting department updates and successes. We look forward to connecting with you.
+
+Visit our website: https://www.cise.ufl.edu/
+
+------------------------------------------------------------
+MESSAGE FROM THE CHAIR
+
+We are proud to share with you this summary of some of the news and events that have stood out in the last few months. Read more: https://www.cise.ufl.edu/fall2019-message-from-the-chair/
+
+Juan E. Gilbert, Ph.D.
+The Banks Family Preeminence Endowed Professor
+CISE Department Chair
+------------------------------------------------------------
+
+DEPARTMENT NEWS
+The University of Florida has been re-designated as a National Center of Academic Excellence in Cyber Defense Research (CAE-R) through academic year 2024. Read more: https://www.cise.ufl.edu/uf-designated-a-national-center-of-academic-excellence-in-cyber-defense-research/
+
+INNOVATOR OF THE YEAR
+Benjamin Lok, Ph.D., received the 2019 Innovator of the Year award from UF Innovate | Tech Licensing. Read more: https://www.cise.ufl.edu/lok-receives-innovator-of-the-year-award/
+
+BERMUDEZ RETIRES
+Manuel Bermudez, Ph.D., retired from the department after 34 years. Dr. Bermudez's research focused on programming languages, and he made several contributions in the area of syntax analysis in compilers. Read more: https://www.cise.ufl.edu/manuel-bermudez-retires-from-cise-after-34-years/
+
+CISE CAREER FAIR
+More than 1,200 students passed through check-in to meet with 37 companies at the Fall 2019 CISE Career Fair, formerly the Career Development Workshop. Read more: https://www.cise.ufl.edu/cise-career-fair-sees-largest-attendance/
+
+CAREER AWARD
+Kyla McMullen, Ph.D., earns an early career award from the National Science Foundation to enhance first responder effectiveness. Read more: https://www.cise.ufl.edu/mcmullen-uses-3d-audio-to-aid-firefighters-in-search-and-rescue-efforts/
+
+RESEARCH SPOTLIGHT
+Sanjay Ranka, Ph.D., was awarded $2 million from the NSF to develop technology that will monitor high-risk intersections. Read more: https://www.cise.ufl.edu/uf-engineer-leads-collaboration-for-safer-roadways/
+
+MODERN FIGURES PODCAST
+Kyla McMullen, Ph.D., and Jeremy A. Magruder Waisome, Ph.D., host the Modern Figures Podcast, which is sponsored by the National Center for Women & Information Technology. Read more: https://www.cise.ufl.edu/inspiring-the-next-generation-of-black-women-in-computing/
+
+ALUMNI SPOTLIGHT
+Usha Suryadevara (Computer Engineering, MS ‘01) is the director of development at InfoTech. Suryadevara has prioritized mentoring women in tech. Read more: https://www.cise.ufl.edu/alumni-spotlight-usha-suryadevara/
+
+Visit our website: https://www.cise.ufl.edu/
+
+============================================================
+https://www.facebook.com/ufcise/
+https://twitter.com/UFCISE
+https://www.linkedin.com/school/uf-computer-&-information-science-&-engineering/
+https://www.instagram.com/uf_cise/
+===================================================
+
+%%Member_Busname%%
+%%Member_Addr%%
+%%Member_City%%, %%Member_State%% %%Member_PostalCode%%
+ 
+View this email in your browser
+%%view_email_url%%
+ 
+You are receiving this email because you opted in at our website or because you are affiliated with Herbert Wertheim College of Engineering.
+ 
+Unsubscribe/manage subscriptions: %%subscription_center_url%%
+Manage your profile: %%profile_center_url%%
+
+
+<custom name="opencounter" type="tracking">
+ 
