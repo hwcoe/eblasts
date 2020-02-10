@@ -1,0 +1,43 @@
+The University of Florida Department of Chemical Engineering
+Endowed Distinguished Lecture in Fluid Mechanics
+
+Distinguished Guest Lecturer
+Sandra M. Troian, Ph.D.
+California Institute of Technology
+Professor of Applied Physics,
+Aeronautics and Mechanical Engineering
+
+"MicroAngelo Technique: 3D Sculpting of Nanofilms by Patterned Thermocapillary Forces For Micro-Optical Applications"
+
+At age 17, with only a hammer and chisel, Michelangelo sculpted one of the most beautiful marble reliefs ever known, the Madonna of the Steps (1492). The submillimeter variations in thickness he was able to achieve by hand imbue this relief with a sublime, ethereal quality. Modern day electronic “sculpting tools”, such as extreme UV lithography, are also a marvel in their own right, now able to pattern films with feature sizes below 10 nm, although at considerable cost and requiring numerous processing steps. Between these two extremes now lies a number of newer patterning techniques ideally suited to feature sizes at the microscale. Though more and more popular, almost all such concepts or techniques are based on planar forms, and due to etching processes, ultimately yield surfaces with considerable surface roughness. Here we explore the foundations and implementation of a new one-step, non-contact technique we have developed and coined MicroAngelo©, which is capable of shaping curved and even hierarchical structures with ultra-smooth surfaces. 3D sculpting of molten nanofilms is achieved by projection of patterned thermal fields which trigger thermocapillary forces that mold liquid into desired fluid shapes. Digital thermal control allows rapid cooling so that the structures can be affixed in-situ and used immediately. We’ll first review interesting theoretical aspects of this concept, which span topics such as linear and nonlinear stability, parametric resonance, self-similar cusp formation and self-focusing, pattern resolution limits and proximity correction for quenching undesirable nonlinear wave interactions. We’ll then review experimental efforts to measure the wavelength and growth rate of the fastest linearly unstable mode, as well as recent success in bypassing the linear instability to fabricate complex and hierarchical micro-optical arrays. In total, we hope our findings spur further development of a new class of lithographic tools generally based on programmable, patterned surface forces. Our efforts indicate that such tools will facilitate design and fabrication of next generation 3D micro-optical arrays and microfluidic circuits. 
+
+Financial support from the NSF, NASA and NSTRF programs is gratefully acknowledged.
+
+FREE and OPEN TO ALL
+Monday, April 13, 2020 at 9:35 a.m.
+New Engineering Building, Room 100
+
+==================================================
+https://www.che.ufl.edu
+https://www.facebook.com/UFLChE/
+https://twitter.com/UFLChE
+https://www.youtube.com/user/gatorengineering
+https://www.linkedin.com/edu/school?id=193009
+https://www.instagram.com/uflche/
+https://www.flickr.com/photos/gatorengineering/
+===================================================
+
+%%Member_Busname%%
+%%Member_Addr%%
+%%Member_City%%, %%Member_State%% %%Member_PostalCode%%
+ 
+View this email in your browser
+%%view_email_url%%
+ 
+You are receiving this email because you opted in at our website or because you are affiliated with Herbert Wertheim College of Engineering.
+ 
+Unsubscribe/manage subscriptions: %%subscription_center_url%%
+Manage your profile: %%profile_center_url%%
+
+
+<custom name="opencounter" type="tracking">F
