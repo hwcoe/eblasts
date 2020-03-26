@@ -1,0 +1,69 @@
+UF CISE: Spring 2020 Newsletter
+
+** UF COVID-19 UPDATES
+------------------------------------------------------------
+
+Please visit https://www.ufl.edu/health-updates/ for complete information on the University of Florida's response to COVID-19.
+
+------------------------------------------------------------
+
+Welcome to the digital newsletter from the University of Florida Department of Computer & Information Science & Engineering (CISE). Each semester, you will receive an email highlighting department updates and successes. We look forward to connecting with you.
+
+Visit our website: https://www.cise.ufl.edu/
+
+------------------------------------------------------------
+MESSAGE FROM THE CHAIR
+
+We are proud to share with you this summary of some of the news and events that have stood out in the last few months. Read more: https://www.cise.ufl.edu/spring2020-message-from-the-chair/
+
+Juan E. Gilbert, Ph.D.
+The Banks Family Preeminence Endowed Professor
+CISE Department Chair
+------------------------------------------------------------
+
+VOTING TECHNOLOGY
+Juan E. Gilbert, Ph.D., testified as an expert witness regarding election security during a hearing by the House Administration Committee in January. Read more: https://www.cise.ufl.edu/gilbert-testifies-before-u-s-house-committee-about-election-security/
+
+CSAW COMPETITION
+The UF Student InfoSec Team (UF-SIT) placed in several events at the CSAW Competition in November, a cybersecurity event held by the NYU Tandon School of Engineering. Read more: https://www.cise.ufl.edu/uf-sit-takes-first-in-pwny-race-at-nyus-csaw-competition/
+
+UF ONLINE RANKING
+UF Online, UF’s online undergraduate experience, has now risen to No. 4 in the country for best online bachelor’s programs according to U.S. News & World Report’s 2020 rankings. Read more: https://www.cise.ufl.edu/uf-online-ranked-no-4-among-nations-best-online-bachelors-programs/
+
+CAREER AWARD
+Sharon Lynn Chu, Ph.D., an assistant professor, receives an early career award from the National Science Foundation to investigate the design of wearable technologies. Read more: https://www.cise.ufl.edu/chu-receives-career-award-from-national-science-foundation/
+
+AAAS FELLOW
+Abdelsalam (Sumi) Helal, Ph.D., a professor, was named a 2019 Fellow of the American Association for the Advancement of Science (AAAS). Read more: https://www.cise.ufl.edu/helal-named-a-2019-aaas-fellow/
+
+MENTORING AWARD
+Kevin R. B. Butler, Ph.D., an associate professor, has been selected as a 2020 Herbert Wertheim College of Engineering Doctoral Dissertation Advisor/Mentoring Awardee. Read more: https://www.cise.ufl.edu/butler-selected-as-a-doctoral-dissertation-advisor-mentoring-awardee-by-college
+
+Visit our website: https://www.cise.ufl.edu/
+
+============================================================
+Facebook: https://www.facebook.com/ufcise/
+Twitter: https://twitter.com/UFCISE
+Instagram: https://www.instagram.com/uf_cise/
+LinkedIn: https://www.linkedin.com/school/uf-computer-&-information-science-&-engineering/
+===================================================
+
+%%Member_Busname%%
+%%Member_Addr%%
+%%Member_City%%, %%Member_State%% %%Member_PostalCode%%
+ 
+View this email in your browser
+%%view_email_url%%
+
+Herbert Wertheim College of Engineering
+Computer & Information Science & Engineering
+E301 CSE Building, P.O. Box 116120, Gainesville, FL 32611
+ 
+You are receiving this email because you opted in at the Herbert Wertheim College of Engineering website or because you are affiliated with a CISE mailing list.
+ 
+Unsubscribe/manage subscriptions: %%subscription_center_url%%
+Manage your profile: %%profile_center_url%%
+
+
+<custom name="opencounter" type="tracking">
+ 
