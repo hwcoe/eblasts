@@ -1,0 +1,51 @@
+UF ISE Insider Spring 2020
+
+ISE Insider
+News from the Department of Industrial and Systems Engineering at the University of Florida
+
+Welcome to the Department of Industrial & Systems Engineering at the University of Florida's digital newsletter. Each semester, you will receive a message from us highlighting departmental updates and successes. We look forward to connecting with you!
+
+Message from Chair: 
+We are pleased to share with you our Spring 2020 electronic newsletter.: e.g.: https://www.ise.ufl.edu/blog/2020/04/ise-insider-spring-2020-message-from-the-chair/
+
+Faculty News:
+UF ISE welcomes new faculty in data-driven modeling for healthcare systems.: e.g.: https://www.ise.ufl.edu/blog/2020/03/uf-ise-welcomes-new-faculty-faculty-in-data-driven-modeling-for-healthcare-systems/
+
+Alumni News:
+ISE alum Dennis Hansen, co-founder of Knack, named to Forbes 2020 Class of 30 Under 30.: e.g.: https://news.warrington.ufl.edu/top-news/gator-hatchery-graduates-named-to-forbes-2020-class-of-30-under-30/?fbclid=IwAR1d28YVsYzUinbJPY2XS8Diw2lPXrdbIwxDEFYZuikCaU4ZPu9Q3hUeD4Y
+
+Student Spotlight:
+Adrian Cruz and his team develop an award-winning plan to reduce campus food waste.: e.g.: https://news.ufl.edu/2019/11/sharing-the-abundance/
+
+Gator100:
+UF ISE alum, Aidan Augustin, was honored as a 2020 Gator100 awardee.: e.g.: https://www.ise.ufl.edu/blog/2020/03/uf-ise-alum-honored-as-2020-gator100-awardee/
+
+Research Spotlight:
+Dr. David Kaber receives a grant from NSF to enhance quality of life for amputee patients.: e.g.: https://www.ise.ufl.edu/blog/2020/01/uf-engineers-enhance-quality-of-life-for-amputee-patients/
+
+Visit our website: https://www.eng.ufl.edu/
+
+==================================================
+https://www.ise.ufl.edu/
+https://www.facebook.com/ufise
+https://twitter.com/ufise
+https://www.youtube.com/channel/UCwvTx8TDN8V-kL_ixoBSh9g
+https://www.linkedin.com/groups/153333/
+https://www.instagram.com/uf-ise/
+https://www.flickr.com/photos/154272858@N02/
+===================================================
+
+%%Member_Busname%%
+%%Member_Addr%%
+%%Member_City%%, %%Member_State%% %%Member_PostalCode%%
+ 
+View this email in your browser
+%%view_email_url%%
+ 
+You are receiving this email because you opted in at our website or because you are affiliated with Herbert Wertheim College of Engineering.
+ 
+Unsubscribe/manage subscriptions: %%subscription_center_url%%
+Manage your profile: %%profile_center_url%%
+
+
+<custom name="opencounter" type="tracking">
