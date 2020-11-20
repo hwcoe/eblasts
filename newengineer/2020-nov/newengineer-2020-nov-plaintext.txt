@@ -1,5 +1,5 @@
 THE NEW ENGINEER: News from Herbert Wertheim College of Engineering
-September 2020: Research and innovation, alumni and student news, Gator Engineers in the news
+November 2020: Research and innovation, alumni and student news, Gator Engineers in the news
 
 Check out more news about the Herbert Wertheim College of Engineering at our online news source, The New Engineer. 
 https://www.eng.ufl.edu/newengineer/?utm_source=newsletter&utm_campaign=sep2020newsletter&utm_medium=email&utm_content=text
@@ -8,65 +8,63 @@ Have you made a move recently? Update your contact information
 https://www.eng.ufl.edu/alumni-giving/contact/update-info/?utm_source=newsletter&utm_campaign=sep2020newsletter&utm_medium=email
 
 RESEARCH & INNOVATION ===============================
-UF Announces $70M Artificial Intelligence Partnership With NVIDIA
+UF Engineer is Using $11M Research Award to Make Steel Manufacturing More Energy Efficient
  
-The University of Florida announced a public-private partnership anchored by a $50 million gift—$25 million from Chris Malachowsky (B.S., E.E. ’80) and $25 million in hardware, software, training and services from NVIDIA, the Silicon Valley-based technology company he cofounded and a world leader in AI and accelerated computing. Along with an additional $20 million investment from UF, the initiative will create an AI-centric data center that houses the world’s fastest AI supercomputer in higher education.
+Backed by a nearly $11 million award from the Department of Energy, the Office of Energy Efficiency and Renewable Energy's Advanced Manufacturing Office, Michele Manuel, Ph.D., professor and chair, MSE, is leading an industry-national laboratory-university consortium in developing an Induction-coupled Thermomagnetic Processing (ITMP) method.
 
-https://news.ufl.edu/2020/07/nvidia-partnership/
+https://www.eng.ufl.edu/newengineer/carousel/uf-engineer-is-using-11m-research-award-to-make-steel-manufacturing-more-energy-efficient/?utm_source=newsletter&utm_campaign=nov2020newsletter&utm_medium=email&utm_content=text
 
 RESEARCH & INNOVATION ===============================
-UF Partners on $26M Grant to Produce More Crops With Less Water and Energy
+Engineering Agriculture of the Future with IoT and AI Technology
  
-University of Florida is partnering on a $26 million National Science Foundation (NSF) grant to develop new technologies and systems that will help farmers produce more food with less water and energy. The grant is the latest development in UF’s artificial intelligence (AI) initiative. David Arnold, George Kirkland Engineering Leadership Professor in the Department of Electrical and Computer Engineering, is co-principal investigator on the NSF grant and site director for the UF site.
+Through the IoT4Ag Engineering Research Center, faculty from the Herbert Wertheim College of Engineering, including David Arnold, Ph.D., ECE and Alina Zare, Ph.D., ECE, will play a pivotal role in providing data communications via the Internet of Things (IoT) and application of AI to problems facing the agricultural sector.
 
- https://www.eng.ufl.edu/newengineer/carousel/uf-partners-on-26m-grant-to-produce-more-crops-with-less-water-and-energy/?utm_source=newsletter&utm_campaign=sep2020newsletter&utm_medium=email&utm_content=text
-
-https://ai.ufl.edu/
+https://www.eng.ufl.edu/newengineer/research-innovation/engineering-agriculture-of-the-future-with-iot-and-ai-technology/?utm_source=newsletter&utm_campaign=nov2020newsletter&utm_medium=email&utm_content=text
 
 RESEARCH & INNOVATION ===============================
-CISE Chair Creates inLine Ticketing System to Lower Health Risk When Voting
+UF Researchers Find Viable Viruses in Aerosols that Cause COVID-19
  
-As people across the country head to the polls over the next few months, a concern on many minds is how to stay safe while voting. With the COVID-19 pandemic surging nationwide, what can election officials do to ensure everyone has the ability to vote without risking their health? Juan E. Gilbert, Ph.D., The Banks Family Preeminence Endowed Professor and chair of the UF Department of Computer & Information Science & Engineering (CISE), has created a ticketing system to help voters maintain social distancing while exercising their right to vote.
+A team of UF researchers, led by John Lednicky, Ph.D., and Chang-Yu Wu, Ph.D., ESSIE, provides strong evidence that aerosol transmission of SARS-CoV-2, the virus that causes COVID-19, may be possible. Their research sparks the need to reevaluate current safety protocols to reduce transmission in indoor spaces.
 
-https://www.eng.ufl.edu/newengineer/news/gilbert-creates-inline-ticketing-system-to-lower-health-risk-when-voting/?utm_source=newsletter&utm_campaign=sep2020newsletter&utm_medium=email&utm_content=text
+https://www.eng.ufl.edu/newengineer/research-innovation/uf-researchers-find-viable-viruses-in-aerosols-that-cause-covid-19/?utm_source=newsletter&utm_campaign=nov2020newsletter&utm_medium=email&utm_content=text
 
 ALUMNI SPOTLIGHT ====================================
-Alumnus Gene Fraser Endows Teaching Professorships in the Engineering Leadership Institute
+Driving to Success With America's Top Executives
  
-As part of his commitment to the importance of leadership education, Gene Fraser (B.S., ChE ’76) has endowed two teaching professorships in the Engineering Leadership Institute at the UF Herbert Wertheim College of Engineering.
+Edwin Marcial (BS, ECE '92) captures drives and tech talks for his Techrides website. He has interviewed Dean Cammy Abernathy as well as leaders from Delta, Virgin Galactic, and Intercontinental Exchange, among other Fortune 500s, about what makes their companies successful.
 
-https://www.eng.ufl.edu/newengineer/alumni-spotlight/alumnus-gene-fraser-endows-teaching-professorships-in-the-engineering-leadership-institute/?utm_source=newsletter&utm_campaign=sep2020newsletter&utm_medium=email&utm_content=text
+https://www.eng.ufl.edu/newengineer/alumni-spotlight/driven-to-success/?utm_source=newsletter&utm_campaign=nov2020newsletter&utm_medium=email&utm_content=text
 
-RESEARCH & INNOVATION ===============================
-FICS Research Receives $7.8M to Help Make On-Chip Security Pervasive
+VIRTUAL TAILGATE ====================================
+QuaranTailgate with Gator Engineering!
  
-Florida Institute for Cybersecurity (FICS) Research has announced a collaboration with the Defense Advanced Research Projects Agency (DARPA) on a program called Automated Implementation of Secure Silicon (AISS). The grant has the broad goal of making scalable on-chip security pervasive throughout industry and military applications.
-
-https://www.eng.ufl.edu/newengineer/research-innovation/fics-research-receives-7-8m-to-help-make-on-chip-security-pervasive/?utm_source=newsletter&utm_campaign=sep2020newsletter&utm_medium=email&utm_content=text
-
-ENGINEERING EDUCATION ===============================
-New College of Florida and University of Florida to Establish Dual Degree Program
+Though we're not able to gather in person this year, we still want to see how you're celebrating the Florida Gators. Send us a photo of how you're tailgating at home on game days. Three randomly selected winners will receive a Herbert Wertheim College of Engineering giveaway package. With your permission, we'll also feature your photos on our Facebook page!
  
-New College of Florida and the University of Florida are working together to design an  innovative dual degree program that would allow for the earning of a Bachelor of Arts degree in a liberal arts and science major from New College and a Bachelor of Science degree in an engineering major from UF.
+Please send your entries to tmeek@eng.ufl.edu now through Dec. 12. Winners will be selected the week of Dec. 14. In addition, each person who makes a donation of $50 or more will also receive a giveaway package.
+ 
+GIVE NOW - https://www.uff.ufl.edu/give-now/?fund_id=000661&appealGESNUA2&amount=50
+ 
+We look forward to seeing you all in person next year!
 
-https://www.eng.ufl.edu/newengineer/engineering-education/new-college-of-florida-and-university-of-florida-to-establish-dual-degree-program/?utm_source=newsletter&utm_campaign=sep2020newsletter&utm_medium=email&utm_content=text
+FEATURED WEBINARS =================================== 
+The Future of AI Speaker Series ---------------------
 
-FEATURED PROGRAM ==================================== 
-Career Services for Engineering Alumni
- 
-We are still here to help you! During your time as a student, the Career Connections Center worked towards providing you with connection and opportunity and we are committed to continuing this effort. As a valued alum you have access to services including Gator CareerLink, UF career fairs, and individual career planning sessions.
- 
-ALUMNI CAREER SERVICES: https://www.eng.ufl.edu/students/students/career-services/alumni-support/?utm_source=newsletter&utm_medium=email&utm_campaign=sep2020newsletter&utm_content=text
-Gator CareerLink: https://shibboleth-ufl-csm.symplicity.com/sso/
-UF Career Fairs: https://career.ufl.edu/events-and-programs/career-fairs/
-Career Planning: https://career.ufl.edu/alumni/meet-with-a-career-coach/
+Big Data Drives New Era of Artificial Intelligence - Featuring Walden C. Rhines, Ph.D., President and CEO of Cornami, Inc.
+The evolution of collection, analysis and protection of big data. Learn how AI and machine learning drive the analysis of data and how fully homomorphic encryption will drive its ultimate protection in the future.
 
-FEATURED PROGRAM ==================================== 
-Professional Development – 100% Online
+Watch Now: https://youtu.be/AXULImFO94U
  
-The courses in our online Credential Builders for Engineers Short Course Program are designed with working professionals in mind! They are available 100% online tailored to career advancement with a shorter time commitment than typical semester-based programs. Students can expect weekly engagement with faculty.
+Faculty Insights Webinar Series ---------------------
  
-SHORT COURSES INFO: https://ufedge.ufl.edu/professional-development-program/short-courses/?utm_source=newsletter&utm_medium=email&utm_campaign=sep2020newsletter&utm_content=text
+Meeting the Storm Head On
+Featuring hurricane research expert Forrest Masters, the Associate Dean for Research and Facilities and a Professor of Civil and Coastal Engineering in the Engineering School of Sustainable Infrastructure & Environment at the University of Florida.
+
+Watch Now: https://youtu.be/s8JKg3c1CNc
+ 
+The Skim Reaper
+Featuring cybersecurity expert Patrick Traynor, Ph.D., John and Mary Lou Dasburg Preeminent Chair in Engineering and a Professor in the Department of Computer and Information Science and Engineering (CISE) at the University of Florida.
+
+Watch Now: https://youtu.be/1NcZ-aaIPK4
 
 ENGINEERING RECOVERY FUND ===========================
 As people gradually return to the UF campus, we would like to call on your support to help bring their labs back online with equipment repairs and supply replenishments, and to help students whose work has been adversely affected by disruption caused by COVID-19. Be a part of the Engineering Recovery process.
